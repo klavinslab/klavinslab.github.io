@@ -12,6 +12,11 @@ body {
   text-align: center;
 }
 
+.navbar-custom {
+  margin: 20px 0 40px 0;
+  background: #445;
+}
+
 /*****************************************************************************/
 /*
 /* Home

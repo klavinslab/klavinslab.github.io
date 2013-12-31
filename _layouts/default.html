@@ -6,39 +6,62 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
+        <!-- Bootstrap -->
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
 
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
 
+        <script src="https://code.jquery.com/jquery.js"></script>
+         <script src="/js/bootstrap.min.js"></script>
+
     </head>
-    <body>
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1><br />
-            <a class="extra" href="/">home</a>
-            <a class="extra" href="/people.html">people</a>
-            <a class="extra" href="/">software</a>
-            <a class="extra" href="/">hardware</a>
-            <a class="extra" href="/">wetware</a>	    
-            <a class="extra" href="/">publications</a>
-            <a class="extra" href="/">courses</a>
-          </div>
+  <body>
 
-          {{ content }}
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">{{ site.name }}</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a class="extra" href="/">Home</a></li>
+            <li><a class="extra" href="/people.html">People</a></li>
+            <li><a class="extra" href="/">Software</a></li>
+            <li><a class="extra" href="/">Hardware</a></li>
+            <li><a class="extra" href="/">Wetware</a></li> 
+            <li><a class="extra" href="/">Publications</a></li>
+            <li><a class="extra" href="/">Courses</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
 
-          <div class="footer">
-            <div class="contact">
+    <div class="container">
+      {{ content }}
+    </div>
+
+    <div class="footer">
+          <div class="contact">
               <p>
                 Eric Klavins<br />
                 Associate Professor<br />
                 University of Washington
               </p>
             </div>
-          </div>
         </div>
+    </div>
 
-    </body>
+  </body>
+    
 </html>

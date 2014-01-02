@@ -1,0 +1,168 @@
+pi:
+    - name: Eric Klavins
+      position: Associate Professor
+      dept: EE, CSE, BIOEN
+      image: klavins.jpg
+
+postdocs:
+
+grads:
+
+     - name: Tileli Amimeur
+       in: Electrical Engineering
+       project: Protocol Assimilation
+       image: amimeur.png
+
+     - name: Nick Bolten
+       in: Electrical Engineering 
+       project: Auxin Synthetic Biology
+       image: bolten.png
+
+     - name: Leandra Brettner
+       in: Bioengineering 
+       project: Evolution in Synthetic Biology
+       image: brettner.jpg
+
+     - name: S. Shelly Jang
+       in: Electrical Engineering 
+       project: System Identification for Synthetic Parts
+       image: jang.jpg
+
+     - name: Kevin Oishi
+       in: Electrical Engineering 
+       project: Technomimetic Synthetic Biology
+       image: oishi.png
+
+     - name: Sundipta Rao
+       in: Electrical Engineering 
+       project: DNA Games
+       note: with Georg Seelig
+       image: rao.png
+
+     - name: Chris Takahashi
+       in: Electrical Engineering 
+       project: Evolution in Synthetic Biology
+       image: takahashi.png
+
+     - name: Yaoyu Yang
+       in: Electrical Engineering 
+       project: Auxin Synthetic Biology
+       image: yang.jpg
+
+     - name: David Younger
+       in: Bioengineering
+       note: with David Baker
+       project: Diagnostics
+       image: younger.png
+
+visitors:
+
+      - name: Zibo Chen
+        project: BPSD Rotation Student
+        image: unknown.png
+
+staff:
+
+      - name: Michelle Parks
+        position: Undergraduate Lab Assistant
+        image: parks.jpg
+
+      - name: Logan McColl
+        position: Undergraduate Lab Assistant
+        image: unknown.png
+
+ugs:
+
+      - name: David Zong
+        dept: Bioengineering
+        image: zong.jpg
+
+      - name: Rad Jumroon
+        dept: Physics
+        image: unknown.png
+
+alumni:
+
+    - name: Robert Egbert
+      position: Graduate Student #5
+      date: Ph.D. 2012
+      now: A postdoc with Adam Arkin's group at UC Berkeley
+         
+    - name: Kyle Havens
+      position: Postdoc
+      date: 2010-2013
+      now: At <a href='http://www.pregenen.com/'>Pregenen</a>
+
+    - name: Rahul Brito
+      position: Undergraduate Researcher, Bioengineering
+      date: B.S. 2013
+
+    - name: Felix Ekness
+      position: Undergraduate researcher, Bioengineering
+      date: B.S. 2013
+      now: A graduate student with Jeff Tabor's group at Rice
+
+    - name: Josh Bishop
+      position: Graduate Student #4
+      date: Ph.D. 2012
+      now: Postdoc at University of Washington
+
+    - name: Tammy Gu
+      position: Lab assistant
+      date: 2010-2012
+      now: At Nanostring
+
+    - name: Fay Shaw
+      position: Graduate Student #3
+      date: Ph.D. 2011
+      now: Bitwise E-textiles and Amazon
+
+    - name: Nils Napp
+      position: Graduate Student #2
+      date: Ph.D. 2011
+      now: Postdoc at Harvard University
+
+    - name: Angelina Smith
+      position: Lab Assistant
+      date: 2008-2010
+      now: Inbios International
+
+    - name: David Thorsley
+      position: Postdoc
+      date: 2006-2010
+      now: At Immumetrix
+
+    - name: Alex Leone
+      position: Undergraduate Researcher, Physics
+      date: c. 2007
+      now: At ExtraHop
+
+    - name: Alec Nielsen
+      position: Undergraduate Researcher
+      date: B.S. in BioE and CSE in 2010
+      now: A graduate student at MIT
+
+    - name: Brandi House
+      position: Graduate Student
+      date: M.S. 2009
+      now: At Bungie
+
+    - name: Daniel Georgiev
+      position: Postdoc
+      date: 2007-2009
+      now: At University of West Bohemia
+
+    - name: J.M. McNew
+      position: Graduate Student #1
+      date: Ph.D. 2008
+      now: At Toyota Research
+
+    - name: Sam Burden
+      position: Undergraduate Researcher, EE
+      date: B.S. 2008 
+      now: A graduate student at U.C. Berkeley
+
+    - name: Brian Wolfe
+      position: Undergraduate researcher
+      date: B.S. 2008
+      now: A graduate student at Caltech

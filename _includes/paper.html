@@ -1,0 +1,27 @@
+<li class='paper'>
+
+  {{ include.param.authors }},
+
+  <b>{{ include.param.title }}</b>,
+
+  <i>{{ include.param.journal }}</i>.
+
+  {% if include.param.volume and include.param.number %}
+    Vol. {{ include.param.volume }}, No. {{ include.param.number }}.
+  {% elsif include.param.volume %}
+    Vol. {{ include.param.volume }}.
+  {% elsif include.param.number %}
+    No. {{ include.param.number }}.
+  {% endif %}
+
+  {% if include.param.pages %}
+    pp. {{ include.param.pages }}.
+  {% endif %} 
+
+  {{ include.param.month }} {{ include.param.year }}.
+
+  {% if include.param.link %}
+     <a href='{{ include.param.link }}'><span class='glyphicon glyphicon-link'></span></a>
+  {% endif %}
+
+</li>

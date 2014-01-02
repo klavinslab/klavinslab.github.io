@@ -1,0 +1,29 @@
+---
+layout: default
+title: Klavins Lab | Publications
+---
+
+{% assign y = 3000 %}
+
+<ul class='pubs'>
+  {% for p in site.data.publications %}
+    {% if y != p.year %}
+      {% assign y = p.year %}
+      <h3> {{ y }} </h3>
+    {% endif %}
+    {% include paper.html param=p %}
+  {% endfor %}
+</ul>
+
+<script>
+  
+  document.getElementById('nav-publications').style.background = '#f6f6f6';
+
+  var elems = document.getElementsByClassName('paper');
+  var n = elems.length;
+  for (i in elems) {
+    elems[i].innerHTML = "<span class='num'>[" + n + "]</span> " + elems[i].innerHTML;
+    n--;
+  }
+  
+</script>

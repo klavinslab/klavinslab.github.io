@@ -1,0 +1,25 @@
+<div class='person'>
+
+  <img class='img-person' src='images/{{ include.param.image }}'></img> 
+  <div class='person-name'>{{ include.param.name }}</div>
+  <div class='person-details'>
+
+    {% if include.param.position %}
+      {{ include.param.position }}<br />
+    {% endif %}
+
+    {% if include.param.dept %}
+      {{ include.param.dept }}<br />
+    {% endif %}
+    
+    {% if include.param.project %}
+      <i>{{ include.param.project }}</i><br />
+    {% endif %}
+
+    {% if include.param.note %}
+      <i class='note'>{{ include.param.note }}</i><br />
+    {% endif %}
+
+  </div>
+
+</div>

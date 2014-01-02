@@ -1,0 +1,12 @@
+<div class='row people'>
+  
+  <div class='col-xs-2 description'>{{ include.name }}</div>
+  <div class='col-xs-10 group'>
+  {% for p in include.group %}
+    {% include person.html param=p %}
+  {% endfor %}
+  </div>
+      
+</div>
+
+<div></div>

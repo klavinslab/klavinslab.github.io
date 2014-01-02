@@ -1,0 +1,16 @@
+<div class='row people'>
+  
+  <div class='col-xs-1 description'>{{ include.name }}</div>
+  {% assign c = '' %} 
+  {% for p in include.group %}
+    <div class='col-xs-2'>{% include person.html param=p %}</div>
+    {% capture c %}{{ c }}*{% endcapture %}
+    {% if c == '*****' %}
+      {% assign c = '' %}
+
+      </div>
+      <div class='row people'><div class='col-xs-1'></div>
+    {% endif %}
+  {% endfor %}
+      
+</div>

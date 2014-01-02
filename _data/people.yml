@@ -63,23 +63,25 @@ visitors:
 
 staff:
 
-      - name: Michelle Parks
-        position: Undergraduate Lab Assistant
-        image: parks.jpg
-
       - name: Logan McColl
         position: Undergraduate Lab Assistant
         image: unknown.png
 
+      - name: Michelle Parks
+        position: Undergraduate Lab Assistant
+        image: parks.jpg
+
+
 ugs:
+
+      - name: Rad Jumroon
+        dept: Physics
+        image: unknown.png
 
       - name: David Zong
         dept: Bioengineering
         image: zong.jpg
 
-      - name: Rad Jumroon
-        dept: Physics
-        image: unknown.png
 
 alumni:
 

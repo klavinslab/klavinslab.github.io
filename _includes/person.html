@@ -1,8 +1,14 @@
 <div class='person'>
 
-  <img class='img-person' src='images/{{ include.param.image }}'></img> 
-  <div class='person-name'>{{ include.param.name }}</div>
-  <div class='person-details'>
+  <img class='img-person' src='images/{{ include.param.image }}'></img>
+  
+  <div class='person-name'><a href="people/{{ include.param.name | split:. | last }}.html">{{ include.param.name }}</a></div>
+
+  {% if include.param.now %}
+    <div class='almuni-details'>
+  {% else %}
+    <div class='person-details'>
+  {% endif %}
 
     {% if include.param.position %}
       {{ include.param.position }}<br />
@@ -18,6 +24,10 @@
 
     {% if include.param.note %}
       <i class='note'>{{ include.param.note }}</i><br />
+    {% endif %}
+
+    {% if include.param.now %}
+      now {{ include.param.now }}
     {% endif %}
 
   </div>

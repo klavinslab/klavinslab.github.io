@@ -20,13 +20,10 @@ body {
 }
 
 .navbar-custom {
-  margin: 0px 0 0px 0;
+  margin: 0 20px 0 0;
   background: #fff;
   color: #998;
-  border: 0;
-  margin-left: 0;
-  margin-right: 0;
-  border: 0;
+  border: none;
 }
 
 .nav > li > a:hover {
@@ -115,6 +112,10 @@ body {
   float: left;
 }
 
+.person a {
+  color: white;
+}
+
 .description {
   padding: 0;
   margin: 0;
@@ -142,10 +143,22 @@ body {
   background: #f6f6f6;
 }
 
+.almuni-details a {
+  color: blue;
+}
+
+.almuni-details {
+  font-size: 8pt;
+  padding: 4px 10px 4px 10px;
+  height: 68px;
+  background: #f6f6f6;
+}
+
 .note {
   color: #aaf;
   font-size: 7pt;
 }
+
 
 
 /*****************************************************************************/
@@ -153,6 +166,10 @@ body {
 /* Site
 /*
 /*****************************************************************************/
+
+.software-icon {
+  width: 100%;
+}
 
 .site {
   font-size: 115%;

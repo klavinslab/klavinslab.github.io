@@ -74,7 +74,7 @@ staff:
 
 ugs:
 
-      - name: Rad Jumroon
+      - name: Rada Jumroon
         dept: Physics
         image: unknown.png
 
@@ -88,83 +88,101 @@ alumni:
     - name: Robert Egbert
       position: Graduate Student #5
       date: Ph.D. 2012
-      now: A postdoc with Adam Arkin's group at UC Berkeley
+      now: a postdoc at UC Berkeley
+      image: egbert.jpg
          
     - name: Kyle Havens
       position: Postdoc
       date: 2010-2013
-      now: At <a href='http://www.pregenen.com/'>Pregenen</a>
+      now: at <a href='http://www.pregenen.com/'>Pregenen</a>
+      image: havens.jpg
 
     - name: Rahul Brito
-      position: Undergraduate Researcher, Bioengineering
+      position: Undergrad researcher, BIOEN
       date: B.S. 2013
+      image: brito.jpg
+      now: at ?
 
     - name: Felix Ekness
-      position: Undergraduate researcher, Bioengineering
+      position: Undergrad researcher, BIOEN
       date: B.S. 2013
-      now: A graduate student with Jeff Tabor's group at Rice
+      now: a graduate student at Rice
+      image: ekness.jpg
 
     - name: Josh Bishop
       position: Graduate Student #4
       date: Ph.D. 2012
-      now: Postdoc at University of Washington
+      now: a postdoc at University of Washington
+      image: bishop.jpg
 
     - name: Tammy Gu
       position: Lab assistant
       date: 2010-2012
-      now: At Nanostring
+      now: at Nanostring
+      image: gu.jpg
 
     - name: Fay Shaw
       position: Graduate Student #3
       date: Ph.D. 2011
-      now: Bitwise E-textiles and Amazon
+      now: at Bitwise E-textiles and Amazon
+      image: shaw.jpg
 
     - name: Nils Napp
       position: Graduate Student #2
       date: Ph.D. 2011
-      now: Postdoc at Harvard University
+      now: a Postdoc at Harvard University
+      image: napp.jpg
 
     - name: Angelina Smith
       position: Lab Assistant
       date: 2008-2010
-      now: Inbios International
+      now: at Inbios International
+      image: smith.jpg
 
     - name: David Thorsley
       position: Postdoc
       date: 2006-2010
-      now: At Immumetrix
+      now: at Immumetrix
+      image: thorsley.jpg
 
     - name: Alex Leone
-      position: Undergraduate Researcher, Physics
+      position: Undergrad Researcher, Physics
       date: c. 2007
-      now: At ExtraHop
+      now: at ExtraHop
+      image: leone.jpg
 
     - name: Alec Nielsen
       position: Undergraduate Researcher
       date: B.S. in BioE and CSE in 2010
-      now: A graduate student at MIT
+      now: a graduate student at MIT
+      image: nielsen.jpg
 
     - name: Brandi House
       position: Graduate Student
       date: M.S. 2009
-      now: At Bungie
+      now: at Bungie
+      image: house.jpg
 
     - name: Daniel Georgiev
       position: Postdoc
       date: 2007-2009
-      now: At University of West Bohemia
+      now: at University of West Bohemia
+      image: georgiev.jpg
 
     - name: J.M. McNew
       position: Graduate Student #1
       date: Ph.D. 2008
-      now: At Toyota Research
+      now: at Toyota Research
+      image: mcnew.jpg
 
     - name: Sam Burden
-      position: Undergraduate Researcher, EE
+      position: Undergrad Researcher, EE
       date: B.S. 2008 
-      now: A graduate student at U.C. Berkeley
+      now: a grad student at U.C. Berkeley
+      image: burden.png
 
     - name: Brian Wolfe
       position: Undergraduate researcher
       date: B.S. 2008
-      now: A graduate student at Caltech
+      now: a graduate student at Caltech
+      image: wolfe.png

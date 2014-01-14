@@ -1,12 +1,17 @@
-<div class='row people'>
-  
-  <div class='col-xs-2 description'>{{ include.name }}</div>
-  <div class='col-xs-10 group'>
+
+  {% if include.name == 'ALUMNI' %}
+    <div class='adescription'>
+  {% else %}
+    <div class='description'>
+  {% endif %}
+      
+      {{ include.name }}<br />
+      <img src='images/arrow.png' class='arrow'></img>
+    </div>
+
   {% for p in include.group %}
     {% include person.html param=p %}
   {% endfor %}
-  </div>
-      
-</div>
+ 
+  <div style='float: left'></div>
 
-<div></div>

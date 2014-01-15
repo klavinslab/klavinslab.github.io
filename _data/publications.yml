@@ -6,6 +6,9 @@
   month: March
   year: 2013
   link: http://www.plantphysiol.org/content/early/2013/03/28/pp.113.215582.short?keytype=ref&ijkey=xIcySjgtxXxmzkU
+  image: "images/bistable.png"
+  caption: "In our 2012 PNAS paper, Rob Egbert introduced a genetic tuning method and
+            precisely balanced the number of cells in each state of a synthetic genetic switch."
 
 - authors: D. Thorsley and E. Klavins
   title: Estimation and Discrimination of Stochastic Biochemical Circuits From Time-Lapse Microscopy Data
@@ -31,6 +34,7 @@
   link: http://www.pnas.org/content/early/2012/08/21/1205693109.abstract
   note: Featured on the cover. See also the commentary by Prindle and Hasty.
 
+
 - authors: S.S. Jang, K.T. Oishi, R.G. Egbert, and E. Klavins
   title: Specification and simulation of multicelled behaviors
   journal: ACS Synthetic Biology
@@ -39,6 +43,7 @@
   pages: 365-374.
   year: 2012
   link: http://pubs.acs.org/doi/abs/10.1021/sb300034m
+
 
 - authors: K. Havens, E. Pierre-Jerome, S. Jang, J. Guseman, N. Bolten, E. Klavins, and J. Nemhauser
   title: A synthetic approach reveals extensive tunability of auxin perception
@@ -57,6 +62,9 @@
   number: 4
   pages: 252–260
   link: http://scitation.aip.org/getabs/servlet/GetabsServlet?prog=normal&id=ISBEAT000005000004000252000001&idtype=cvips&gifs=yes&ref=no
+  image: "images/gro-morpho.png"
+  caption: "In our 2012 ACS synthetic biology paper, we designed cell programs that could someday control
+            cells to undergo synthetic morphogenesis."
 
 - authors: N. Napp and E. Klavins
   title: Load balancing for multi-robot construction
@@ -145,6 +153,8 @@
   year: 2008
   journal: Conference on Decision and Control
   link: http://faculty.washington.edu/klavins/papers/gk_CDC_08_final.pdf
+  image: "images/chembots.jpg"
+  caption: "In our 2010 AR paper, Nils Napp and Sam Burden build robots the react like molecules."
 
 - authors: F. Shaw and E. Klavins
   title: Distributed Estimation and Control For Stochastically Interacting Robots
@@ -176,7 +186,7 @@
   volume: 7
   number:  9
   pages: 2574-7
-  link: http://pubs3.acs.org/acs/journals/doilookup?in_doi=10.1021/nl070752s
+  link: http://pubs.acs.org/doi/abs/10.1021/nl070752s
 
 - authors: E. Klavins
   title: Programmable Self-Assembly
@@ -205,6 +215,8 @@
   number:  1
   pages: 43-42
   link: http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=100
+  image: 'images/nanomotor.png'
+  caption: "In our 2007 Nanoletters paper, Josh Bishop developed a new molecular nanomotor that is robust to its own waste products!"
 
 - authors: C. Belta, A. Bicchi, M. Egerstedt, E. Frazzoli, E. Klavins and G.J. Pappas
   title: Symbolic Planning and Control of Robot Motion
@@ -229,7 +241,7 @@
   year: 2007
   volume: 15
   number:  4
-  pages: 680--688.
+  pages: 680--688
 
 - authors: E. Klavins, S. Burden and N. Napp
   title: Optimal Rules for Programmed Stochastic Self-Assembly
@@ -258,6 +270,7 @@
   year: 2006
   link: http://faculty.washington.edu/klavins/papers/klavins-acc06.pdf
 
+
 - authors: J. M. McNew and E. Klavins
   title: Model-Checking and Control of Self-Assembly
   journal: American Control Conference
@@ -272,6 +285,8 @@
   year: 2006
   pages: 1469--76
   link: http://faculty.washington.edu/klavins/papers/icra06-sa.pdf
+  image: "images/ppt.jpg"
+  caption: "In our 2006 RSS paper, we optimzed the rate of robotic self assembly with traingular robotic pieces."
 
 - authors: E. Klavins, R. Ghrist and D. Lipsky
   title: A Grammatical Approach to Self-Organizing Robotic Systems
@@ -366,6 +381,7 @@
   year: 2003
   volume: 7
   pages:  275-292
+  link: http://faculty.washington.edu/klavins/papers/mvcc.pdf
 
 - authors: E. Klavins
   title: "Automatically Synthesized Controllers for Distributed Assembly: Partial Correctness"

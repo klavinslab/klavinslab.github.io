@@ -337,6 +337,8 @@
   year: 2004
   pages: 5293-5300
   link: http://faculty.washington.edu/klavins/papers/icra04-sa.pdf
+  image: 'images/gg.png'
+  caption: 'In my papers with Rob Ghrist (ICRA 2004, TAC 2006), we explored the power and limitations of graph grammers for self-assembly and robotic self-organization.'
 
 - authors: E. Klavins
   title: A Language for Modeling and Programming Cooperative Control Systems
@@ -383,12 +385,6 @@
   pages:  275-292
   link: http://faculty.washington.edu/klavins/papers/mvcc.pdf
 
-- authors: E. Klavins
-  title: "Automatically Synthesized Controllers for Distributed Assembly: Partial Correctness"
-  journal: "Cooperative Control: Models, Applications and Algorithms. Eds. S. Butenko, R. Murphey and P. M. Pardalos"
-  year: 2002
-  pages: 111-127
-  link: http://faculty.washington.edu/klavins/papers/klavins-cco2001.pdf
 
 - authors: E. Klavins
   title: Toward the Control of Self-Assembling Systems
@@ -397,6 +393,14 @@
   volume: 4
   pages:  153-168
   link: http://faculty.washington.edu/klavins/papers/klavins-cpra02.pdf
+
+- authors: E. Klavins
+  title: "Automatically Synthesized Controllers for Distributed Assembly: Partial Correctness"
+  journal: "Cooperative Control: Models, Applications and Algorithms. Eds. S. Butenko, R. Murphey and P. M. Pardalos"
+  year: 2002
+  pages: 111-127
+  link: http://faculty.washington.edu/klavins/papers/klavins-cco2001.pdf
+
 
 - authors: E. Klavins and U. Saranli
   title: Object Oriented State Machines
@@ -420,6 +424,9 @@
   number:  3
   pages:  257-276
   link: http://ijr.sagepub.com/cgi/content/abstract/21/3/257
+  image: "images/hopper.png"
+  caption: "In my 2002 IJRR paper, I showed up potential functions can be used to regulate the phase of
+           multi-legged robots."
 
 - authors: T. Chung, L. Cremean, B. Dunbar, Z. Jin, E. Klavins, D. Moore, A. Tiwari, D. van Gogh and S. Waydo
   title: "A Platform for Cooperative and Coordinated Control of Multiple Vehicles: The Caltech Multi-Vehicle Wireless Testbed"
@@ -471,6 +478,9 @@
   pages:  205-220.
   year: 2000
   link: http://faculty.washington.edu/klavins/papers/wafr2000.ps
+  image: "images/nonmon.png"
+  caption: "In my first paper, in AAAI-98, I showed there is a phase transition between satisfiable and unsatisfiable 3-valued
+            logic propositions as the number of clauses increases. Exciting!"
 
 - authors: E. Klavins
   title: The Construction of Attention Functions for Phase Regulation

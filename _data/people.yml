@@ -23,6 +23,11 @@ grads:
        project: Evolution in Synthetic Biology
        image: brettner.jpg
 
+     - name: Miles Gander
+       in: Electrical Engineering 
+       project: Auxin Synthetic Biology
+       image: gander.jpg
+
      - name: S. Shelly Jang
        in: Electrical Engineering 
        project: System Identification for Synthetic Parts

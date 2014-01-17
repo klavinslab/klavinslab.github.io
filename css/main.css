@@ -22,7 +22,7 @@ h1 {
   padding: 0 10px 0 10px;
   margin-bottom: 15px;
   display: inline-block;
-  background: #ffffff url('/images/h1-back.png') no-repeat center center;
+  #background: #ffffff url('/images/h1-back.png') no-repeat center center;
   margin-left: auto;
   margin-right: auto;
 }
@@ -82,7 +82,7 @@ h1 {
 
 .nav > li > a {
   color: #000 !important;
-  padding-top: 30px;
+  padding-top: 23px;
   height: 60px;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }

@@ -3,6 +3,8 @@ layout: default
 title: Klavins Lab | People
 ---
 
+<div class='heading'><h1>People</h1></div>
+
 <div id='people'>
 
 {% include group.html group=site.data.people.pi name='PI' %}
@@ -27,5 +29,5 @@ title: Klavins Lab | People
 </div>
 
 <script>
-  document.getElementById('nav-people').style.background = '#f6f6f6';
+  document.getElementById('nav-people').className += " highlight";
 </script>

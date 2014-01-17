@@ -11,8 +11,54 @@ html {
 body {
   padding-top: 75px;
   padding-bottom: 75px;
+/*  background: #fff url('/images/matrix-background.bmp') no-repeat fixed top; */
   background: #fff;
 }
+
+h1 {
+  text-align: center;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  letter-spacing: 5px;
+  padding: 0 10px 0 10px;
+  margin-bottom: 15px;
+  display: inline-block;
+  background: #ffffff url('/images/h1-back.png') no-repeat center center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heading {
+  text-align: center;
+}
+
+.main {
+  margin-top: 0px;
+}
+
+#klavins-lab {
+ position: absolute;
+ top: 0px;
+ left: 30px;
+ z-index: 1;
+ font-size: 36pt;
+ margin: 0;
+ padding: 0;
+ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+ letter-spacing: -1px;
+}
+
+#synth-bio {
+ position: absolute;
+ top: 45px;
+ left: 90px;
+ z-index: 1;
+ font-size: 20pt;
+ color: #391;
+ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+ letter-spacing: 1px;
+ font-weight: bold;
+}
+
 
 .home {
   padding: 40px 15px;
@@ -22,28 +68,40 @@ body {
 .navbar-custom {
   margin: 0 20px 0 0;
   background: #fff;
-  color: #998;
+  background-image: url('/images/banner.png'); /*no-repeat fixed top;*/
   border: none;
+  height: 60px;
+}
+
+.nav > li {
 }
 
 .nav > li > a:hover {
-  color: black !important;
+  color: #051 !important;
 }
 
-.nav li {
-  #border-radius: 0 0 7px 7px;
+.nav > li > a {
+  color: #000 !important;
+  padding-top: 30px;
+  height: 60px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 .navbar-brand {
-  font-size: 20pt;
-  color: #252 !important;
-  text-transform: uppercase;
+  font-size: 24pt;
+  color: #160 !important;
   letter-spacing: -1px;
   font-weight: bold;
+  margin-top: 5px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 .navbar-brand:hover {
   color: black !important;
+}
+
+.highlight {
+  background: rgba(55,180,45,0.1);
 }
 
 .footer {
@@ -66,6 +124,7 @@ body {
   padding: 10px;
   margin: 5px;
   width: 25%;
+  background: white;
 }
 
 .paper-figure img {
@@ -127,9 +186,9 @@ body {
 }
 
 .person {
-  margin: 5px;
+  margin: 10px;
   padding: 0 0 0 0;
-  background: #fff;
+
   width: 120px;
   float: left;
   display:inline-block;
@@ -146,12 +205,12 @@ body {
 
 .description {
   padding: 10px;
-  margin: 5px;
+  margin: 10px;
   font-size: 16pt;
   text-align: right;
   color: black;
   width: 120px;
-  background: #eee;
+  background: transparent; 
   height: 186px;
   float: left;
   display: inline-block;
@@ -160,12 +219,12 @@ body {
 
 .adescription {
   padding: 10px;
-  margin: 5px;
+  margin: 10px;
   font-size: 16pt;
   text-align: right;
   color: black;
   width: 120px;
-  background: #eee;
+  background: transparent;
   height: 210px;
   float: left;
   display: inline-block;
@@ -189,7 +248,7 @@ body {
   font-size: 8pt;
   padding: 4px 10px 4px 10px;
   height: 44px;
-  background: #f6f6f6;
+  background: transparent; 
 }
 
 .almuni-details a {
@@ -200,7 +259,7 @@ body {
   font-size: 8pt;
   padding: 4px 10px 4px 10px;
   height: 68px;
-  background: #f6f6f6;
+  background: transparent;
 }
 
 .note {

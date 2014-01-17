@@ -3,6 +3,8 @@ layout: default
 title: Klavins Lab | Publications
 ---
 
+<div class='heading'><h1>Publications</h1></div>
+
 {% assign y = 3000 %}
 
 <ul class='pubs'>
@@ -17,7 +19,7 @@ title: Klavins Lab | Publications
 
 <script>
   
-  document.getElementById('nav-publications').style.background = '#f6f6f6';
+  document.getElementById('nav-publications').className += " highlight";
 
   var elems = document.getElementsByClassName('paper');
   var n = elems.length;

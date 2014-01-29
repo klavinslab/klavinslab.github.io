@@ -1,0 +1,7 @@
+<div class='newsitem'>
+  <b>{{ include.n.date }}: </b>
+  {{ include.n.item }}
+  {% if include.n.link %}
+    <a href='{{ include.n.link }}'><span class='glyphicon glyphicon-link'></span></a>
+  {% endif %}
+</div>

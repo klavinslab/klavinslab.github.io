@@ -26,6 +26,12 @@ h1 {
   margin-right: auto;
 }
 
+h2 {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  letter-spacing: 2px;
+  border-width: 0 0 1pt 0;
+}
+
 .heading {
   text-align: center;
 }
@@ -435,8 +441,10 @@ h1 {
 /**************************************************/
 
 .about {
-  height: 300px;
- # outline: 1pt dashed orange;
+}
+
+.about p {
+  text-align:justify;
 }
 
 .carousel-inner {
@@ -482,4 +490,54 @@ h1 {
   font-size: 14pt;
   margin: 0;
   padding: 0;
+}
+
+.address {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.newsitem {
+  font-size: 12px;
+  margin: 0 0 5px 0; 
+  text-align:justify;
+}
+
+.foot {
+  margin: 20px auto 0 auto;
+  width: auto;
+  height: auto;
+  display: inline-block;
+}
+
+.funder {
+  float: left;
+  padding: 40px;
+}
+
+.logo {
+  height: 60px;
+}
+
+.funding {
+  font-weight: bold;
+  font-size: 14px;
+  padding-right: 10px;
+}
+
+/****************************************/
+/* Personal Pages            
+/****************************************/
+
+.personal {
+  margin: 50px auto 0 auto;
+  width: 940px;
+  
+}
+
+.photo {
+  padding: 20px;
+  width: 100%;
+  border: 1pt solid #eee;
 }

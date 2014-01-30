@@ -1,9 +1,11 @@
-- authors: K. Oishi and E. Klavins
+- id: acs14
+  authors: K. Oishi and E. Klavins
   title: "A Framework for Implementing Finite State Machines in Gene Regulatory Networks"
   journal: ACS Synthetic Biology (Accepted)
   year: 2014
 
-- authors: H. Yu, B. Moss, S. Jang, M. Prigge, E. Klavins, J. Nemhauser, and M. Estelle
+- id: pp13
+  authors: H. Yu, B. Moss, S. Jang, M. Prigge, E. Klavins, J. Nemhauser, and M. Estelle
   title: Mutations in the TIR1 auxin receptor that increase affinity for Aux/IAA proteins result in auxin hypersensitivity
   journal: Plant Physiology
   pages: 113.215582
@@ -14,20 +16,23 @@
   caption: "In our 2012 PNAS paper, Rob Egbert introduced a genetic tuning method and
             precisely balanced the number of cells in each state of a synthetic genetic switch."
 
-- authors: D. Thorsley and E. Klavins
+- id: po13
+  authors: D. Thorsley and E. Klavins
   title: Estimation and Discrimination of Stochastic Biochemical Circuits From Time-Lapse Microscopy Data
   journal: PLoS One
   month: Nov
   year: 2012
   link: http://dx.plos.org/10.1371/journal.pone.0047151
 
-- authors: J. Bishop and E. Klavins
+- id: cdc12
+  authors: J. Bishop and E. Klavins
   title: Characterization of a Biomolecular Fuel Delivery Device under Load
   journal: Proceedings of the 51st IEEE Conference on Decision and Control
   month: Dec
   year: 2012
 
-- authors: R.G. Egbert and E. Klavins
+- id: pnas12
+  authors: R.G. Egbert and E. Klavins
   title: Fine-tuning gene networks using simple sequence repeats
   journal: Proceedings of the National Academy of Science
   volume: 109
@@ -38,8 +43,8 @@
   link: http://www.pnas.org/content/early/2012/08/21/1205693109.abstract
   note: Featured on the cover. See also the commentary by Prindle and Hasty.
 
-
-- authors: S.S. Jang, K.T. Oishi, R.G. Egbert, and E. Klavins
+- id: acs12
+  authors: S.S. Jang, K.T. Oishi, R.G. Egbert, and E. Klavins
   title: Specification and simulation of multicelled behaviors
   journal: ACS Synthetic Biology
   volume: 1
@@ -48,8 +53,8 @@
   year: 2012
   link: http://pubs.acs.org/doi/abs/10.1021/sb300034m
 
-
-- authors: K. Havens, E. Pierre-Jerome, S. Jang, J. Guseman, N. Bolten, E. Klavins, and J. Nemhauser
+- id: pp12
+  authors: K. Havens, E. Pierre-Jerome, S. Jang, J. Guseman, N. Bolten, E. Klavins, and J. Nemhauser
   title: A synthetic approach reveals extensive tunability of auxin perception
   journal: Plant Physiology
   month: July
@@ -57,7 +62,8 @@
   pages: 112.202184
   link: http://www.plantphysiol.org/content/early/2012/07/27/pp.112.202184.short?keytype=ref&ijkey=StyKHCzD8kJwI1a
 
-- authors: K. Oishi and E. Klavins
+- id: iet11
+  authors: K. Oishi and E. Klavins
   title: A biomolecular implementation of linear I/O systems
   journal: IET Systems Biology
   month: July
@@ -70,14 +76,16 @@
   caption: "In our 2012 ACS synthetic biology paper, we designed cell programs that could someday control
             cells to undergo synthetic morphogenesis."
 
-- authors: N. Napp and E. Klavins
+- id: icra11
+  authors: N. Napp and E. Klavins
   title: Load balancing for multi-robot construction
   journal: 2011 IEEE Conf. on Robotics and Automation
   pages: pages 254-260
   year: 2011
   link: http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=5979634
 
-- authors: N. Napp and E. Klavins
+- id: ijrr11
+  authors: N. Napp and E. Klavins
   title: A Compositional Framework for Programming Stochastically Interacting Robots
   journal: The International Journal of Robotics Research
   month: May 

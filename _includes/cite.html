@@ -1,0 +1,34 @@
+
+{% for p in site.data.publications %}
+  {% if p.id == include.id %}
+  
+    <li class='paper'>
+
+      {{ p.authors }},
+
+      <b>{{ p.title }}</b>,
+
+      <i>{{ p.journal }}</i>.
+
+      {% if p.volume and p.number %}
+	Vol. {{ p.volume }}, No. {{ p.number }}.
+      {% elsif p.volume %}
+	Vol. {{ p.volume }}.
+      {% elsif p.number %}
+	No. {{ p }}.
+      {% endif %}
+
+      {% if p.pages %}
+	pp. {{ p.pages }}.
+      {% endif %} 
+
+      {{p.month }} {{p.year }}.
+
+      {% if p.link %}
+	 <a href='{{ p.link }}'><span class='glyphicon glyphicon-link'></span></a>
+      {% endif %}
+
+    </li>
+
+  {% endif %}
+{% endfor %}

@@ -1867,18 +1867,7 @@
 
 </div>
 
-<script>
-  
-  document.getElementById('nav-publications').className += " highlight";
 
-  var elems = document.getElementsByClassName('paper');
-  var n = elems.length;
-  for (i in elems) {
-    elems[i].innerHTML = "<span class='num'>[" + n + "]</span> " + elems[i].innerHTML;
-    n--;
-  }
-  
-</script>
 
 <div class='clear: both'></div>
 
@@ -1888,7 +1877,7 @@
 
     <div class='funder'>
       <a href='http://www.washington.edu/'>
-        <img src='images/uw.png' class='logo'></img>
+        <img src='/images/uw.png' class='logo'></img>
       </a>
     </div>
     
@@ -1928,7 +1917,8 @@
     
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="/js/bootstrap.min.js"></script>
-
+    <script src="/js/main.js"></script>
+    
   </body>
     
 </html>

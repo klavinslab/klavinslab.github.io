@@ -3,6 +3,8 @@ layout: default
 title: Klavins Lab | People
 ---
 
+<div class='contain'>
+
 <div class='heading'><h1>People</h1></div>
 
 <div id='people'>
@@ -19,14 +21,17 @@ title: Klavins Lab | People
 {% include group.html group=site.data.people.ugs      name='UNDER<br \>GRADS' %}
   
 
-<div style="clear:both;"></div>
-
-<br />
 
 {% include group.html group=site.data.people.alumni   name='ALUMNI' %}
   
 </div>
 
+<br />
+
+<div class='clear: both;'></div>
+<br />
+
+</div>
 
 <script>
   document.getElementById('nav-people').className += " highlight";

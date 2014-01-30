@@ -70,7 +70,7 @@ staff:
 
       - name: Logan McColl
         position: Undergraduate Lab Assistant
-        image: unknown.png
+        image: mccoll.jpg
 
       - name: Michelle Parks
         position: Undergraduate Lab Assistant
@@ -81,7 +81,7 @@ ugs:
 
       - name: Rada Jumroon
         dept: Physics
-        image: unknown.png
+        image: jumroon.jpg
 
       - name: David Zong
         dept: Bioengineering

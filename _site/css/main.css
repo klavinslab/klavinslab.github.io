@@ -44,6 +44,7 @@ h2 {
 
 .main {
   margin-top: 0px;
+  padding: 0;
 }
 
 #klavins-lab {
@@ -463,6 +464,13 @@ h2 {
 .carousel {
   width: 940px;
   height: 420px;
+  padding: 0;
+  margin: 0 !important;
+}
+
+.slide {
+  padding: 0;
+  margin: 0 !important;
 }
 
 .main-image {

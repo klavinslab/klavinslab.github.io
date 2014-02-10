@@ -1,0 +1,19 @@
+---
+layout: aquarium_post
+title:  "First week of class"
+date:   2014-1-9 21:41:33
+categories: jekyll update
+---
+
+<img src='/images/pie.png' class='image'></img> The first big test of
+Aquarium is to use it to teach UW's Laboratory Methods for Synthetic
+Biology course in the Winter 2014 quarter. In the first five weeks
+students learn basic laboratory skills, molecular cloning, Gibson
+assembly, and how to knock out genes using the Keio method. We write
+the protocols and methods in Plankton and Oyster, and Aquarium does
+the rest while we sit back and watch the data accumulate. In the
+second five weeks, the students will learn to write their own
+protocols and run them on Aquarium. So far, after the first week and a
+few bugfixes, the system is running like a charm! Two hundred sixteen
+jobs, which about 75% of the successful and most of the rest just
+cancelled because they were scheduled accidentally. 

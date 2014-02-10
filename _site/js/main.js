@@ -1,6 +1,6 @@
 window.onload=function(){
   
-  document.getElementById('nav-publications').className += " highlight";
+
 
   var elems = document.getElementsByClassName('paper');
   var n = elems.length;

@@ -1,13 +1,76 @@
 ---
 layout: aquarium_layout
-title: Klavins Lab | Software
+title: Klavins Lab | Aquarium
 ---
 
-<div class='heading'>
-  <h2>Your Protocols Will Be Assimilated</h2>
-</div>
+<div class="row main-row">
+  <div class="col-xs-3 news" id="leftCol">
 
+    <ul class="nav nav-stacked" id="sidebar">
+      {% for post in site.posts %}
+        <li><span class='date'>{{ post.date | date: "%b %d, %Y") }}</span><a href="#{{ post.title }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+    
+  </div>  
 
+  <div class="col-xs-9">
+    <h2 id="sec0">The Aquarium Project</h2>
+
+<p><img src='/aquarium_images/course.png' class='image'></img>
+    A study in 2012 found that
+<a href='http://www.nature.com/nature/journal/v483/n7391/full/483531a.html#t1'>six of fifty-three </a>
+
+selected 'landmark' papers in cancer biology were reproducible. 
+
+<a href='http://www.nytimes.com/2012/04/17/science/rise-in-scientific-journal-retractions-prompts-calls-for-reform.html?pagewanted=all'>
+Another</a>
+found that retractions, due to
+errors or otherwise, are increasingly frequent. The
+
+<a href='http://www.economist.com/news/leaders/21588069-scientific-research-has-changed-world-now-it-needs-change-itself-how-science-goes-wrong'>
+bar for what makes a scientific result</a>
+
+has either lowered, or the complexity of science has increased to
+where the last century's methods no longer apply. Attempting to build
+on scientific results in the life sceicnes, researchers in engineering
+have begun to explore the study of engineering life itself, only to
+find that said results do not hold. Even when a result is valid, the
+methods are poorly explained, purposefully not explained, or simply
+buried in some researcher's head.</p>
+
+<p>The Aquarium Project aims to fix this problem by provding the means
+to specify, as precisely as possible, how to obtain a
+result. Researchers encode protocols in <i>Plankton</i>, specifying
+how to manipulate items in the Aquarium inventory (test tubes,
+pipettors, 96 well plates, etc) using a combination of formal
+statements, informal descriptions, and photographs. Protocols are
+parameterized by "tuning knobs" (such as incubation times or reagent
+concentrations) that can be varied when the protocols are
+scheduled. Researcher strings together protocols into processes
+specified in <i>Oyster</i> specifying how the output samples of one
+protocol become the input sames of other protocols, and how protocols
+can be scheduled, parallelized, and controlled.</p>
+
+<p>Protocols and processes scheduled and presented to technicians on
+touchscreen monitors placed throughout the lab. Every step is logged:
+who performed the step, which items were used, what data was gathered
+by which instruments, and how long it took. Color and depth sensing
+video cameras aimed at the technician, and other sensors sprinkled
+throughout the lab, record the details of each step and used to
+annotate an automatically generated lab notebook. Aquarium provides a
+rich description of how the work was done. The data can be used to
+debug and improve the experiment. More importantly it provides a
+complete, executable description of the results obtained -- one that
+could be used by any lab running Aquarium to reproduce the result!</p>
+
+    {% for post in site.posts %}
+        <h2 id="{{ post.title }}">{{ post.title }}</h2>
+    <p><span class='date'>{{ post.date | date: "%A, %B %d, %Y") }}</span><br />{{ post.content }}</p>
+    {% endfor %}
+
+      </div> 
+  
 <script>
   document.getElementById('nav-software').className += " highlight";
 </script>

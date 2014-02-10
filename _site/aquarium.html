@@ -1,54 +1,194 @@
-<!DOCTYPE html>
 <html>
 
   <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Klavins Lab | Software</title>
-        <meta name="viewport" content="width=device-width">
 
-        <!-- Bootstrap -->
-        <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Klavins Lab | Aquarium</title>
+    <meta name="viewport" content="width=device-width">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/aquarium.css">
+    <!-- syntax highlighting CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
 
-    </head>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/aquarium.css">
+
+  </head>
 
   <body>
 
-  
+  <header class="navbar navbar-bright navbar-fixed-top" role="banner">
 
-    <div id="navbar" class="navbar navbar-inverse navbar-fixed-top navbar-custom" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
 
-      
-    <div id='aquarium'><img class='alogo' src='/images/aquarium-icon.png'></img>  Aquarium</div>
-      
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand logo" href="/"></a>
-        </div>
-        <div>
-          <ul class="nav navbar-nav pull-right">
-            <li id='nav-index'><a class="extra" href="/index.html">Home</a></li>
-          </ul>
-        </div>
-      </div>
     </div>
-    
-    <div class="container main">
-  
-      <div class='heading'>
-  <h2>Your Protocols Will Be Assimilated</h2>
+    <nav class="collapse navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="aquarium.html">News</a>
+        </li>
+        <li>
+          <a href="aquarium-people.html">People</a>
+        </li>
+        <li>
+          <a href="#sec">Docs</a>
+        </li>
+        <li>
+          <a href="#sec">Code</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div id="masthead">  
+  <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <h1>Aquarium
+            <p class="lead">Your protocols will be assimilated</p>
+          </h1>
+        </div>
+        <div class="col-md-5">
+        </div>
+      </div> 
+  </div><!-- /cont -->
 </div>
 
+<!-- Begin Body -->
+  <div class="container">
 
+  <div class="row main-row">
+  <div class="col-xs-3 news" id="leftCol">
+
+    <ul class="nav nav-stacked" id="sidebar">
+      
+        <li><span class='date'>Feb 06, 2014</span><a href="#Technology Teaches">Technology Teaches</a></li>
+      
+        <li><span class='date'>Jan 09, 2014</span><a href="#First week of class">First week of class</a></li>
+      
+        <li><span class='date'>Jul 01, 2013</span><a href="#ISTC Wetlab Capstone">ISTC Wetlab Capstone</a></li>
+      
+    </ul>
+    
+  </div>  
+
+  <div class="col-xs-9">
+    <h2 id="sec0">The Aquarium Project</h2>
+
+<p><img src='/aquarium_images/course.png' class='image'></img>
+    A study in 2012 found that
+<a href='http://www.nature.com/nature/journal/v483/n7391/full/483531a.html#t1'>six of fifty-three </a>
+
+selected 'landmark' papers in cancer biology were reproducible. 
+
+<a href='http://www.nytimes.com/2012/04/17/science/rise-in-scientific-journal-retractions-prompts-calls-for-reform.html?pagewanted=all'>
+Another</a>
+found that retractions, due to
+errors or otherwise, are increasingly frequent. The
+
+<a href='http://www.economist.com/news/leaders/21588069-scientific-research-has-changed-world-now-it-needs-change-itself-how-science-goes-wrong'>
+bar for what makes a scientific result</a>
+
+has either lowered, or the complexity of science has increased to
+where the last century's methods no longer apply. Attempting to build
+on scientific results in the life sceicnes, researchers in engineering
+have begun to explore the study of engineering life itself, only to
+find that said results do not hold. Even when a result is valid, the
+methods are poorly explained, purposefully not explained, or simply
+buried in some researcher's head.</p>
+
+<p>The Aquarium Project aims to fix this problem by provding the means
+to specify, as precisely as possible, how to obtain a
+result. Researchers encode protocols in <i>Plankton</i>, specifying
+how to manipulate items in the Aquarium inventory (test tubes,
+pipettors, 96 well plates, etc) using a combination of formal
+statements, informal descriptions, and photographs. Protocols are
+parameterized by "tuning knobs" (such as incubation times or reagent
+concentrations) that can be varied when the protocols are
+scheduled. Researcher strings together protocols into processes
+specified in <i>Oyster</i> specifying how the output samples of one
+protocol become the input sames of other protocols, and how protocols
+can be scheduled, parallelized, and controlled.</p>
+
+<p>Protocols and processes scheduled and presented to technicians on
+touchscreen monitors placed throughout the lab. Every step is logged:
+who performed the step, which items were used, what data was gathered
+by which instruments, and how long it took. Color and depth sensing
+video cameras aimed at the technician, and other sensors sprinkled
+throughout the lab, record the details of each step and used to
+annotate an automatically generated lab notebook. Aquarium provides a
+rich description of how the work was done. The data can be used to
+debug and improve the experiment. More importantly it provides a
+complete, executable description of the results obtained -- one that
+could be used by any lab running Aquarium to reproduce the result!</p>
+
+    
+        <h2 id="Technology Teaches">Technology Teaches</h2>
+    <p><span class='date'>Thursday, February 06, 2014</span><br /><p>The UW Center for Innovation annouces funding for Aqaurium in the
+classroom. Here&#39;s their description: <i>A group of faculty from the Intel
+Science and Technology Center for Pervasive Computing will collaborate
+with faculty in the synthetic biology program tobuild a
+semi-automated, human-in-the-loop laboratory. For this framework
+protocols and methods will be encoded in a new programming
+language. Software will guide students through every step of every
+protocol with touchscreen interfaces, simple text, images, movies and
+otherfeatures. Sensors such as cameras, Google Glasses and
+radio-frequency identifications tags will monitor supplies, reagents
+and equipment as the protocols are being performed. Detailed logs will
+be used to refine protocols and methods and to catch mistakes. The
+goal for teaching will be to develop a sequence of life sciences
+research protocols students work through independently and then
+refine. Subsequently we will teach the students how to author their
+own protocols and methods. Through this process students will learn
+basic protocols, how to author new protocols and methods, and how to
+design and test a new organism from first principles. The course melds
+engineering, computer science and life sciences into a hands-on
+experience in synthetic biology.</i></p>
+</p>
+    
+        <h2 id="First week of class">First week of class</h2>
+    <p><span class='date'>Thursday, January 09, 2014</span><br /><p><img src='/images/pie.png' class='image'></img> The first big test of
+Aquarium is to use it to teach UW&#39;s Laboratory Methods for Synthetic
+Biology course in the Winter 2014 quarter. In the first five weeks
+students learn basic laboratory skills, molecular cloning, Gibson
+assembly, and how to knock out genes using the Keio method. We write
+the protocols and methods in Plankton and Oyster, and Aquarium does
+the rest while we sit back and watch the data accumulate. In the
+second five weeks, the students will learn to write their own
+protocols and run them on Aquarium. So far, after the first week and a
+few bugfixes, the system is running like a charm! Two hundred sixteen
+jobs, which about 75% of the successful and most of the rest just
+cancelled because they were scheduled accidentally. </p>
+</p>
+    
+        <h2 id="ISTC Wetlab Capstone">ISTC Wetlab Capstone</h2>
+    <p><span class='date'>Monday, July 01, 2013</span><br /><p>The UW <a href="http://istc-pc.washington.edu/">Intel Center for
+Pervasive Computing (ISTC)</a> has named the &quot;Smart Wetlab&quot; as one of
+its two capstone projects. Why is Intel interested in synthetic
+biology? It turns out that biofabrication and microfabrication have a
+lot in common. Manufactuing processes need to be
+reproducible. Technician training needs to be reliable. The Intel ISTC
+is interested using new technology to help people do their jobs better.</p>
+</p>
+    
+
+      </div> 
+  
 <script>
   document.getElementById('nav-software').className += " highlight";
 </script>
+
 
 <div class='clear: both'></div>
 
@@ -58,29 +198,36 @@
 
     <div class='funder'>
       <a href='http://www.washington.edu/'>
-        <img src='images/uw.png' class='logo'></img>
+        <img src='/images/uw.png' class='logo'></img>
       </a>
     </div>
-        
+    
     <div class='funder'>
       <a href='http://istc-pc.washington.edu/'>
         <img src='/images/intel.png'  class='logo'></img>
       </a>
     </div>
-  
+    
     <div style='clear: both'></div>
     
   </div> <!-- end foot -->
 
-</div>
-      
-    </div>
-
-
     
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
+  </div>
 
+
+
+
+  
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/aquarium.js"></script>
+
+
+
+
+
+  
   </body>
-    
+
 </html>

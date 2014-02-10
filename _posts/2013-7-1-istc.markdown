@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "ISTC Wetlab Capstone"
+date:   2013-7-1 21:41:33
+categories: aquarium istc
+---
+
+The UW <a href="http://istc-pc.washington.edu/">Intel Center for
+Pervasive Computing (ISTC)</a> has named the "Smart Wetlab" as one of
+its two capstone projects. Why is Intel interested in synthetic
+biology? It turns out that biofabrication and microfabrication have a
+lot in common. Manufactuing processes need to be
+reproducible. Technician training needs to be reliable. The Intel ISTC
+is interested using new technology to help people do their jobs better.

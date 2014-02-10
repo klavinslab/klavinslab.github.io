@@ -1,0 +1,23 @@
+---
+layout: aquarium_layout
+title: Klavins Lab | Aquarium People
+---
+
+<div class="row main-row">
+
+<ul class='people-list'>
+  {% for p in site.data.aquarium-people.people %}
+    <li>
+      {% if p.link %}
+        <a href="http://localhost:4000/people/Klavins.html">
+      {% else %}
+        <a href="#">
+      {% endif %}
+      <span class='aname'>{{ p.name }}</span>:
+      <span class='apos'>{{ p.position }}</span>,
+      <span class='aloc'>{{ p.institution }}</span>
+    </a></li>
+  {% endfor %}
+</ul>
+  
+</div>

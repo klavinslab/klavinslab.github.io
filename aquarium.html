@@ -1,15 +1,20 @@
 ---
 layout: aquarium_layout
-title: Klavins Lab | Aquarium
+title: Aquarium
 ---
 
 <div class="row main-row">
   <div class="col-xs-3 news" id="leftCol">
 
     <ul class="nav nav-stacked" id="sidebar">
+        <li><b>News</b></li>
       {% for post in site.posts %}
         <li><span class='date'>{{ post.date | date: "%b %d, %Y") }}</span><a href="#{{ post.title }}">{{ post.title }}</a></li>
       {% endfor %}
+        <li><b>Links</b></li>
+        <li class='link'><a href='index.html'>Klavins Lab</a></li>
+        <li class='link'><a href='http://istc-pc.washington.edu/'>ISTC</a></li>
+        <li class='link'><a href='http://molecular-programming.org/'>Molecular Programming</a></li>
     </ul>
     
   </div>  
@@ -64,8 +69,12 @@ debug and improve the experiment. More importantly it provides a
 complete, executable description of the results obtained -- one that
 could be used by any lab running Aquarium to reproduce the result!</p>
 
+<hr />
+
+<h2>News</h2>
+
     {% for post in site.posts %}
-        <h2 id="{{ post.title }}">{{ post.title }}</h2>
+        <h3 id="{{ post.title }}">{{ post.title }}</h3>
     <p><span class='date'>{{ post.date | date: "%A, %B %d, %Y") }}</span><br />{{ post.content }}</p>
     {% endfor %}
 

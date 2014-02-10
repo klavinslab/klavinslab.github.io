@@ -62,6 +62,26 @@ body {
   }
 }
 
+.link {
+  padding: 0 !important;
+  margin: 0 !important;
+  line-height: 5px;
+  font-size: 10pt;
+  font-style: italic;
+}
+
+#sidebar li {
+  margin-top: 10px;
+}
+
+
+
+.date {
+  margin-left: 15px;
+  margin-top: 20px;
+  line-height: 10px;
+}
+
 #sidebar li.active {
   	border:0 #eee solid;
   	border-right-width:4px;

@@ -15,5 +15,14 @@ the rest while we sit back and watch the data accumulate. In the
 second five weeks, the students will learn to write their own
 protocols and run them on Aquarium. So far, after the first week and a
 few bugfixes, the system is running like a charm! Two hundred sixteen
-jobs, which about 75% of the successful and most of the rest just
+jobs, of which about 75% were successful and most of the rest just
 cancelled because they were scheduled accidentally. 
+
+Update (Feb. 10): We're done with the first five weeks. Almost all
+protocols were completed successfully, except some knockouts did not
+work in the last week. The students are now breaking into groups to
+write their own protocols and methods (everything from qPCR to measure
+gene expression to gene assembly) to run in Aquarium. Each method will
+be run once a week for four weeks (starting next week) by four
+different groups. In between runs, students have a chance to improve
+their protocols based on feedback from their peers.

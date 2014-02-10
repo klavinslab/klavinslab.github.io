@@ -2,42 +2,60 @@ people:
 
   - name: Tileli Amimuer
     position: Graduate Student
-    institution: University of Washington
+    institution: UW EE
 
   - name: Nick Bolten
     position:  Graduate Student
-    institution: University of Washington
+    institution: UW EE
+
+  - name: Miles Gander
+    position: Graduate Student
+    institution: UW EE
  
   - name: Eric Klavins
     position: Associate Professor (PI)
-    institution: University of Washington
+    institution: UW EE
     link: 'http://localhost:4000/people/Klavins.html'
 
   - name: Anthony LaMarca
     position: Researcher
     institution: Intel
+    link: 'http://www.lamarca.org/anthony/'
 
   - name: Logan McColl
     position: Technican
-    institution: University of Washington
+    institution: UW Biology
+
+  - name: Greg Nelson
+    position: Graduate Student
+    institution: UW CSE
 
   - name: Michelle Parks
     position: Technican
-    institution: University of Washington
+    institution: UW Biology
 
   - name: Jeff Scofield
     position: Programmer
     institution: Intel
+    link: 'http://stackoverflow.com/users/821679/jeffrey-scofield'
 
   - name: Joseph Sullivan
     position: Undergraduate
-    institution: University of Washington
+    institution: UW EE
 
   - name: Conner Thomas
     position: Undergraduate
-    institution: University of Washington
+    institution: UW EE
 
   - name: Yaoyu Yang
     position: Graduate Student
-    institution: University of Washington
+    institution: UW EE
+    link: 'http://klavinslab.org/people/Yang.html'
+
+collaborators:
+
+  - name: James Rehg
+    position: Professor
+    institution: GaTech
+    link: 'http://www.cc.gatech.edu/~rehg/'
 

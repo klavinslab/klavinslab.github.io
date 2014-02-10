@@ -54,8 +54,34 @@ people:
 
 collaborators:
 
+  - name: Jeff Bilmes
+    position: Professor
+    institution: UW EE
+    link: 'http://melodi.ee.washington.edu/~bilmes/pgs/index.html'
+
+  - name: James Carothers
+    position: Assistant Professor
+    institution: UW ChemE
+    link: 'http://carothersresearch.com/'
+
+  - name: Dieter Fox
+    position: Professor
+    institution: UW CSE
+    link: 'http://homes.cs.washington.edu/~fox/'
+
   - name: James Rehg
     position: Professor
     institution: GaTech
     link: 'http://www.cc.gatech.edu/~rehg/'
+
+  - name: Georg Seelig
+    position: Assistant Professor
+    institution: UW EE/CSE
+    link: 'http://homes.cs.washington.edu/~seelig/'
+
+  - name: Luke Zettlemoyer
+    position: Assistant Professor
+    institution: UW CSE
+    link: 'https://homes.cs.washington.edu/~lsz/'
+    
 

@@ -1,4 +1,5 @@
-- item: "You are looking at our new web page. The old one is <a href='http://depts.washington.edu/soslab/mw/index.php?title=Main_Page'>here</a>."
+- item: "You are looking at our new web page. The old one is <a href='http://depts.washington.edu/soslab/mw/index.php?title=Main_Page'>here</a>. We also have a new web page for the
+  <a href='aquarium.html'>Aquarium</a> project."
   date: 2/2014
 
 - item: "New grant from the Semiconductor Research Corporation (SRC) as part of the new Semiconductor Synthetic Biology program (SSB). Subject: Finite State machines in Living Cells."

@@ -1,7 +1,6 @@
-window.onload=function(){
+
+window.onload=function() {
   
-
-
   var elems = document.getElementsByClassName('paper');
   var n = elems.length;
   for (i in elems) {

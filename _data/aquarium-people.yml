@@ -15,7 +15,7 @@ people:
   - name: Eric Klavins
     position: Associate Professor (PI)
     institution: UW EE
-    link: 'http://localhost:4000/people/Klavins.html'
+    link: '/people/Klavins.html'
 
   - name: Anthony LaMarca
     position: Researcher
@@ -51,7 +51,7 @@ people:
   - name: Yaoyu Yang
     position: Graduate Student
     institution: UW EE
-    link: 'http://klavinslab.org/people/Yang.html'
+    link: '/people/Yang.html'
 
 collaborators:
 

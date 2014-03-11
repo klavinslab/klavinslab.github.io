@@ -36,7 +36,7 @@ grads:
      - name: Arjun Khakhar
        in: Bioengineering
        project: Computation in Cells
-       image: khakhar.jpeg
+       image: khakhar.png
        note: with Georg Seelig
 
      - name: Sundipta Rao
@@ -91,11 +91,11 @@ ugs:
 
 alumni:
 
-   - name: Kevin Oishi
-     position: Graduate Student #6
-     date: Ph.D. 2014
-     now: at Intellectual Ventures
-     image: oishi.png
+    - name: Kevin Oishi
+      position: Graduate Student #6
+      date: Ph.D. 2014
+      now: at Intellectual Ventures
+      image: oishi.png
 
     - name: Robert Egbert
       position: Graduate Student #5

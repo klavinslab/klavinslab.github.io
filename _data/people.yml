@@ -37,6 +37,7 @@ grads:
        in: Bioengineering
        project: Computation in Cells
        image: khakhar.jpg
+       note: with Georg Seelig
 
      - name: Sundipta Rao
        in: Electrical Engineering 

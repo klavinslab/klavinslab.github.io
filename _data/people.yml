@@ -33,10 +33,10 @@ grads:
        project: System Identification for Synthetic Parts
        image: jang.jpg
 
-     - name: Kevin Oishi
-       in: Electrical Engineering 
-       project: Technomimetic Synthetic Biology
-       image: oishi.png
+     - name: Arjun Khakhar
+       in: Bioengineering
+       project: Computation in Cells
+       image: khakhar.jpg
 
      - name: Sundipta Rao
        in: Electrical Engineering 
@@ -89,6 +89,12 @@ ugs:
 
 
 alumni:
+
+   - name: Kevin Oishi
+     position: Graduate Student #6
+     date: Ph.D. 2014
+     now: at Intellectual Ventures
+     image: oishi.png
 
     - name: Robert Egbert
       position: Graduate Student #5

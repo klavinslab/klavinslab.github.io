@@ -92,13 +92,13 @@ ugs:
 alumni:
 
     - name: Kevin Oishi
-      position: Graduate Student #6
+      position: Graduate Student 6
       date: Ph.D. 2014
       now: at Intellectual Ventures
       image: oishi.png
 
     - name: Robert Egbert
-      position: Graduate Student #5
+      position: Graduate Student 5
       date: Ph.D. 2012
       now: a postdoc at UC Berkeley
       image: egbert.jpg
@@ -122,7 +122,7 @@ alumni:
       image: ekness.jpg
 
     - name: Josh Bishop
-      position: Graduate Student #4
+      position: Graduate Student 4
       date: Ph.D. 2012
       now: a postdoc at University of Washington
       image: bishop.jpg
@@ -134,13 +134,13 @@ alumni:
       image: gu.jpg
 
     - name: Fay Shaw
-      position: Graduate Student #3
+      position: Graduate Student 3
       date: Ph.D. 2011
       now: at Apple
       image: shaw.jpg
 
     - name: Nils Napp
-      position: Graduate Student #2
+      position: Graduate Student 2
       date: Ph.D. 2011
       now: a Postdoc at Harvard University
       image: napp.jpg
@@ -182,7 +182,7 @@ alumni:
       image: georgiev.jpg
 
     - name: J.M. McNew
-      position: Graduate Student #1
+      position: Graduate Student 1
       date: Ph.D. 2008
       now: at Toyota Research
       image: mcnew.jpg

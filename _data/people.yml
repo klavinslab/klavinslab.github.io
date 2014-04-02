@@ -25,7 +25,7 @@ grads:
 
      - name: Miles Gander
        in: Electrical Engineering 
-       project: Auxin Synthetic Biology
+       project: Gene Networks with State
        image: gander.png
 
      - name: S. Shelly Jang

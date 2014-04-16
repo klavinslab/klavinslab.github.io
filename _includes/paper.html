@@ -27,6 +27,10 @@
 
   {{ include.param.month }} {{ include.param.year }}.
 
+  {% if include.param.note %}
+     {{ include.param.note }}
+  {% endif %}
+   
   {% if include.param.link %}
      <a href='{{ include.param.link }}'><span class='glyphicon glyphicon-link'></span></a>
   {% endif %}

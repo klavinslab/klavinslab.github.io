@@ -69,9 +69,9 @@ visitors:
 
 staff:
 
-      - name: Logan McColl
-        position: Undergraduate Lab Assistant
-        image: mccoll.jpg
+      - name: Nathan Hwang
+        position: Aquarium Technician
+        image: hwang.png
 
       - name: Michelle Parks
         position: Undergraduate Lab Assistant
@@ -86,6 +86,10 @@ ugs:
       - name: Rada Jumroon
         dept: Physics
         image: jumroon.jpg
+
+      - name: Logan McColl
+        position: Undergraduate Lab Assistant
+        image: mccoll.jpg
 
       - name: David Zong
         dept: Bioengineering

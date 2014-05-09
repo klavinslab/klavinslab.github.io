@@ -7,7 +7,7 @@ categories: jekyll update
 
 
 The UW Center for Innovation annouces funding for Aqaurium in the
-classroom. Here's their description: <i>A group of faculty from the Intel
+classroom. Here's the description: <i>A group of faculty from the Intel
 Science and Technology Center for Pervasive Computing will collaborate
 with faculty in the synthetic biology program tobuild a
 semi-automated, human-in-the-loop laboratory. For this framework

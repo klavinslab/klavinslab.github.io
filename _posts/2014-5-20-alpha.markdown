@@ -1,0 +1,35 @@
+---
+layout: aquarium_post
+title:  "Alpha Testers"
+date:   2014-5-20 16:00:00
+categories: jekyll update
+---
+
+The Aquarium code and a protocol library called Aqualib are nearly
+ready to be released. If you are interested in trying it out and
+helping us debug the installation and setup procedure, please contact
+Eric at the address klavins at the domain uw dot edu.
+
+A few details: The main interface runs as a web server and was built
+with Ruby/Rails. Aquarium's laboratory information system uses MySQL
+or any other Rails supported database. The Plankton protocol compiler
+and the Oyster metacol interpreter are written in Ruby and are
+integrated into Aquarium. Aquarium expects that protocols in Plankton
+and metacols in Oyster are stored in a git repository. You can link to
+Aqualib and to any repositories you make as well. If you have images
+you would like to put into your protocols, you can configure an image
+server (the easiest thing to do just put them on dedicated web
+server).
+
+A simple installation works on a laptop (mostly tested with Mac OS X)
+and uses a simple sqlite3 database. We use such a setup when
+developing Aquarium. A complete production-level installation runs two
+servers using MySQL on separate ports, one for production and one for
+rehearsal. The researsal server can copy the production server's
+database so you can practice protocols without messing up important
+data. We use Apache and Phusion/Passenger to serve Aquarium.
+
+Alpha testers get access to all the code and protocols as well as
+documentation for how to install Aquarium, how to write protocols and
+metacols in Plankton and Oyster, and how to use the Aquarium interface.
+

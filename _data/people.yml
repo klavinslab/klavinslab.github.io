@@ -73,9 +73,17 @@ staff:
         position: Aquarium Technician
         image: hwang.jpg
 
+      - name: Lindsey Ng
+        position: Aquarium Technician
+        image: ng.png
+
       - name: Michelle Parks
         position: Undergraduate Lab Assistant
         image: parks.jpg
+
+      - name: Eric Pong
+        position: Undergraduate Lab Assistant
+        image: unknown.png
 
       - name: Marielle Summers
         position: Aquarium Technician

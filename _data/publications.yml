@@ -3,7 +3,7 @@
   title: "Recapitulation of the forward nuclear auxin response pathway in yeast"
   journal: PNAS (in press)
   year: 2014
-  note: "Data and associated code <a href='data.html'>here</a>."
+  note: "Clink <a href='data.html'>here</a> for data and associated code."
   abstract: "Auxin influences nearly every aspect of plant biology through a simple signaling pathway; however, it remains unclear how much of the diversity in auxin effects are explained by variation in the core signaling components and which properties of these components may contribute to diversification in response dynamics. Here, we recapitulated the entire Arabidopsis thaliana forward nuclear auxin signal transduction pathway in Saccharomyces cerevisiae to test whether signaling module composition enables tuning of the dynamic response. Sensitivity analysis guided by a small mathematical model revealed the centrality of Aux/IAA co-repressors in controlling response dynamics, and highlighted the strong influence of natural variation in Aux/IAA degradation rates on circuit performance. When the basic auxin response circuit was expanded to include multiple Aux/IAAs, we found that dominance relationships between co-expressed Aux/IAAs were sufficient to generate distinct response modules similar to those seen during plant development. Our work provides a new method for dissecting auxin signaling and demonstrates the key role of Aux/IAAs in tuning auxin response dynamics."
   data: pnas14.zip
   link: http://www.pnas.org/content/early/2014/06/11/1324147111.abstract

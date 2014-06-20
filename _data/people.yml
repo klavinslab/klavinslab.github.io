@@ -74,7 +74,7 @@ staff:
         image: ng.png
 
       - name: Michelle Parks
-        position: Undergraduate Lab Assistant
+        position: Lab Manager
         image: parks.jpg
 
       - name: Eric Pong
@@ -95,12 +95,13 @@ ugs:
         position: Undergraduate Lab Assistant
         image: mccoll.jpg
 
-      - name: David Zong
-        dept: Bioengineering
-        image: zong.jpg
-
-
 alumni:
+
+    - name: David Zong
+      position: Undergrad Researcher, BIOEN
+      date: B.S. 2014
+      now: a Grad Student at Rice
+      image: zong.jpg
 
     - name: Kevin Oishi
       position: Graduate Student 6

@@ -92,9 +92,6 @@
   number: 4
   pages: 252–260
   link: http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5979221&url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel5%2F4100185%2F5979218%2F05979221.pdf%3Farnumber%3D5979221
-  image: "images/gro-morpho.png"
-  caption: "In our 2012 ACS synthetic biology paper, we designed cell programs that could someday control
-            cells to undergo synthetic morphogenesis."
 
 - id: icra11
   authors: N. Napp and E. Klavins
@@ -103,6 +100,9 @@
   pages: pages 254-260
   year: 2011
   link: http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=5979634
+  image: "images/gro-morpho.png"
+  caption: "In our 2012 ACS synthetic biology paper, we designed cell programs that could someday control
+            cells to undergo synthetic morphogenesis."
 
 - id: ijrr11
   authors: N. Napp and E. Klavins

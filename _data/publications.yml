@@ -32,9 +32,6 @@
   month: March
   year: 2013
   link: http://www.plantphysiol.org/content/early/2013/03/28/pp.113.215582.short?keytype=ref&ijkey=xIcySjgtxXxmzkU
-  image: "images/bistable.png"
-  caption: "In our 2012 PNAS paper, Rob Egbert introduced a genetic tuning method and
-            precisely balanced the number of cells in each state of a synthetic genetic switch."
 
 - id: po13
   authors: D. Thorsley and E. Klavins
@@ -43,6 +40,9 @@
   month: Nov
   year: 2012
   link: http://dx.plos.org/10.1371/journal.pone.0047151
+  image: "images/bistable.png"
+  caption: "In our 2012 PNAS paper, Rob Egbert introduced a genetic tuning method and
+            precisely balanced the number of cells in each state of a synthetic genetic switch."
 
 - id: cdc12
   authors: J. Bishop and E. Klavins

@@ -161,6 +161,8 @@
   journal: "Robotics: Science and Systems V"
   year: 2009
   link: http://soslab.ee.washington.edu/nnapp/wiki/NN_rss09.pdf
+  image: "images/chembots.jpg"
+  caption: "In our 2010 AR paper, Nils Napp and Sam Burden build robots that react like molecules."
 
 - authors: F. W. Shaw and E. Klavins. 
   title: Distributed Estimation and State Assignment For Stochastically Interacting Robots
@@ -185,8 +187,6 @@
   year: 2008
   journal: Conference on Decision and Control
   link: http://faculty.washington.edu/klavins/papers/gk_CDC_08_final.pdf
-  image: "images/chembots.jpg"
-  caption: "In our 2010 AR paper, Nils Napp and Sam Burden build robots that react like molecules."
 
 - authors: F. Shaw and E. Klavins
   title: Distributed Estimation and Control For Stochastically Interacting Robots

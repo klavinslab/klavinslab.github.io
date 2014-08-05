@@ -5,6 +5,7 @@
   journal: ACS Synthetic Biology
   note: In press.
   image: "images/full-circuit.png"
+  link: http://pubs.acs.org/doi/abs/10.1021/sb500165g
   caption: "In our 2014 PNAS paper, we describes how we ported the auxin signal response pathway from plants to yeast."
 
 - id: pnas14

@@ -6,6 +6,12 @@ pi:
 
 postdocs:
 
+     - name: Luis Zaman
+       in: Biology
+       project: Experimental Evolution 
+       image: zaman.jpg
+       note: with Ben Kerr
+
 grads:
 
      - name: Tileli Amimeur
@@ -27,11 +33,6 @@ grads:
        in: Electrical Engineering 
        project: Gene Networks with State
        image: gander.png
-
-     - name: S. Shelly Jang
-       in: Electrical Engineering 
-       project: System Identification for Synthetic Parts
-       image: jang.jpg
 
      - name: Arjun Khakhar
        in: Bioengineering
@@ -96,6 +97,12 @@ ugs:
         image: mccoll.jpg
 
 alumni:
+
+    - name: S. Shelly Jang
+      position: Graduate Student 7
+      date: Ph.D. 2014
+      now: at AT&T
+      image: jang.jpg
 
     - name: David Zong
       position: Undergrad Researcher, BIOEN

@@ -5,7 +5,11 @@
     </div>
   {% endif %}
 
-<li class='paper'>
+{% if include.param.class %}
+  <li class='{{include.param.class}}'> 
+{% else %}
+  <li class='paper'>
+{% endif %}
 
   {{ include.param.authors }},
 

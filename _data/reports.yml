@@ -1,0 +1,22 @@
+- authors: D. Younger
+  class: report
+  journal: DYSU14
+  link: https://faculty.washington.edu/klavins/tr/lab/DYSU14.pdf
+  title: "The role of sexual agglutinin proteins in the mating of <i>S. cerevisiae</i>"
+  year: 2014
+
+- authors: E. Klavins
+  class: report
+  title: The Construction of Attention Functions for Phase Regulation
+  journal: University of Michigan Technical Report
+  number:  CSE-TR-422-00
+  year: 2000
+  link: http://faculty.washington.edu/klavins/papers/tr2000.pdf
+
+- authors: E. Klavins
+  class: report
+  title: A Formalism for the Composition of Loosely Coupled Robot Behaviors
+  journal: University of Michigan Technical Report
+  number:  CSE-TR-412-99
+  year: 1999
+  link: http://faculty.washington.edu/klavins/papers/tr1999.pdf

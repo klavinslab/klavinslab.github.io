@@ -1,0 +1,65 @@
+- id: jang-thesis
+  class: thesis
+  authors: S. S. Jang
+  title: "Parameter-Component Dependency: Identifying the Biological Functions of Interchangeable Genetic Components"
+  journal: Ph.D. Thesis, University of Washington
+  year: 2014
+
+- id: oishi-thesis
+  class: thesis
+  authors: K. Oishi
+  title: "Programming Molecules and Cells: Design Architectures for Chemical Reaction and Gene Regulatory Networks"
+  journal: Ph.D. Thesis, University of Washington
+  year: 2014
+  link: https://digital.lib.washington.edu/researchworks/handle/1773/25475
+
+- id: egbert-thesis
+  class: thesis
+  authors: R. Egbert
+  title: Fine-tuning gene networks using simple sequence repeats
+  journal: Ph.D. Thesis, University of Washington
+  year: 2012
+  link: 
+
+- id: shaw-thesis
+  class: thesis
+  authors: F. Shaw
+  title: Decentralized Estimation for Stochastic Multi-Agent Systems
+  journal: Ph.D. Thesis, University of Washington
+  year: 2012
+  link: https://digital.lib.washington.edu/researchworks/handle/1773/20208
+
+- id: bishop-thesis
+  class: thesis
+  authors: J. Bishop
+  title: Engineering the Feedback Dynamics of in vitro Synthetic Biological Systems
+  journal: Ph.D. Thesis, University of Washington
+  year: 2012
+  link: https://digital.lib.washington.edu/researchworks/handle/1773/22554 
+
+- id: napp-thesis
+  class: thesis
+  authors: N. Napp
+  title: Nondeterministic modeling and verification of networked robotic systems
+  journal: Ph.D. Thesis, University of Washington
+  year: 2011
+  link: "http://uwashington.worldcat.org/title/control-of-stochastically-interacting-particles-with-applications-to-robotics/oclc/852697070&referer=brief_results"
+
+- id: mcnew-thesis
+  class: thesis
+  authors: J. M. McNew
+  title: Nondeterministic modeling and verification of networked robotic systems
+  journal: Ph.D. Thesis, University of Washington
+  year: 2008
+  link: "http://uwashington.worldcat.org/title/nondeterministic-modeling-and-verification-of-networked-robotic-systems/oclc/747281888&referer=brief_results"
+
+- id: klavins_thesis
+  class: thesis
+  authors: E. Klavins
+  title: Decentralized Phase Regulation of Cyclic Robotic Systems
+  journal: Ph.D. Thesis, University of Michigan
+  year: 2001
+  link: http://faculty.washington.edu/klavins/papers/klavins-thesis-final.pdf
+
+
+

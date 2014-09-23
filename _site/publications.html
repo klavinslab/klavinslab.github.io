@@ -15,6 +15,28 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
 
+        <script>
+          function setCookie(cname,cvalue,exdays) {
+              var d = new Date();
+              d.setTime(d.getTime() + (exdays*24*60*60*1000));
+              var expires = "expires=" + d.toGMTString();
+              document.cookie = cname+"="+cvalue+"; "+expires;
+          }
+
+          function getCookie(cname) {
+              var name = cname + "=";
+              var ca = document.cookie.split(';');
+              for(var i=0; i<ca.length; i++) {
+                  var c = ca[i];
+                  while (c.charAt(0)==' ') c = c.substring(1);
+                  if (c.indexOf(name) != -1) {
+                      return c.substring(name.length, c.length);
+                  }
+              }
+              return "";
+          }
+        </script>
+
     </head>
 
   <body>
@@ -46,24 +68,34 @@
   
       <div class='contain'>
 
-<div class='heading'><h1>Publications</h1></div>
+<div class='heading'>
+ <h1>
+   <span id='papers-heading' class='clickable-heading'>Papers</span>
+   <span id='reports-heading' class='clickable-heading' style='color: #ddd'>Reports</span>
+   <span id='theses-heading' class='clickable-heading' style='color: #ddd'>Theses</span>  
+ </h1>
+</div>
 
+<div id='papers'>
 
-
-<ul class='pubs'>
   
+
+  <ul class='pubs'>
     
       
-      <h3> 2014 </h3>
-    
+        
+        <h3> 2014 </h3>
       
+        
     <div class='paper-figure'>
       <a href='images/full-circuit.png'><img src='images/full-circuit.png'></img></a>
       <p>In our 2014 PNAS paper, we describes how we ported the auxin signal response pathway from plants to yeast.</p>
     </div>
   
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   C. Takahashi, A. Miller, F. Ekness, M. Dunham and E. Klavins,
 
@@ -88,11 +120,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   E. Pierre-Jerome* S. S. Jang*, K. A. Havens, J. L. Nemhauser and E. Klavins,
 
@@ -117,11 +151,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   K. Oishi and E. Klavins,
 
@@ -144,14 +180,16 @@
 </li>
 
 
-  
     
       
-      <h3> 2013 </h3>
-    
+        
+        <h3> 2013 </h3>
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   H. Yu, B. Moss, S. Jang, M. Prigge, E. Klavins, J. Nemhauser, and M. Estelle,
 
@@ -176,19 +214,21 @@
 </li>
 
 
-  
     
       
-      <h3> 2012 </h3>
-    
+        
+        <h3> 2012 </h3>
       
+        
     <div class='paper-figure'>
       <a href='images/bistable.png'><img src='images/bistable.png'></img></a>
       <p>In our 2012 PNAS paper, Rob Egbert introduced a genetic tuning method and precisely balanced the number of cells in each state of a synthetic genetic switch.</p>
     </div>
   
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   D. Thorsley and E. Klavins,
 
@@ -211,11 +251,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   J. Bishop and E. Klavins,
 
@@ -236,11 +278,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   R.G. Egbert and E. Klavins,
 
@@ -269,11 +313,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   S.S. Jang, K.T. Oishi, R.G. Egbert, and E. Klavins,
 
@@ -300,11 +346,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   K. Havens*, E. Pierre-Jerome*, S. Jang*, J. Guseman*, N. Bolten, E. Klavins, and J. Nemhauser,
 
@@ -329,14 +377,16 @@
 </li>
 
 
-  
     
       
-      <h3> 2011 </h3>
-    
+        
+        <h3> 2011 </h3>
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   K. Oishi and E. Klavins,
 
@@ -363,16 +413,18 @@
 </li>
 
 
-  
     
       
+        
     <div class='paper-figure'>
       <a href='images/gro-morpho.png'><img src='images/gro-morpho.png'></img></a>
       <p>In our 2012 ACS synthetic biology paper, we designed cell programs that could someday control cells to undergo synthetic morphogenesis.</p>
     </div>
   
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   N. Napp and E. Klavins,
 
@@ -397,11 +449,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   N. Napp and E. Klavins,
 
@@ -428,14 +482,16 @@
 </li>
 
 
-  
     
       
-      <h3> 2010 </h3>
-    
+        
+        <h3> 2010 </h3>
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   E. Klavins,
 
@@ -460,11 +516,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   N. Napp, S. Burden, and E. Klavins,
 
@@ -491,11 +549,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   D. Thorsley and E. Klavins,
 
@@ -522,11 +582,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   N. Napp and E. Klavins,
 
@@ -549,11 +611,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   D. Georgiev, M. Fazel, and E. Klavins,
 
@@ -578,19 +642,21 @@
 </li>
 
 
-  
     
       
-      <h3> 2009 </h3>
-    
+        
+        <h3> 2009 </h3>
       
+        
     <div class='paper-figure'>
       <a href='images/chembots.jpg'><img src='images/chembots.jpg'></img></a>
       <p>In our 2010 AR paper, Nils Napp and Sam Burden build robots that react like molecules.</p>
     </div>
   
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   N. Napp, S. Burden and E. Klavins,
 
@@ -613,11 +679,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   F. W. Shaw and E. Klavins.,
 
@@ -640,11 +708,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   N. Napp, D. Thorsley and E. Klavins,
 
@@ -667,11 +737,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   D. Thorsley and E. Klavins,
 
@@ -694,14 +766,16 @@
 </li>
 
 
-  
     
       
-      <h3> 2008 </h3>
-    
+        
+        <h3> 2008 </h3>
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   D. Georgiev and E. Klavins,
 
@@ -724,11 +798,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   F. Shaw and E. Klavins,
 
@@ -751,11 +827,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   J. M. McNew and E. Klavins,
 
@@ -780,11 +858,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   D. Thorsley and E. Klavins,
 
@@ -809,14 +889,16 @@
 </li>
 
 
-  
     
       
-      <h3> 2007 </h3>
-    
+        
+        <h3> 2007 </h3>
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   J. Bishop and E. Klavins,
 
@@ -843,11 +925,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   E. Klavins,
 
@@ -874,11 +958,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   W. B. Dunbar, N. A. Wilson, J. Schaeffer, E. Klavins, J. Bishop and B. Tanner,
 
@@ -903,16 +989,18 @@
 </li>
 
 
-  
     
       
+        
     <div class='paper-figure'>
       <a href='images/nanomotor.png'><img src='images/nanomotor.png'></img></a>
       <p>In our 2007 Nanoletters paper, Josh Bishop developed a new molecular nanomotor that is robust to its own waste products!</p>
     </div>
   
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   M. Yim, W.M. Shen, B. Salemi, D. Rus, M. Moll, H. Lipson, E. Klavins and G.S. Chirickjian,
 
@@ -939,11 +1027,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   C. Belta, A. Bicchi, M. Egerstedt, E. Frazzoli, E. Klavins and G.J. Pappas,
 
@@ -970,11 +1060,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   J. M. McNew, E. Klavins and M. Egerstedt,
 
@@ -997,11 +1089,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   S. Waydo, J. Hauser and R. Bailey, E. Klavins and R. Murray,
 
@@ -1026,14 +1120,16 @@
 </li>
 
 
-  
     
       
-      <h3> 2006 </h3>
-    
+        
+        <h3> 2006 </h3>
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   E. Klavins, S. Burden and N. Napp,
 
@@ -1058,11 +1154,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   J. Bishop and E. Klavins, Collective Sensing with Self-Organizing Robots,
 
@@ -1087,11 +1185,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   J. M. McNew and E. Klavins,
 
@@ -1116,11 +1216,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   E. Klavins,
 
@@ -1143,11 +1245,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   J. M. McNew and E. Klavins,
 
@@ -1170,16 +1274,18 @@
 </li>
 
 
-  
     
       
+        
     <div class='paper-figure'>
       <a href='images/ppt.jpg'><img src='images/ppt.jpg'></img></a>
       <p>In our 2006 RSS paper, we optimzed the rate of robotic self assembly with traingular robotic pieces.</p>
     </div>
   
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   S. Burden, N. Napp, E. Klavins,
 
@@ -1204,11 +1310,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   E. Klavins, R. Ghrist and D. Lipsky,
 
@@ -1235,11 +1343,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   D. Del Vecchio, R. Murray and E. Klavins,
 
@@ -1264,14 +1374,16 @@
 </li>
 
 
-  
     
       
-      <h3> 2005 </h3>
-    
+        
+        <h3> 2005 </h3>
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   J. M. McNew and E. Klavins,
 
@@ -1294,11 +1406,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   J. Bishop, S. Burden, E. Klavins, R. Kreisberg, W. Malone, N. Napp and T. Nguyen,
 
@@ -1321,14 +1435,16 @@
 </li>
 
 
-  
     
       
-      <h3> 2004 </h3>
-    
+        
+        <h3> 2004 </h3>
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   E. Klavins,
 
@@ -1351,11 +1467,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   E. Klavins,
 
@@ -1376,16 +1494,18 @@
 </li>
 
 
-  
     
       
+        
     <div class='paper-figure'>
       <a href='images/gg.png'><img src='images/gg.png'></img></a>
       <p>In my papers with Rob Ghrist (ICRA 2004, TAC 2006), we explored the power and limitations of graph grammers for self-assembly and robotic self-organization.</p>
     </div>
   
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   E. Klavins, R. Ghrist, and D. Lipsky,
 
@@ -1410,11 +1530,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   E. Klavins,
 
@@ -1439,11 +1561,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   E. Klavins and R. Murray,
 
@@ -1470,14 +1594,16 @@
 </li>
 
 
-  
     
       
-      <h3> 2003 </h3>
-    
+        
+        <h3> 2003 </h3>
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   E. Klavins,
 
@@ -1500,11 +1626,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   D. Del Vecchio and E. Klavins,
 
@@ -1525,11 +1653,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   S. Waydo. B. Dunbar and E. Klavins,
 
@@ -1552,11 +1682,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   E. Klavins,
 
@@ -1583,11 +1715,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   E. Klavins,
 
@@ -1614,14 +1748,16 @@
 </li>
 
 
-  
     
       
-      <h3> 2002 </h3>
-    
+        
+        <h3> 2002 </h3>
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   E. Klavins,
 
@@ -1646,11 +1782,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   E. Klavins and U. Saranli,
 
@@ -1673,11 +1811,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   E. Klavins,
 
@@ -1700,16 +1840,18 @@
 </li>
 
 
-  
     
       
+        
     <div class='paper-figure'>
       <a href='images/hopper.png'><img src='images/hopper.png'></img></a>
       <p>In my 2002 IJRR paper, I showed that potential functions can be used to regulate phase for multi-legged robots.</p>
     </div>
   
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   E. Klavins and D. E. Koditschek,
 
@@ -1736,11 +1878,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   T. Chung, L. Cremean, B. Dunbar, Z. Jin, E. Klavins, D. Moore, A. Tiwari, D. van Gogh and S. Waydo,
 
@@ -1763,11 +1907,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   L. Cremean, B. Dunbar, D. van Gogh, J. Hickey, E. Klavins, J. Meltzer and R. M. Murray,
 
@@ -1790,14 +1936,16 @@
 </li>
 
 
-  
     
       
-      <h3> 2001 </h3>
-    
+        
+        <h3> 2001 </h3>
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   E. Klavins, H. Komsuoglu, R. J. Full and D. E. Koditschek,
 
@@ -1818,11 +1966,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   E. Klavins and D. E. Koditschek,
 
@@ -1845,11 +1995,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   E. Klavins,
 
@@ -1872,14 +2024,16 @@
 </li>
 
 
-  
     
       
-      <h3> 2000 </h3>
-    
+        
+        <h3> 2000 </h3>
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   E. Klavins,
 
@@ -1904,11 +2058,13 @@
 </li>
 
 
-  
     
       
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   E. Klavins and D. E. Koditschek,
 
@@ -1931,16 +2087,18 @@
 </li>
 
 
-  
     
       
+        
     <div class='paper-figure'>
       <a href='images/nonmon.png'><img src='images/nonmon.png'></img></a>
       <p>In my first paper, in AAAI-98, I showed there is a phase transition between satisfiable and unsatisfiable 3-valued logic propositions as the number of clauses increases. Exciting!</p>
     </div>
   
 
-<li class='paper'>
+
+  <li class='paper'>
+
 
   E. Klavins, D. E. Koditschek and R. Ghrist,
 
@@ -1965,11 +2123,90 @@
 </li>
 
 
-  
     
       
+        
+        <h3> 1998 </h3>
+      
+        
 
-<li class='paper'>
+
+  <li class='paper'>
+
+
+  E. Klavins, W. C. Rounds, and Q.-Q. Zhang,
+
+  <b>Experimenting with Power Default Reasoning</b>,
+
+  <i>Proceedings of AAAI-98</i>.
+
+  
+
+   
+
+   1998.
+
+  
+   
+  
+     <a href='http://faculty.washington.edu/klavins/papers/aaai98.ps'><span class='glyphicon glyphicon-link'></span></a>
+  
+
+</li>
+
+
+    
+  </ul>
+
+</div>
+
+<div id='reports'>
+
+  
+
+  <ul class='pubs'>
+    
+      
+        
+        <h3> 2014 </h3>
+      
+        
+
+
+  <li class='report'> 
+
+
+  D. Younger,
+
+  <b>The role of sexual agglutinin proteins in the mating of <i>S. cerevisiae</i></b>,
+
+  <i>DYSU14</i>.
+
+  
+
+   
+
+   2014.
+
+  
+   
+  
+     <a href='https://faculty.washington.edu/klavins/tr/lab/DYSU14.pdf'><span class='glyphicon glyphicon-link'></span></a>
+  
+
+</li>
+
+
+    
+      
+        
+        <h3> 2000 </h3>
+      
+        
+
+
+  <li class='report'> 
+
 
   E. Klavins,
 
@@ -1994,14 +2231,16 @@
 </li>
 
 
-  
     
       
-      <h3> 1999 </h3>
-    
+        
+        <h3> 1999 </h3>
       
+        
 
-<li class='paper'>
+
+  <li class='report'> 
+
 
   E. Klavins,
 
@@ -2026,44 +2265,313 @@
 </li>
 
 
+    
+  </ul>
+
+</div>
+
+<div id='theses'>
+
   
+
+  <ul class='pubs'>
     
       
-      <h3> 1998 </h3>
-    
+        
+        <h3> 2014 </h3>
       
+        
 
-<li class='paper'>
 
-  E. Klavins, W. C. Rounds, and Q.-Q. Zhang,
+  <li class='thesis'> 
 
-  <b>Experimenting with Power Default Reasoning</b>,
 
-  <i>Proceedings of AAAI-98</i>.
+  S. S. Jang,
+
+  <b>Parameter-Component Dependency: Identifying the Biological Functions of Interchangeable Genetic Components</b>,
+
+  <i>Ph.D. Thesis, University of Washington</i>.
 
   
 
    
 
-   1998.
+   2014.
 
   
    
-  
-     <a href='http://faculty.washington.edu/klavins/papers/aaai98.ps'><span class='glyphicon glyphicon-link'></span></a>
   
 
 </li>
 
 
+    
+      
+        
+
+
+  <li class='thesis'> 
+
+
+  K. Oishi,
+
+  <b>Programming Molecules and Cells: Design Architectures for Chemical Reaction and Gene Regulatory Networks</b>,
+
+  <i>Ph.D. Thesis, University of Washington</i>.
+
   
-</ul>
+
+   
+
+   2014.
+
+  
+   
+  
+     <a href='https://digital.lib.washington.edu/researchworks/handle/1773/25475'><span class='glyphicon glyphicon-link'></span></a>
+  
+
+</li>
+
+
+    
+      
+        
+        <h3> 2012 </h3>
+      
+        
+
+
+  <li class='thesis'> 
+
+
+  R. Egbert,
+
+  <b>Fine-tuning gene networks using simple sequence repeats</b>,
+
+  <i>Ph.D. Thesis, University of Washington</i>.
+
+  
+
+   
+
+   2012.
+
+  
+   
+  
+
+</li>
+
+
+    
+      
+        
+
+
+  <li class='thesis'> 
+
+
+  F. Shaw,
+
+  <b>Decentralized Estimation for Stochastic Multi-Agent Systems</b>,
+
+  <i>Ph.D. Thesis, University of Washington</i>.
+
+  
+
+   
+
+   2012.
+
+  
+   
+  
+     <a href='https://digital.lib.washington.edu/researchworks/handle/1773/20208'><span class='glyphicon glyphicon-link'></span></a>
+  
+
+</li>
+
+
+    
+      
+        
+
+
+  <li class='thesis'> 
+
+
+  J. Bishop,
+
+  <b>Engineering the Feedback Dynamics of in vitro Synthetic Biological Systems</b>,
+
+  <i>Ph.D. Thesis, University of Washington</i>.
+
+  
+
+   
+
+   2012.
+
+  
+   
+  
+     <a href='https://digital.lib.washington.edu/researchworks/handle/1773/22554'><span class='glyphicon glyphicon-link'></span></a>
+  
+
+</li>
+
+
+    
+      
+        
+        <h3> 2011 </h3>
+      
+        
+
+
+  <li class='thesis'> 
+
+
+  N. Napp,
+
+  <b>Nondeterministic modeling and verification of networked robotic systems</b>,
+
+  <i>Ph.D. Thesis, University of Washington</i>.
+
+  
+
+   
+
+   2011.
+
+  
+   
+  
+     <a href='http://uwashington.worldcat.org/title/control-of-stochastically-interacting-particles-with-applications-to-robotics/oclc/852697070&referer=brief_results'><span class='glyphicon glyphicon-link'></span></a>
+  
+
+</li>
+
+
+    
+      
+        
+        <h3> 2008 </h3>
+      
+        
+
+
+  <li class='thesis'> 
+
+
+  J. M. McNew,
+
+  <b>Nondeterministic modeling and verification of networked robotic systems</b>,
+
+  <i>Ph.D. Thesis, University of Washington</i>.
+
+  
+
+   
+
+   2008.
+
+  
+   
+  
+     <a href='http://uwashington.worldcat.org/title/nondeterministic-modeling-and-verification-of-networked-robotic-systems/oclc/747281888&referer=brief_results'><span class='glyphicon glyphicon-link'></span></a>
+  
+
+</li>
+
+
+    
+      
+        
+        <h3> 2001 </h3>
+      
+        
+
+
+  <li class='thesis'> 
+
+
+  E. Klavins,
+
+  <b>Decentralized Phase Regulation of Cyclic Robotic Systems</b>,
+
+  <i>Ph.D. Thesis, University of Michigan</i>.
+
+  
+
+   
+
+   2001.
+
+  
+   
+  
+     <a href='http://faculty.washington.edu/klavins/papers/klavins-thesis-final.pdf'><span class='glyphicon glyphicon-link'></span></a>
+  
+
+</li>
+
+
+    
+  </ul>
+
+</div>
 
 <br />
 <div class='clear: both'></div>
 
 <script>
+
+
   document.getElementById('nav-publications').className += "highlight";
+
+  var p = document.getElementById("papers-heading");
+  var r = document.getElementById("reports-heading"); 
+  var t = document.getElementById("theses-heading");
+
+  p.addEventListener('click',function() {show(this)});
+  r.addEventListener('click',function() {show(this)});
+  t.addEventListener('click',function() {show(this)});
+
+   function show(ob,n) {
+
+      var name = n;
+
+      if ( arguments.length != 2 ) {
+        var name = ob.id.split('-')[0];
+      } 
+
+      console.log("name = " + name);
+
+      p.style.color = '#ddd';
+      r.style.color = '#ddd';
+      t.style.color = '#ddd';
+
+      document.getElementById("papers").style.display = 'none';
+      document.getElementById("reports").style.display = 'none'; 
+      document.getElementById("theses").style.display = 'none';
+
+      document.getElementById(name+"-heading").style.color = 'black';      
+      document.getElementById(name).style.display = 'block';
+
+      setCookie("paper-type", name, 30);
+
+   }
+
+    var choice=getCookie("paper-type");
+
+    if (choice != "") {
+      show(null,choice);
+    } else {
+      setCookie("paper-type", 'papers', 30);
+    }
+
 </script>
 
 </div>

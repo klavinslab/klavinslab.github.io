@@ -515,20 +515,6 @@
   caption: "In my first paper, in AAAI-98, I showed there is a phase transition between satisfiable and unsatisfiable 3-valued
             logic propositions as the number of clauses increases. Exciting!"
 
-- authors: E. Klavins
-  title: The Construction of Attention Functions for Phase Regulation
-  journal: University of Michigan Technical Report
-  number:  CSE-TR-422-00
-  year: 2000
-  link: http://faculty.washington.edu/klavins/papers/tr2000.pdf
-
-- authors: E. Klavins
-  title: A Formalism for the Composition of Loosely Coupled Robot Behaviors
-  journal: University of Michigan Technical Report
-  number:  CSE-TR-412-99
-  year: 1999
-  link: http://faculty.washington.edu/klavins/papers/tr1999.pdf
-
 - authors: E. Klavins, W. C. Rounds, and Q.-Q. Zhang
   title: Experimenting with Power Default Reasoning
   journal: Proceedings of AAAI-98 

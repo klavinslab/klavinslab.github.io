@@ -1,8 +1,57 @@
+- authors: N. Bolten
+  class: report
+  journal: NBSU14
+  link: https://faculty.washington.edu/klavins/tr/lab/NBSU14.pdf
+  title: Yeast Intercellular Oscillator and Activator-Inhibitor Pattern Formation System
+  year: 2014
+
+- authors: L. Brettner
+  class: report
+  journal: LBSU14
+  title: "No Man (or Microbe) is an Island: The Potential Effects of Community Structure on the Performance of Synthetic Behaviors"
+  link: https://faculty.washington.edu/klavins/tr/lab/LBSU14.pdf
+  year: 2014
+
+- authors: M. Gander
+  class: report
+  journal: MGSU14
+  title: "Toward Rational Design of Complex Transcriptionally Controlled Gene Circuits in <i>Saccharomyces Cerevisiae</i>"
+  link: https://faculty.washington.edu/klavins/tr/lab/MGSU14.pdf
+  year: 2014
+
+- authors: H. Haghanegi
+  class: report
+  journal: HHSU14
+  title: "Quantification of RNA via Real-Time qPCR: Methods and Procedures"
+  link: https://faculty.washington.edu/klavins/tr/lab/HHSU14.pdf
+  year: 2014
+
+- authors: A. Khakhar
+  class: report
+  journal: AKSU14
+  title: "Enhancing CRISPR Based Transcription Factors with Plant Like Tunability"
+  link: https://faculty.washington.edu/klavins/tr/lab/AKSU14.pdf
+  year: 2014
+
+- authors: C. Takahashi
+  class: report
+  journal: CTSU14
+  link: https://faculty.washington.edu/klavins/tr/uw/CTSU14.pdf
+  title: "A Review of Recombineering in a Semiautomated Workflow"
+  year: 2014
+
+- authors: Y. Yang
+  class: report
+  journal: YYSU14
+  link: https://faculty.washington.edu/klavins/tr/uw/YYSU14.pdf
+  title: Design and Analysis of a Plant Hormone Induced Oscillator in Yeast
+  year: 2014
+
 - authors: D. Younger
   class: report
   journal: DYSU14
   link: https://faculty.washington.edu/klavins/tr/lab/DYSU14.pdf
-  title: "The role of sexual agglutinin proteins in the mating of <i>S. cerevisiae</i>"
+  title: "The Role of Sexual Agglutinin Proteins in the Mating of <i>S. cerevisiae</i>"
   year: 2014
 
 - authors: E. Klavins

@@ -16,7 +16,7 @@
 - id: egbert-thesis
   class: thesis
   authors: R. Egbert
-  title: Fine-tuning gene networks using simple sequence repeats
+  title: Fine-tuning Gene Networks Using Simple Sequence Repeats
   journal: Ph.D. Thesis, University of Washington
   year: 2012
   link: 
@@ -40,7 +40,7 @@
 - id: napp-thesis
   class: thesis
   authors: N. Napp
-  title: Nondeterministic modeling and verification of networked robotic systems
+  title: "Control of Stochastically Interacting Particles with Applications to Robotics"
   journal: Ph.D. Thesis, University of Washington
   year: 2011
   link: "http://uwashington.worldcat.org/title/control-of-stochastically-interacting-particles-with-applications-to-robotics/oclc/852697070&referer=brief_results"
@@ -48,7 +48,7 @@
 - id: mcnew-thesis
   class: thesis
   authors: J. M. McNew
-  title: Nondeterministic modeling and verification of networked robotic systems
+  title: Nondeterministic Modeling and Verification of Networked Robotic Systems
   journal: Ph.D. Thesis, University of Washington
   year: 2008
   link: "http://uwashington.worldcat.org/title/nondeterministic-modeling-and-verification-of-networked-robotic-systems/oclc/747281888&referer=brief_results"

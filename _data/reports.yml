@@ -1,3 +1,5 @@
+# SUMMER 2014 ##############################
+
 - authors: T. Amimeur
   class: report
   journal: TASU14
@@ -43,7 +45,7 @@
 - authors: C. Takahashi
   class: report
   journal: CTSU14
-  link: https://faculty.washington.edu/klavins/tr/uw/CTSU14.pdf
+  link: https://faculty.washington.edu/klavins/tr/lab/CTSU14.pdf
   title: "A Review of Recombineering in a Semiautomated Workflow"
   year: 2014
 
@@ -60,6 +62,8 @@
   link: https://faculty.washington.edu/klavins/tr/lab/DYSU14.pdf
   title: "The Role of Sexual Agglutinin Proteins in the Mating of <i>S. cerevisiae</i>"
   year: 2014
+
+# OLD STUFF ##############################
 
 - authors: E. Klavins
   class: report

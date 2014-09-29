@@ -66,6 +66,10 @@ visitors:
 
 staff:
 
+      - name: Asmaa El-Ghazali
+        position: Aquarium Technician
+        image: unknown.png
+
       - name: Nathan Hwang
         position: Aquarium Technician
         image: hwang.jpg
@@ -88,13 +92,17 @@ staff:
 
 ugs:
 
-      - name: Rada Jumroon
-        dept: Physics
-        image: jumroon.jpg
+      - name: Harry Haghanegi
+        position: Undergraduate Lab Assistant
+        image: unknown.png
 
       - name: Logan McColl
         position: Undergraduate Lab Assistant
         image: mccoll.jpg
+
+      - name: Stephen Rettie
+        position: Undergraduate Lab Assistant
+        image: rettie.jpg
 
 alumni:
 

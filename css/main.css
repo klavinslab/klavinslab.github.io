@@ -255,10 +255,11 @@ h2 {
 
 .person-name {
   font-weight: bold;
-  font-size: 10pt;
+  font-size: 9pt;
   color: white;
   background: black;
   padding-left: 10px;
+  line-height: 1.8;
   height: 22px;
 }
 

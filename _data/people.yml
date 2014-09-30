@@ -68,7 +68,7 @@ staff:
 
       - name: Asmaa El-Ghazali
         position: Aquarium Technician
-        image: unknown.png
+        image: el-ghazali.jpg
 
       - name: Nathan Hwang
         position: Aquarium Technician
@@ -93,15 +93,15 @@ staff:
 ugs:
 
       - name: Harry Haghanegi
-        position: Undergraduate Lab Assistant
+        position: Undergraduate Researcher
         image: unknown.png
 
       - name: Logan McColl
-        position: Undergraduate Lab Assistant
+        position: Undergraduate Researcher
         image: mccoll.jpg
 
       - name: Stephen Rettie
-        position: Undergraduate Lab Assistant
+        position: Undergraduate Researcher
         image: rettie.jpg
 
 alumni:

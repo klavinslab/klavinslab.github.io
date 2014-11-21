@@ -6,6 +6,11 @@ pi:
 
 postdocs:
 
+     - name: Laura Adam
+       in: Biology
+       project: Biological Design Automation 
+       image: adam.jpg
+
      - name: Luis Zaman
        in: Biology
        project: Experimental Evolution 

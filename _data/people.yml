@@ -7,9 +7,15 @@ pi:
 postdocs:
 
      - name: Laura Adam
-       in: Biology
+       in: Electrical Engineering
        project: Biological Design Automation 
        image: adam.jpg
+
+     - name: Clay Wright
+       in: Biology
+       project: Auxin Synthetic Biology
+       image: wright.jpg
+       note: with Jennifer Nemhauser
 
      - name: Luis Zaman
        in: Biology

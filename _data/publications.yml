@@ -1,3 +1,12 @@
+- id: nbt14
+  authors: E. Klavins
+  title: Lightening the load in synthetic biology (News and Views)
+  year: 2014
+  journal: Nature Biotechnology
+  pages: 1198–1200
+  volume: 32
+  link: http://www.nature.com/nbt/journal/v32/n12/full/nbt.3089.html
+
 - id: acs14b
   authors: C. Takahashi, A. Miller, F. Ekness, M. Dunham and E. Klavins
   title: "A low cost, customizable turbidostat for use in synthetic circuit characterization"

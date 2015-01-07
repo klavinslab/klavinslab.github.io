@@ -11,11 +11,11 @@ postdocs:
        project: Biological Design Automation 
        image: adam.jpg
 
-    - name: Alberto Carignano
-      in: Electrical Engineering
-      project: Synthetic Biology
-      image: carignano.png
-      note: with G. Seelig
+     - name: Alberto Carignano
+       in: Electrical Engineering
+       project: Synthetic Biology
+       image: carignano.png
+       note: with G. Seelig
 
      - name: Clay Wright
        in: Biology

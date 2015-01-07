@@ -48,7 +48,7 @@ grads:
 
      - name: Miles Gander
        in: Electrical Engineering 
-       project: Synthetic Transcription Factors
+       project: Gene Networks
        image: gander.png
 
      - name: Arjun Khakhar
@@ -84,11 +84,11 @@ visitors:
       - name: T. Chidyausiku
         in: BPSD
         project: Diagnostics
-        image: unknown.png
+        image: chidyausiku.jpg
 
       - name: Justin Vrana
         in: Bioengineering
-        project: Synthetic Transcription Factors
+        project: Cooperativity
         image: vrana.jpg
 
 staff:

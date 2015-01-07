@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Nathan Hwang</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Bootstrap -->
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+
+        <script src="/js/jquery-2.1.1.min.js"></script>
+
+        <script>
+          function setCookie(cname,cvalue,exdays) {
+              var d = new Date();
+              d.setTime(d.getTime() + (exdays*24*60*60*1000));
+              var expires = "expires=" + d.toGMTString();
+              document.cookie = cname+"="+cvalue+"; "+expires;
+          }
+
+          function getCookie(cname) {
+              var name = cname + "=";
+              var ca = document.cookie.split(';');
+              for(var i=0; i<ca.length; i++) {
+                  var c = ca[i];
+                  while (c.charAt(0)==' ') c = c.substring(1);
+                  if (c.indexOf(name) != -1) {
+                      return c.substring(name.length, c.length);
+                  }
+              }
+              return "";
+          }
+        </script>
+
+    </head>
+
+  <body>
+
+    <div id="navbar" class="navbar navbar-inverse navbar-fixed-top navbar-custom" role="navigation">
+      
+    <div id='klavins-lab'>Klavins Lab</div>
+    <div id='synth-bio'>Synthetic Biology</div>
+      
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand logo" href="/"></a>
+        </div>
+        <div>
+          <ul class="nav navbar-nav pull-right">
+            <li id='nav-index'><a class="extra" href="/index.html">Home</a></li>
+            <li id='nav-people'><a class="extra" href="/people.html">People</a></li>
+            <li id='nav-publications'><a class="extra" href="/publications.html">Publications</a></li>
+	    <li id='nav-software'><a class="extra" href="/software.html">Software</a></li>
+            <li id='nav-hardware'><a class="extra" href="/hardware.html">Hardware</a></li>
+            <li id='nav-positions'><a class="extra" href="/positions.html">Positions</a></li>
+	    <!-- <li id='nav-courses'><a class="extra" href="/courses.html">Courses</a></li> --> 
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="main">
+  
+      
+
+    </div>
+
+<div class='clear: both'></div>
+
+<br />
+
+<div class='row about-section' style="margin: 0 auto 0 auto; text-align: center;">
+
+  <div class='row foot' style='margin: auto;'>
+
+    <div class='funder'>
+      <a href='http://www.washington.edu/'>
+        <img src='/images/uw.png' class='logo'></img>
+      </a>
+    </div>
+    
+    <div class='funder'>
+      <a href='http://www.nsf.gov'>
+        <img src='/images/nsf.gif' class='logo'></img>
+      </a>
+    </div>
+    
+    <div class='funder'>
+      <a href='http://www.src.org'>
+        <img src='/images/src.jpg'  class='logo'></img>
+      </a>
+    </div>
+
+    <div class='funder'>
+      <a href='http://istc-pc.washington.edu/'>
+        <img src='/images/intel.png'  class='logo'></img>
+      </a>
+    </div>
+
+    <div class='funder'>
+      <a href='http://www.nih.gov/'>
+        <img src='/images/nih.gif' class='logo' style=' padding: 0;'></img>
+      </a>
+    </div>
+    
+    <div style='clear: both'></div>
+    
+  </div> <!-- end foot -->
+
+</div>
+      
+    </div>
+   
+    
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/main.js"></script>
+    
+  </body>
+    
+</html>

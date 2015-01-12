@@ -156,7 +156,7 @@ alumni:
       date: Ph.D. 2012
       now: a postdoc at UC Berkeley
       image: egbert.jpg
-         
+
     - name: Kyle Havens
       position: Postdoc
       date: 2010-2013
@@ -208,7 +208,7 @@ alumni:
     - name: David Thorsley
       position: Postdoc
       date: 2006-2010
-      now: at Immumetrix
+      now: "at <a href='http://www.teradata.com/?LangType=1033'>Teradata</a>"
       image: thorsley.jpg
 
     - name: Alex Leone
@@ -226,7 +226,7 @@ alumni:
     - name: Brandi House
       position: Masters Student
       date: M.S. 2009
-      now: at Bungie
+      now: "at <a href='https://www.oculus.com/'>Oculus Rift</a>"
       image: house.jpg
 
     - name: Daniel Georgiev

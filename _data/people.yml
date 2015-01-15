@@ -33,7 +33,7 @@ grads:
 
      - name: Tileli Amimeur
        in: Electrical Engineering
-       project: Protocol Assimilation
+       project: Genetic Circuit Design Automation
        image: amimeur.png
 
      - name: Nick Bolten

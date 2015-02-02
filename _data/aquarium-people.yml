@@ -22,10 +22,6 @@ people:
     institution: Intel
     link: 'http://www.lamarca.org/anthony/'
 
-  - name: Logan McColl
-    position: Technican
-    institution: UW Biology
-
   - name: Greg Nelson
     position: Graduate Student
     institution: UW CSE
@@ -40,14 +36,6 @@ people:
     institution: Intel
     link: 'http://stackoverflow.com/users/821679/jeffrey-scofield'
 
-  - name: Joseph Sullivan
-    position: Undergraduate
-    institution: UW EE
-
-  - name: Conner Thomas
-    position: Undergraduate
-    institution: UW EE
-
   - name: Yaoyu Yang
     position: Graduate Student
     institution: UW EE
@@ -55,34 +43,12 @@ people:
 
 collaborators:
 
-  - name: Jeff Bilmes
-    position: Professor
-    institution: UW EE
-    link: 'http://melodi.ee.washington.edu/~bilmes/pgs/index.html'
-
-  - name: James Carothers
-    position: Assistant Professor
-    institution: UW ChemE
-    link: 'http://carothersresearch.com/'
-
   - name: Dieter Fox
     position: Professor
     institution: UW CSE
     link: 'http://homes.cs.washington.edu/~fox/'
 
-  - name: James Rehg
-    position: Professor
-    institution: GaTech
-    link: 'http://www.cc.gatech.edu/~rehg/'
-
   - name: Georg Seelig
     position: Assistant Professor
     institution: UW EE/CSE
     link: 'http://homes.cs.washington.edu/~seelig/'
-
-  - name: Luke Zettlemoyer
-    position: Assistant Professor
-    institution: UW CSE
-    link: 'https://homes.cs.washington.edu/~lsz/'
-    
-

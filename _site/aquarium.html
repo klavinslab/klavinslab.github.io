@@ -37,6 +37,9 @@
     <nav class="collapse navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
         <li>
+          <a href="aquarium-about.html">About</a>
+        </li>      
+        <li>
           <a href="aquarium.html">News</a>
         </li>
         <li>
@@ -76,11 +79,13 @@
     <ul class="nav nav-stacked" id="sidebar">
         <li><b>News</b></li>
       
+        <li><span class='date'>Feb 02, 2015</span><a href="#A Year of Data">A Year of Data</a></li>
+      
+        <li><span class='date'>Nov 01, 2014</span><a href="#New Technicans!">New Technicans!</a></li>
+      
         <li><span class='date'>Aug 27, 2014</span><a href="#ISTC Montage">ISTC Montage</a></li>
       
         <li><span class='date'>Jul 01, 2014</span><a href="#TEDx: Programming Biology">TEDx: Programming Biology</a></li>
-      
-        <li><span class='date'>May 20, 2014</span><a href="#Alpha Testers Wanted">Alpha Testers Wanted</a></li>
       
         <li><span class='date'>May 08, 2014</span><a href="#Technology Teaches">Technology Teaches</a></li>
       
@@ -97,58 +102,21 @@
   </div>  
 
   <div class="col-xs-9">
-    <h2 id="sec0">The Aquarium Project</h2>
 
-<p><img src='/aquarium_images/course.png' class='image'></img>
-    A study in 2012 found that
-<a href='http://www.nature.com/nature/journal/v483/n7391/full/483531a.html#t1'>six of fifty-three </a>
+    
+        <h3 id="A Year of Data">A Year of Data</h3>
+    <p><span class='date'>Monday, February 02, 2015</span><br /><p>Aquarium has been up and running in the Klavins lab for a little over a year. Since that time, we&#39;ve seen big changes. Initially, not everyone in the lab wanted to use the system. They had to put all of their samples into the inventory management system, they had to give up control over their own Gibson assemblies, they had to learn a new system. 
+<img src='/images/one-year.jpg' class='image' style='width: 300px'></img>
+Plus, Aquarium was initially pretty buggy and limited in what it could do. Since then, we&#39;ve gone through three different protocol representation languages, produced over 11,000 items in the inventory, and run hundres of jobs. We are currently running more than 350 jobs per week between research and teaching. These jobs are associated with a growing library of more than 200 protocols ranging from preparing media to Gibson assembly to flow cytometry. New protocols are added and tested every week.</p>
 
-selected 'landmark' papers in cancer biology were reproducible. 
-
-<a href='http://www.nytimes.com/2012/04/17/science/rise-in-scientific-journal-retractions-prompts-calls-for-reform.html?pagewanted=all'>
-Another</a>
-found that retractions, due to
-errors or otherwise, are increasingly frequent. The
-
-<a href='http://www.economist.com/news/leaders/21588069-scientific-research-has-changed-world-now-it-needs-change-itself-how-science-goes-wrong'>
-bar for what makes a scientific result</a>
-
-has either lowered, or the complexity of science has increased to
-where the last century's methods no longer apply. Attempting to build
-on scientific results in the life sciences, researchers in engineering
-have begun to explore the study of engineering life itself, only to
-find that said results do not hold. Even when a result is valid, the
-methods are poorly explained, purposefully not explained, or simply
-buried in some researcher's head.</p>
-
-<p>The Aquarium Project aims to fix this problem by providing the means
-to specify, as precisely as possible, how to obtain a
-result. Researchers encode protocols in <i>Plankton</i>, specifying
-how to manipulate items in the Aquarium inventory (test tubes,
-pipettors, 96 well plates, etc) using a combination of formal
-statements, informal descriptions, and photographs. Protocols are
-parameterized by "tuning knobs" (such as incubation times or reagent
-concentrations) that can be varied when the protocols are
-scheduled. The researcher strings together protocols into processes
-specified in <i>Oyster</i>, specifying how the output samples of one
-protocol become the inputs to other protocols, and how protocols
-can be scheduled, parallelized, and controlled.</p>
-
-<p>Protocols and processes are scheduled and presented to technicians on
-touchscreen monitors placed throughout the lab. Every step is logged:
-who performed the step, which items were used, what data was gathered
-by which instruments, and how long it took. Color and depth sensing
-video cameras aimed at the technician, and other sensors sprinkled
-throughout the lab, record the details of each step and are used to
-annotate an automatically generated a lab notebook. The data can be used to
-debug and improve the experiment. More importantly it provides a
-complete, executable description of the results obtained -- one that
-could be used by any lab running Aquarium to reproduce the result!</p>
-
-<hr />
-
-<h2>News</h2>
-
+<p>And we continue to grow. By May of 2015, we will have addedtwo new technicians and we are looking for a lab manager to run the system on weekends. Interested? See <a href='http://klavinslab.org/positions.html'>here</a> for positions available.</p>
+</p>
+    
+        <h3 id="New Technicans!">New Technicans!</h3>
+    <p><span class='date'>Saturday, November 01, 2014</span><br /><p>We now have five wonderful Aquarium technicians each working half time in the lab. Toghether with our amazing lab manager Michelle Parks, the technicians now do 99% of the cloning (Gibson Assembly) and media prepration in the Klavins lab, and they do cloning for our some of our collaborators in the Seelig, Nemhauser, and Carothers labs.
+<img src='/images/aquarium_techs_fall_2014.jpg' class='image' style='width: 300px'></img>
+They also do about 60% of the yeast work, including integration, verification, flow cytometry, and similar protocols. Each technician is an undergraduate student with little or no prior background in molecular biology lab work. To train them, we use the same set of protocols we use to teach our <i>Laboratory Methods in Synthetic Biology</i> course. The also get careful supervision by Michelle to learn everything that is not in Aquarium. It takes a new technician about a month to get up to speed, and then they are cloning away.</p>
+</p>
     
         <h3 id="ISTC Montage">ISTC Montage</h3>
     <p><span class='date'>Wednesday, August 27, 2014</span><br /><p>Our collaborators at the <a href="http://istc-pc.washington.edu/">Intel ISTC on Pervasive Computing</a> have been outfitting our lab with a variety of cameras and other sensors to capture what the Aquarium technicians are doing. They take the video and apply amazing activity recognition methods to parse the activity into useful information that could help debug protocols, train new technicians, and improve workflow. Below is a montage of some of the various methods and angles they have tried. Thanks to Anthony LeMarca (Intel) for putting this video together!</p>
@@ -174,36 +142,6 @@ how biology labs are different from engineering, and the thought
 process that went into the Aquarium project.</p>
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/mi12pXq_yIA?list=PLsRNoUx8w3rPglJ1hX2LJPiqbCoREZUOb" frameborder="0" allowfullscreen></iframe>
-</p>
-    
-        <h3 id="Alpha Testers Wanted">Alpha Testers Wanted</h3>
-    <p><span class='date'>Tuesday, May 20, 2014</span><br /><p>The Aquarium code and a protocol library called Aqualib are nearly
-ready to be released. If you are interested in trying it out and
-helping us debug the installation and setup procedure, please contact
-Eric at the address klavins at the domain uw dot edu.</p>
-
-<p>A few details: The main interface runs as a web server and was built
-with Ruby/Rails. Aquarium&#39;s laboratory information system uses MySQL
-or any other Rails supported database. The Plankton protocol compiler
-and the Oyster metacol interpreter are written in Ruby and are
-integrated into Aquarium. Aquarium expects that protocols in Plankton
-and metacols in Oyster are stored in a git repository. You can link to
-Aqualib and to any repositories you make as well. If you have images
-you would like to put into your protocols, you can configure an image
-server (the easiest thing to do just put them on dedicated web
-server).</p>
-
-<p>A simple installation works on a laptop (mostly tested with Mac OS X)
-and uses a simple sqlite3 database. We use such a setup when
-developing Aquarium. A complete production-level installation runs two
-servers using MySQL on separate ports, one for production and one for
-rehearsal. The researsal server can copy the production server&#39;s
-database so you can practice protocols without messing up important
-data. We use Apache and Phusion/Passenger to serve Aquarium.</p>
-
-<p>Alpha testers get access to all the code and protocols as well as
-documentation for how to install Aquarium, how to write protocols and
-metacols in Plankton and Oyster, and how to use the Aquarium interface.</p>
 </p>
     
         <h3 id="Technology Teaches">Technology Teaches</h3>

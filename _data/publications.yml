@@ -1,3 +1,12 @@
+- id: dev15
+  authors: J.M. Guseman, A. Hellmuth, A. Lanctot, T.P. Feldman, B.L. Moss, E. Klavins, L.I.A. Calderón, Villalobos, J.L. Nemhauser
+  title: Auxin-induced degradation dynamics set the pace for lateral root development
+  journal: Development
+  volume: 152
+  pages: 1-5
+  year: 2015
+  link: http://dev.biologists.org/content/early/2015/01/29/dev.117234.long
+
 - id: nbt14
   authors: E. Klavins
   title: Lightening the load in synthetic biology (News and Views)

@@ -57,12 +57,6 @@ grads:
        image: khakhar.png
        note: with Georg Seelig
 
-     - name: Sundipta Rao
-       in: Electrical Engineering 
-       project: DNA Games
-       note: with Georg Seelig
-       image: rao.png
-
      - name: Chris Takahashi
        in: Electrical Engineering 
        project: Evolution in Synthetic Biology

@@ -62,6 +62,16 @@ grads:
        project: Evolution in Synthetic Biology
        image: takahashi.png
 
+     - name: Amber Tsai
+       in: Electrical Engineering 
+       project: Synthetic Gene Circuits
+       image: unknown.png
+
+     - name: Justin Vrana
+       in: Bioengineering
+       project: Cooperativity
+       image: vrana.jpg
+
      - name: Yaoyu Yang
        in: Electrical Engineering 
        project: Auxin Synthetic Biology
@@ -75,17 +85,20 @@ grads:
 
 visitors:
 
-      - name: T. Chidyausiku
-        in: BPSD
-        project: Diagnostics
-        image: chidyausiku.jpg
-
-      - name: Justin Vrana
-        in: Bioengineering
-        project: Cooperativity
-        image: vrana.jpg
+      - name: Jacob Schreiber
+        in: CSE
+        project: Diagnosing the Lab
+        image: unknown.png
 
 staff:
+
+      - name: Paige Almond
+        position: Aquarium Technician
+        image: unknown.png
+
+      - name: Cami Cordray
+        position: Aquarium Technician
+        image: unknown.png
 
       - name: Asmaa El-Ghazali
         position: Aquarium Technician
@@ -99,13 +112,13 @@ staff:
         position: Aquarium Technician
         image: ng.png
 
+      - name: Delaney Orcutt
+        position: Aquarium Technician
+        image: unknown.png
+
       - name: Michelle Parks
         position: Lab Manager
         image: parks.jpg
-
-      - name: Eric Pong
-        position: Aquarium Technician
-        image: pong.png
 
       - name: Marielle Summers
         position: Aquarium Technician
@@ -117,15 +130,17 @@ ugs:
         position: Undergraduate Researcher
         image: haghanegi.jpg
 
-      - name: Logan McColl
-        position: Undergraduate Researcher
-        image: mccoll.jpg
-
       - name: Stephen Rettie
         position: Undergraduate Researcher
         image: rettie.jpg
 
 alumni:
+
+    - name: Eric Pong
+      position: Aquarium Technician
+      now: Internship
+      date: 2014-2015
+      image: pong.png
 
     - name: S. Shelly Jang
       position: Graduate Student 7

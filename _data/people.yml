@@ -65,7 +65,7 @@ grads:
      - name: Amber Tsai
        in: Electrical Engineering 
        project: Synthetic Gene Circuits
-       image: unknown.png
+       image: tsai.jpg
 
      - name: Justin Vrana
        in: Bioengineering
@@ -88,13 +88,13 @@ visitors:
       - name: Jacob Schreiber
         in: CSE
         project: Diagnosing the Lab
-        image: unknown.png
+        image: schreiber.jpg
 
 staff:
 
       - name: Paige Almond
         position: Aquarium Technician
-        image: unknown.png
+        image: almond.jpg
 
       - name: Cami Cordray
         position: Aquarium Technician

@@ -1,3 +1,11 @@
+- id: acs15a
+  authors: A. Khakhar, N. Bolten, J. Nemhauser, and E. Klavins
+  title: Cell-cell communication in yeast using auxin biosynthesis and auxin responsive CRISPR transcription factors
+  journal: bioRxiv
+  year: 2015
+  pages: http://dx.doi.org/10.1101/020487
+  link: http://biorxiv.org/content/early/2015/06/05/020487
+
 - id: dev15
   authors: J.M. Guseman, A. Hellmuth, A. Lanctot, T.P. Feldman, B.L. Moss, E. Klavins, L.I.A. Calderón, Villalobos, J.L. Nemhauser
   title: Auxin-induced degradation dynamics set the pace for lateral root development

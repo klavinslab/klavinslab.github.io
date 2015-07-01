@@ -83,13 +83,6 @@ grads:
        project: Diagnostics
        image: younger.png
 
-visitors:
-
-      - name: Jacob Schreiber
-        in: CSE
-        project: Diagnosing the Lab
-        image: schreiber.jpg
-
 staff:
 
       - name: Paige Almond
@@ -126,15 +119,17 @@ staff:
 
 ugs:
 
-      - name: Harry Haghanegi
+      - name: Lauren Goetsch
         position: Undergraduate Researcher
-        image: haghanegi.jpg
-
-      - name: Stephen Rettie
-        position: Undergraduate Researcher
-        image: rettie.jpg
+        image: unknown.jpg
 
 alumni:
+
+    - name: Stephen Rettie
+      position: Undergraduate Researcher
+      now: itern at Novo Nordisk
+      date: 2014-2015
+      image: rettie.jpg
 
     - name: Eric Pong
       position: Aquarium Technician

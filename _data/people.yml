@@ -252,7 +252,7 @@ alumni:
     - name: Sam Burden
       position: Undergrad Researcher, EE
       date: B.S. 2008 
-      now: a grad student at U.C. Berkeley
+      now: a professor at <a href='http://www.ee.washington.edu'>UW</a>
       image: burden.png
 
     - name: Brian Wolfe

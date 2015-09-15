@@ -93,6 +93,10 @@ staff:
         position: Aquarium Technician
         image: unknown.png
 
+      - name: Ernesto Coronado
+        position: Lab Manager
+        image: unknown.png
+
       - name: Asmaa El-Ghazali
         position: Aquarium Technician
         image: el-ghazali.jpg
@@ -127,7 +131,7 @@ alumni:
 
     - name: Stephen Rettie
       position: Undergraduate Researcher
-      now: itern at Novo Nordisk
+      now: intern at Novo Nordisk
       date: 2014-2015
       image: rettie.jpg
 

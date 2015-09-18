@@ -83,6 +83,13 @@ grads:
        project: Diagnostics
        image: younger.png
 
+masters:
+
+    - name: Aditya Gandhi
+      in: Information Sciences
+      project: Aquarium
+      image: unknown.png
+
 staff:
 
       - name: Paige Almond
@@ -126,6 +133,15 @@ ugs:
       - name: Lauren Goetsch
         position: Undergraduate Researcher
         image: goetsch.jpg
+
+      - name: Joonseok Lee
+        position: Programmer
+        image: unknown.png
+
+      - name: Garrett Newman
+        position: Programmer
+        image: unknown.png
+
 
 alumni:
 

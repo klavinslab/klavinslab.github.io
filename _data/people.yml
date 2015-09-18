@@ -83,6 +83,11 @@ grads:
        project: Diagnostics
        image: younger.png
 
+     - name: Dianmu Zhang
+       in: Electrical Engineering
+       project: Synthetic Biology
+       image: unknown.png
+
 masters:
 
     - name: Aditya Gandhi

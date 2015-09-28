@@ -86,14 +86,14 @@ grads:
      - name: Dianmu Zhang
        in: Electrical Engineering
        project: Synthetic Biology
-       image: unknown.png
+       image: zhang.png
 
 masters:
 
     - name: Aditya Gandhi
       in: Information Sciences
       project: Aquarium
-      image: unknown.png
+      image: ghandi.jpg
 
 staff:
 
@@ -141,11 +141,11 @@ ugs:
 
       - name: Joonseok Lee
         position: Programmer
-        image: unknown.png
+        image: lee.jpg
 
       - name: Garrett Newman
         position: Programmer
-        image: unknown.png
+        image: newman.jpg
 
 
 alumni:

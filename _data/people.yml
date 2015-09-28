@@ -86,14 +86,14 @@ grads:
      - name: Dianmu Zhang
        in: Electrical Engineering
        project: Synthetic Biology
-       image: zhang.png
+       image: zhang.jpg
 
 masters:
 
     - name: Aditya Gandhi
       in: Information Sciences
       project: Aquarium
-      image: ghandi.jpg
+      image: gandhi.jpg
 
 staff:
 

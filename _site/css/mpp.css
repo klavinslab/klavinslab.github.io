@@ -1,0 +1,21 @@
+.title {
+  font-weight: bold;
+  text-align: center
+
+}
+
+.subtitle {
+  text-align: center
+}
+
+.time {
+  width: 20% !important;
+}
+
+.event {
+  width: 40%  !important;
+}
+
+.place {
+  width: 40%  !important;
+}

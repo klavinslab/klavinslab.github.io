@@ -13,9 +13,13 @@
 }
 
 .event {
-  width: 40%  !important;
+  width: 30%  !important;
 }
 
-.place {
-  width: 40%  !important;
+.talk {
+  width: 50%  !important;
+}
+
+.bigrow {
+  padding-bottom: 26px !important;
 }

@@ -11,7 +11,10 @@
   {% endif %}
 
     {% if include.param.position %}
-      {{ include.param.position }}<br />
+      {{ include.param.position }}
+      {% if include.param.date %}
+        ({{ include.param.date }})
+      {% endif %}
     {% endif %}
 
     {% if include.param.dept %}

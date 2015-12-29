@@ -1,3 +1,10 @@
+- id: takahashi-thesis
+  class: thesis
+  authors: C. N. takahashi
+  title: "Directed Evolution in a Turbidostat"
+  journal: Ph.D. Thesis, University of Washington
+  year: 2015
+
 - id: jang-thesis
   class: thesis
   authors: S. S. Jang

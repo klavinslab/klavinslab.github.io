@@ -57,11 +57,6 @@ grads:
        image: khakhar.png
        note: with Georg Seelig
 
-     - name: Chris Takahashi
-       in: Electrical Engineering 
-       project: Evolution in Synthetic Biology
-       image: takahashi.png
-
      - name: Amber Tsai
        in: Electrical Engineering 
        project: Synthetic Gene Circuits
@@ -147,8 +142,13 @@ ugs:
         position: Programmer
         image: newman.jpg
 
-
 alumni:
+
+    - name: Chris Takahashi
+      position: Graduate Student 8
+      date: Ph.D. 2015
+      now: Postdoc at UW
+      image: takahashi.png
 
     - name: Stephen Rettie
       position: Undergraduate Researcher
@@ -207,7 +207,7 @@ alumni:
     - name: Josh Bishop
       position: Graduate Student 4
       date: Ph.D. 2012
-      now: a postdoc at University of Washington
+      now: a postdoc at UW
       image: bishop.jpg
 
     - name: Tammy Gu
@@ -248,7 +248,7 @@ alumni:
 
     - name: Alec Nielsen
       position: Undergraduate Researcher
-      date: B.S. in BioE and CSE in 2010
+      date: B.S. 2010
       now: a graduate student at MIT
       image: nielsen.jpg
 
@@ -261,7 +261,7 @@ alumni:
     - name: Daniel Georgiev
       position: Postdoc
       date: 2007-2009
-      now: at University of West Bohemia
+      now: a Professor at University of West Bohemia
       image: georgiev.jpg
 
     - name: J.M. McNew
@@ -271,7 +271,7 @@ alumni:
       image: mcnew.jpg
 
     - name: Sam Burden
-      position: Undergrad Researcher, EE
+      position: Undergraduate Researcher, EE
       date: B.S. 2008 
       now: a professor at <a href='http://www.ee.washington.edu'>UW</a>
       image: burden.png

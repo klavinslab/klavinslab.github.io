@@ -1,0 +1,118 @@
+younger:
+  name: David Younger
+  title: "Expanding Synthetic Cell-Cell Communication: Inspiration from the Immune System"
+  abstract: The state of the art for synthetic cell-cell communication systems involves the production and secretion of 
+    small molecules or peptides, which allows for a limited number of discernible interaction “wires” between cell types. 
+    Complex natural systems, such as the human immune system, may involve billions of unique cell types with billions of 
+    unique and highly specific communication wires. This is possible due to the use of direct protein interactions on the 
+    cells’ surface as a signaling modality rather than secretion and detection. Here, yeast sexual agglutination has been 
+    re-engineered such that mating is controlled by the interaction strength of arbitrary proteins expressed on the surface 
+    of haploid cells. This approach provides a nearly endless number of highly specific communication wires between a 
+    diverse population of cells, and opens the door to novel applications for protein engineering, environmental sensing, 
+    and population-level cellular computation.   
+
+farnoud:
+  name: Farzad Farnoud
+  title: Stochastic Models for DNA Tandem Duplication
+  abstract: The genome of every organism is subject to mutations resulting from environmental factors as well as imperfect
+    genome replication. A better understanding of these mutations is helpful in many areas including computational biology,
+    medicine, phylogenomics, molecular programming, and bioinformatics. For example to enable in vivo synthetic biology methods
+    and algorithms that need memory, e.g., to store information about their state or to record changes in the environment,
+    it is important to determine the prevalence and properties of different types of mutations, since such information is
+    needed to design sufficiently resilient error-correcting codes for data storage in the DNA of living organisms. In
+    this talk, we present a stochastic model for DNA tandem duplication that also incorporates point mutations. We study
+    this model by approximating discrete processes by continuous ones in a stochastic approximation framework, which enables
+    us to characterize certain properties of likely outcomes and estimate the rates of point mutations and tandem duplications
+    as well as the distribution of the lengths of tandem duplications. In addition to being useful for DNA storage,
+    the mutation rate estimates obtained via this method can be used to approximate distances between genomic sequences
+    for phylogenetic tree reconstruction.
+
+jain:
+  name: Siddarth Jain
+  title: Duplication Correcting Codes for DNA Storage
+  abstract: The ability to store data in DNA has applications in a variety of areas including synthetic biology and 
+    watermarking of patented genetically modified organisms. Data stored in this medium is subject to errors caused by 
+    substitutions, indels and duplications. We develop error correcting codes for errors that occur by tandem duplication. 
+    We consider constant length and bounded length tandem duplication channels. The code constructed can correct any number 
+    of errors for both channel types. Moreover for the constant length channel, the code construction is optimal.  
+
+nafisi:
+  name: Parsa Nafisi
+  title: Toward Scalable Production of Highly Custom Single-Stranded DNA
+
+gander: 
+  name: Miles Gander
+  title: Robust digital logic circuits in eukaryotic cells with CRISPR/dCas9 NOR gates
+  abstract: Natural genetic circuits cells make sophisticated digital decisions. Building equally complex synthetic circuits 
+    in eukaryotes remains difficult because many commonly used genetic components leak transcriptionally, do not allow
+    arbitrary interconnections, and do not have very digital responses. Here, we designed a new dCas9-Mxi1 
+    based NOR gate architecture in S. cerevisiae that allows arbitrary connectivity and large genetic circuits. 
+    Because we use the strong chromatin remodeler Mxi1, our system shows very little leak and exhibits very digital response. 
+    In particular, we built a combinatorial library of NOR gates that each directly convert guide RNA (gRNA) input signals into 
+    gRNA output signals, enabling NOR gates to be wired together with. We constructed and characterized logic circuits with up 
+    to eight independent gRNAs, including repression cascades with up to seven layers. Modeling predicted that the NOR gates have
+    Hill Coefficients of approximately 1.7, explaining the minimal signal degradation we observed in these deeply layered
+    circuits. Our approach enables the construction of the largest, eukaryotic gene circuits to date and will form the basis for
+    large, synthetic, decision making systems in living cells.
+
+murray:
+  name: Richard Murray
+  title: Rapid cell-free forward engineering of novel genetic ring oscillators
+  abstract: While complex dynamic biological networks control gene expression in all living organisms, the forward engineering 
+    of comparable synthetic networks remains challenging. The current paradigm of characterizing synthetic networks in cells 
+    results in lengthy design-build-test cycles, minimal data collection, and poor quantitative characterization. Cell-free 
+    systems are appealing alternative environments, but it remains questionable whether biological networks behave similarly 
+    in cell-free systems and in cells. We characterized in a cell-free system the 'repressilator,' a three-node synthetic oscillator. 
+    We then engineered novel three, four, and five-gene ring architectures, from characterization of circuit components to 
+    rapid analysis of complete networks. When implemented in cells, our novel 3-node networks produced population-wide 
+    synchronized oscillations and 95 percent of 5-node oscillator cells oscillated for up to 72 hours. Oscillation periods in 
+    cells matched the cell-free system results for all networks tested. An alternate forward engineering paradigm using 
+    cell-free systems can thus accurately capture cellular behavior.
+
+choi:
+  name: Harry Choi
+  title: Molecular Instruments
+
+thubagere:
+  name: Anu Thubagere
+  title: Compiler-aided systematic construction of large-scale DNA strand displacement circuits using unpurified components
+
+cherry:
+  name: Kevin Cherry
+  title: Scaling up molecular pattern recognition with DNA-based winner-take-all neural networks
+
+gopinath:
+  name: Ashwin Gopinath
+  title: TBA
+
+groves:
+  name: Ben Groves
+  title: Rewiring MAP kinases in yeast to regulate novel targets
+
+rosenberg:
+  name: Alex Rosenberg
+  title: TBA
+
+ponnuswamy:
+  name: Nandhini Ponnuswamy 
+  title: Oligolysine protects DNA nanostructures from in vivo threats
+
+shih:
+  name: William Shih
+  title: DNA origami capsules for future therapeutics
+
+thachuk:
+  name: Chris Thachuk
+  title: Fast and leakless DNA strand displacement cascades
+
+winfree:
+  name: Eric Winfree
+  title: TBA
+
+shen:
+  name: Jie Shen
+  title: TBA
+
+kim:
+  name: Jongmin Kim
+  title: Ribocomputers for in vivo logic computation

@@ -17,8 +17,13 @@
 
 .talk {
   width: 55%  !important;
+  font-style: italic !important;
 }
 
 .bigrow {
-  padding-bottom: 26px !important;
+  color: #ccc;
+}
+
+.name {
+  font-weight: bold;
 }

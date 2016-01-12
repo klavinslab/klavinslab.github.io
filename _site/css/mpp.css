@@ -27,3 +27,17 @@
 .name {
   font-weight: bold;
 }
+
+.modc {
+  position: relative;
+}
+
+.mod {
+  position: absolute; 
+  top: 8px; 
+  left: -65px; 
+  color: gray;
+  font-size: 8pt;
+  text-align: right;
+  width: 50px;
+}

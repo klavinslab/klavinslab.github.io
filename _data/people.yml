@@ -13,21 +13,14 @@ postdocs:
 
      - name: Alberto Carignano
        in: Electrical Engineering
-       project: Synthetic Biology
+       project: Control and Synthetic Biology
        image: carignano.png
        note: with G. Seelig
 
-     - name: Clay Wright
-       in: Biology
-       project: Auxin Synthetic Biology
-       image: wright.jpg
-       note: with J. Nemhauser
-
-     - name: Luis Zaman
-       in: Biology
-       project: Experimental Evolution 
-       image: zaman.jpg
-       note: with Ben Kerr
+     - name: Orlando de Lange
+       in: Electrical Engineering / Biology
+       project: Plant Synthetic Biology
+       image: odl.jpg
 
 grads:
 

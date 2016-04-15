@@ -3,6 +3,8 @@
   title: "Robust digital logic circuits in eukaryotic cells with CRISPR/dCas9 NOR gates"
   journal: "BioRxiv (preprint)"
   year: 2016
+  image: "images/cell-cell-cover.jpg"  
+  caption: "Our yeast cell-cell communication paper was featured on the cover of ACS Synthetic Biology."
   link: "http://biorxiv.org/content/early/2016/03/02/041871"
 
 - id: acs15a
@@ -38,9 +40,9 @@
   year: 2014
   journal: ACS Synthetic Biology
   note: "See the <a href='https://depts.washington.edu/soslab/turbidostat/pmwiki/'> turbidostat wiki page</a> for more information."
-  image: "images/full-circuit.png"
+  image-alt: "images/full-circuit.png"
   link: http://pubs.acs.org/doi/abs/10.1021/sb500165g
-  caption: "For our 2014 PNAS paper, we ported the auxin signal response pathway from plants to yeast."
+  caption-alt: "For our 2014 PNAS paper, we ported the auxin signal response pathway from plants to yeast."
 
 - id: pnas14
   authors: E. Pierre-Jerome* S. S. Jang*, K. A. Havens, J. L. Nemhauser and E. Klavins

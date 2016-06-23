@@ -41,12 +41,12 @@ grads:
 
      - name: Miles Gander
        in: Electrical Engineering 
-       project: Gene Networks
+       project: Large Gene Networks
        image: gander.png
 
      - name: Arjun Khakhar
        in: Bioengineering
-       project: Computation in Cells
+       project: Plant Syn Bio
        image: khakhar.png
        note: with Georg Seelig
 
@@ -57,12 +57,12 @@ grads:
 
      - name: Justin Vrana
        in: Bioengineering
-       project: Cooperativity
+       project: Digital Logic
        image: vrana.jpg
 
      - name: Yaoyu Yang
        in: Electrical Engineering 
-       project: Auxin Synthetic Biology
+       project: Memory Circuits
        image: yang.jpg
 
      - name: David Younger
@@ -70,11 +70,6 @@ grads:
        note: with David Baker
        project: Diagnostics
        image: younger.png
-
-     - name: Dianmu Zhang
-       in: Electrical Engineering
-       project: Synthetic Biology
-       image: zhang.jpg
 
 staff:
 
@@ -86,17 +81,9 @@ staff:
         position: Aquarium Technician
         image: cordray.jpg
 
-      - name: Ernesto Coronado
-        position: Lab Manager
-        image: coronado.jpg
-
       - name: Asmaa El-Ghazali
         position: Aquarium Technician
         image: el-ghazali.jpg
-
-      - name: Nathan Hwang
-        position: Aquarium Technician
-        image: hwang.jpg
 
       - name: Lindsay Ng
         position: Aquarium Technician
@@ -129,6 +116,12 @@ ugs:
         image: newman.jpg
 
 alumni:
+
+    - name: Nathan Hwang
+      position: Aquarium Technician
+      date: 2013-2016
+      now: graduated
+      image: hwang.jpg
 
     - name: Chris Takahashi
       position: Graduate Student 8

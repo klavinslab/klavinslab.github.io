@@ -1,3 +1,10 @@
+- id: sdac16
+  authors: "R. Egbert, L. Brettner, D. Zong, and E. Klavins"
+  title: "Self-destructive altruism in a synthetic developmental program enables complex feedstock utilization",
+  journal: "BioRxiv (preprint)"
+  year: 2016
+  link: "http://biorxiv.org/content/early/2016/11/12/086900"  
+
 - id: nor16
   authors: "M. Gander, J. Vrana, W. Voje, J. Carothers, and E. Klavins"
   title: "Robust digital logic circuits in eukaryotic cells with CRISPR/dCas9 NOR gates"

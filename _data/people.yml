@@ -96,10 +96,6 @@ staff:
       - name: Michelle Parks
         position: Lab Manager
         image: parks.jpg
-        
-      - name: Yue Shi
-        position: Project Consultant
-        image: shi.jpg
 
       - name: Marielle Summers
         position: Aquarium Technician

@@ -60,11 +60,6 @@ grads:
        project: Digital Logic
        image: vrana.jpg
 
-     - name: Yaoyu Yang
-       in: Electrical Engineering 
-       project: Memory Circuits
-       image: yang.jpg
-
      - name: David Younger
        in: Bioengineering
        note: with David Baker
@@ -116,6 +111,12 @@ ugs:
         image: newman.jpg
 
 alumni:
+
+    - name: Yaoyu Yang
+      position: Graduate Student 9
+      date: Ph.D. 2016
+      now: at Ginkgo Bioworks
+      image: yang.jpg
 
     - name: Nathan Hwang
       position: Aquarium Technician

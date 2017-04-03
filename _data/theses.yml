@@ -1,6 +1,13 @@
+- id: yang-thesis
+  class: thesis
+  authors: Y. Yang
+  title: "Design and Construction of a Genetic Bistable Switch in S. cerevisiae"
+  journal: Ph.D. Thesis, University of Washington
+  year: 2016
+
 - id: takahashi-thesis
   class: thesis
-  authors: C. N. takahashi
+  authors: C. N. Takahashi
   title: "Directed Evolution in a Turbidostat"
   journal: Ph.D. Thesis, University of Washington
   year: 2015

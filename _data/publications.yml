@@ -1,3 +1,10 @@
+- id: ppi17
+  authors: "D. A. Younger, S. Berger, D. Baker and E. Klavins"
+  title: "High-Throughput Characterization of Protein-Protein Interactions by Reprogramming Yeast Mating"
+  journal: "BioRxiv (preprint)"
+  year: 2017
+  link: "http://biorxiv.org/content/early/2017/03/29/122143"  
+
 - id: sdac16
   authors: "R. Egbert, L. Brettner, D. Zong, and E. Klavins"
   title: "Self-destructive altruism in a synthetic developmental program enables complex feedstock utilization"

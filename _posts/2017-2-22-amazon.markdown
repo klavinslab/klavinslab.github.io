@@ -1,0 +1,8 @@
+---
+layout: aquarium_post
+title:  "Amazon Catalyst Award"
+date:   2016-6-20 21:41:33
+categories: jekyll update
+---
+
+The Klavins lab has received a $100,000 award from Amazon via its [Catalyst](http://www.ee.washington.edu/spotlight/professors-eric-klavins-and-blake-hannaford-named-amazon-catalyst-fellows/) program. The funding will go toward building out a mammalian cell workflow that will allow researchers to order cell lines made to their specifications. Graduate Student Justin Vrana has built out a unique tissue culture room for this workflow, complete with a projector inside the hood with foot-pedal operated version of Aquarium running in it. Look for mammalian cells offered through the [BIOFAB](http://uwbiofab.org) by the end of the summer 2017.

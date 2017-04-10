@@ -5,7 +5,7 @@ date:   2014-1-9 21:41:33
 categories: jekyll update
 ---
 
-<img src='/images/pie.png' class='image'></img> The first big test of
+<img src='/images/pie.png' class='image'> The first big test of
 Aquarium is to use it to teach UW's Laboratory Methods for Synthetic
 Biology course in the Winter 2014 quarter. In the first five weeks
 students learn basic laboratory skills, molecular cloning, Gibson

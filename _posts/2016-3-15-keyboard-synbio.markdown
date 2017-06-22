@@ -1,7 +1,7 @@
 ---
 layout: aquarium_post
 title:  "Keyboard Syn Bio"
-date:   2016-6-20 21:41:33
+date:   2016-3-15 21:41:33
 categories: jekyll update
 ---
 

@@ -24,16 +24,6 @@ postdocs:
 
 grads:
 
-     - name: Tileli Amimeur
-       in: Electrical Engineering
-       project: Genetic Circuit Design Automation
-       image: amimeur.png
-
-     - name: Nick Bolten
-       in: Electrical Engineering 
-       project: Auxin Synthetic Biology
-       image: bolten.png
-
      - name: Leandra Brettner
        in: Bioengineering 
        project: Evolution in Synthetic Biology
@@ -50,11 +40,6 @@ grads:
        image: khakhar.png
        note: with Georg Seelig
 
-     - name: Amber Tsai
-       in: Electrical Engineering 
-       project: Synthetic Gene Circuits
-       image: tsai.jpg
-
      - name: Justin Vrana
        in: Bioengineering
        project: Digital Logic
@@ -68,49 +53,59 @@ grads:
 
 staff:
 
-      - name: Paige Almond
-        position: Aquarium Technician
-        image: almond.jpg
-
       - name: Cami Cordray
-        position: Aquarium Technician
+        position: BIOFAB Lab Manager
         image: cordray.jpg
 
-      - name: Asmaa El-Ghazali
-        position: Aquarium Technician
-        image: el-ghazali.jpg
-
-      - name: Lindsay Ng
-        position: Aquarium Technician
-        image: ng.png
-
-      - name: Delaney Orcutt
-        position: Aquarium Technician
-        image: orcutt.jpg
+      - name: Samer Halabiya
+        position: BIOFAB Lab Manager
+        image: unknown.png       
 
       - name: Michelle Parks
         position: Lab Manager
         image: parks.jpg
-
-      - name: Marielle Summers
-        position: Aquarium Technician
-        image: summers.png
+ 
+      - name: Devin Strickland
+        position: Research Scientist
+        image: strickland.jpg     
 
 ugs:
 
-      - name: Lauren Goetsch
-        position: Undergraduate Researcher
-        image: goetsch.jpg
+      - name: Gabe Beuchat
+        position: Research Assistant
+        image: unknown.png
 
-      - name: Joonseok Lee
-        position: Programmer
-        image: lee.jpg
+      - name: Caleb Ellington
+        position: Research Assistant
+        image: unknown.png
+
+      - name: Miranda Howe
+        position: Research Assistant
+        image: unknown.png
 
       - name: Garrett Newman
-        position: Programmer
+        position: Software Engineer
         image: newman.jpg
 
+      - name: Parker Ruth
+        position: Research Assistant
+        image: unknown.png
+
+      - name: Ayesha Saleem
+        position: Software Engineer
+        image: saleem.jpg
+
+      - name: Riley Stockard
+        position: Research Assistant
+        image: unknown.png
+
 alumni:
+
+    - name: Tileli Amimeur
+      in: Electrical Engineering
+      project: Genetic Circuit Design Automation
+      now: Just Biotherapeutics
+      image: amimeur.png  
 
     - name: Yaoyu Yang
       position: Graduate Student 9

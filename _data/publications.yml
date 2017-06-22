@@ -1,3 +1,13 @@
+- id: nor17
+  authors: "M. Gander, J. Vrana, W. Voje, J. Carothers, and E. Klavins"
+  title: "Digital logic circuits in yeast with CRISPR/dCas9 NOR gates"
+  journal: "Nature Communications"
+  year: 2017
+  image: "images/cell-cell-cover.jpg"  
+  caption: "Our yeast cell-cell communication paper was featured on the cover of ACS Synthetic Biology."
+  link: "https://www.nature.com/articles/ncomms15459"
+  note: "The UW News wrote a <a href='http://www.washington.edu/news/2017/05/25/uw-scientists-borrow-from-electronics-to-build-largest-circuits-to-date-in-living-eukaryotic-cells/'>nice article</a> about this paper."  
+
 - id: ppi17
   authors: "D. A. Younger, S. Berger, D. Baker and E. Klavins"
   title: "High-Throughput Characterization of Protein-Protein Interactions by Reprogramming Yeast Mating"
@@ -11,15 +21,6 @@
   journal: "BioRxiv (preprint)"
   year: 2016
   link: "http://biorxiv.org/content/early/2016/11/12/086900"  
-
-- id: nor16
-  authors: "M. Gander, J. Vrana, W. Voje, J. Carothers, and E. Klavins"
-  title: "Robust digital logic circuits in eukaryotic cells with CRISPR/dCas9 NOR gates"
-  journal: "BioRxiv (preprint)"
-  year: 2016
-  image: "images/cell-cell-cover.jpg"  
-  caption: "Our yeast cell-cell communication paper was featured on the cover of ACS Synthetic Biology."
-  link: "http://biorxiv.org/content/early/2016/03/02/041871"
 
 - id: acs15a
   authors: "A. Khakhar, N. Bolten, J. Nemhauser, and E. Klavins"

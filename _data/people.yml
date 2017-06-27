@@ -59,7 +59,7 @@ staff:
 
       - name: Samer Halabiya
         position: BIOFAB Lab Manager
-        image: unknown.png       
+        image: halabiya.jpg
 
       - name: Michelle Parks
         position: Lab Manager
@@ -93,7 +93,7 @@ ugs:
 
       - name: Parker Ruth
         position: Research Assistant
-        image: unknown.png
+        image: ruth.jpg
 
       - name: Ayesha Saleem
         position: Software Engineer
@@ -107,8 +107,8 @@ alumni:
 
     - name: Tileli Amimeur
       in: Electrical Engineering
-      project: Genetic Circuit Design Automation
-      now: Just Biotherapeutics
+      project: Design Automation
+      now: at Just Biotherapeutics
       image: amimeur.png  
 
     - name: Yaoyu Yang

@@ -131,7 +131,7 @@ alumni:
 
     - name: Stephen Rettie
       position: Undergraduate Researcher
-      now: intern at Novo Nordisk
+      now: in the Baker Lab
       date: 2014-2015
       image: rettie.jpg
 
@@ -144,7 +144,7 @@ alumni:
     - name: S. Shelly Jang
       position: Graduate Student 7
       date: Ph.D. 2014
-      now: at AT&T
+      now: at Athos
       image: jang.jpg
 
     - name: David Zong
@@ -156,7 +156,7 @@ alumni:
     - name: Kevin Oishi
       position: Graduate Student 6
       date: Ph.D. 2014
-      now: at Intellectual Ventures
+      now: at Google
       image: oishi.png
 
     - name: Robert Egbert
@@ -186,7 +186,7 @@ alumni:
     - name: Josh Bishop
       position: Graduate Student 4
       date: Ph.D. 2012
-      now: a postdoc at UW
+      now: a project manager at UW
       image: bishop.jpg
 
     - name: Tammy Gu
@@ -198,7 +198,7 @@ alumni:
     - name: Fay Shaw
       position: Graduate Student 3
       date: Ph.D. 2011
-      now: at Apple
+      now: a postdoc at Tufts
       image: shaw.jpg
 
     - name: Nils Napp
@@ -258,5 +258,5 @@ alumni:
     - name: Brian Wolfe
       position: Undergraduate researcher
       date: B.S. 2008
-      now: at iRobot
+      now: at Airbnb
       image: wolfe.png

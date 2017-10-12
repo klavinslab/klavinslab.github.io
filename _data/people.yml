@@ -13,7 +13,7 @@ postdocs:
 
      - name: Alberto Carignano
        in: Electrical Engineering
-       project: Control and Synthetic Biology
+       project: Multicellular Synthetic Biology
        image: carignano.png
        note: with G. Seelig
 
@@ -22,6 +22,11 @@ postdocs:
        project: Plant Synthetic Biology
        image: odl.jpg
 
+     - name: David Younger
+       in: Bioengineering
+       project: Protein Protein Interactions
+       image: younger.png
+
 grads:
 
      - name: Leandra Brettner
@@ -29,27 +34,21 @@ grads:
        project: Evolution in Synthetic Biology
        image: brettner.jpg
 
-     - name: Miles Gander
-       in: Electrical Engineering 
-       project: Large Gene Networks
-       image: gander.png
-
      - name: Arjun Khakhar
        in: Bioengineering
        project: Plant Syn Bio
        image: khakhar.png
        note: with Georg Seelig
 
+     - name: Josh Swore
+       in: Biology
+       project: Hydra Synthetic Biology
+       image: unkown.png
+
      - name: Justin Vrana
        in: Bioengineering
        project: Digital Logic
        image: vrana.jpg
-
-     - name: David Younger
-       in: Bioengineering
-       note: with David Baker
-       project: Diagnostics
-       image: younger.png
 
 staff:
 
@@ -57,13 +56,21 @@ staff:
         position: BIOFAB Lab Manager
         image: cordray.jpg
 
+      - name: Sarah Goldberg
+        position: Visiting Scientist
+        image: unknown.png
+
       - name: Samer Halabiya
         position: BIOFAB Lab Manager
         image: halabiya.jpg
 
-      - name: Michelle Parks
+      - name: Benjamin Keller
+        position: Software Engineer
+        image: unknown.png
+
+      - name: Eriberto Lopez
         position: Lab Manager
-        image: parks.jpg
+        image: unknown.png
  
       - name: Devin Strickland
         position: Research Scientist
@@ -87,6 +94,10 @@ ugs:
         position: Research Assistant
         image: howe.jpg
 
+      - name: Abe Miller
+        position: Software Engineer
+        image: unknown.jpg
+
       - name: Garrett Newman
         position: Software Engineer
         image: newman.jpg
@@ -104,6 +115,17 @@ ugs:
         image: stockard.jpg
 
 alumni:
+
+    - name: Michelle Parks
+      position: Lab Manager
+      now: in Medical School
+      image: parks.jpg
+
+    - name: Miles Gander
+      position: Graduate Student 9
+      project: CRISPR/dCas9 NOR Gates
+      now: at Muse Bio
+      image: gander.png
 
     - name: Tileli Amimeur
       in: Electrical Engineering

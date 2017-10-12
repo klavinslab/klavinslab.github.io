@@ -1,3 +1,12 @@
+- id: cob17
+  authors: "O. de Lange, E. Klavins, and J. Nemhauser"
+  title: "Synthetic genetic circuits in crop plants"
+  journal: "Current Opinion in Biotechnology"
+  year: 2017
+  volume: 49
+  pages: 16-22
+  link: "https://www.ncbi.nlm.nih.gov/pubmed/28772191"
+
 - id: nor17
   authors: "M. Gander, J. Vrana, W. Voje, J. Carothers, and E. Klavins"
   title: "Digital logic circuits in yeast with CRISPR/dCas9 NOR gates"

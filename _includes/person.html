@@ -2,7 +2,7 @@
 
   <img class='img-person' src='images/{{ include.param.image }}'></img>
   
-  <div class='person-name'><a href="people/{{ include.param.name | split:. | last }}.html">{{ include.param.name }}</a></div>
+  <div class='person-name'><a href="people/{{ include.param.name | split: ' ' | last }}.html">{{ include.param.name }}</a></div>
 
   {% if include.param.now %}
     <div class='almuni-details'>

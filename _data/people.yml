@@ -43,7 +43,7 @@ grads:
      - name: Josh Swore
        in: Biology
        project: Hydra Synthetic Biology
-       image: unkown.png
+       image: unknown.png
 
      - name: Justin Vrana
        in: Bioengineering
@@ -96,7 +96,7 @@ ugs:
 
       - name: Abe Miller
         position: Software Engineer
-        image: unknown.jpg
+        image: unknown.png
 
       - name: Garrett Newman
         position: Software Engineer

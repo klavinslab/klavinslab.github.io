@@ -12,8 +12,8 @@
   title: "Digital logic circuits in yeast with CRISPR/dCas9 NOR gates"
   journal: "Nature Communications"
   year: 2017
-  image: "images/cell-cell-cover.jpg"  
-  caption: "Our yeast cell-cell communication paper was featured on the cover of ACS Synthetic Biology."
+  image: "images/nor-gate.jpg"  
+  caption: "Justin's impression of our dCas9 based NOR gate."
   link: "https://www.nature.com/articles/ncomms15459"
   note: "The UW News wrote a <a href='http://www.washington.edu/news/2017/05/25/uw-scientists-borrow-from-electronics-to-build-largest-circuits-to-date-in-living-eukaryotic-cells/'>nice article</a> about this paper."  
 

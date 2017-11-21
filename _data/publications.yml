@@ -1,3 +1,10 @@
+- id: biorxiv17
+  authors: C. Takahashi, L. Zaman, and E. Klavins
+  title: "Accelerating Evolutionary Hill Climbs in Parallel Turbidostats"
+  journal: "BioRxiv (preprint)"
+  year: 2017
+  link: https://www.biorxiv.org/content/early/2017/11/10/217273
+
 - id: cob17
   authors: "O. de Lange, E. Klavins, and J. Nemhauser"
   title: "Synthetic genetic circuits in crop plants"

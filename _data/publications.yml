@@ -1,3 +1,10 @@
+- id: elife18
+  authors: A. Khakhar, A. R Leydon, A. C. Lemmex, E. Klavins, J. L. Nemhauser
+  title: Synthetic hormone-responsive transcription factors can monitor and re-program plant development
+  journal: eLIFE
+  year: 2018
+  link: https://elifesciences.org/articles/34702
+  
 - id: biorxiv17
   authors: C. Takahashi, L. Zaman, and E. Klavins
   title: "Accelerating Evolutionary Hill Climbs in Parallel Turbidostats"

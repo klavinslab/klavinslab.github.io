@@ -1,9 +1,18 @@
+- id: younger-thesis
+  class: thesis
+  authors: D. Younger
+  title: High Throughput Characterization of Protein-Protein Interactions by Reprogramming Yeast Mating
+  journal: Ph.D. Thesis, University of Washington  
+  year: 2017
+  link: https://digital.lib.washington.edu/researchworks/handle/1773/40488
+
 - id: yang-thesis
   class: thesis
   authors: Y. Yang
   title: "Design and Construction of a Genetic Bistable Switch in S. cerevisiae"
   journal: Ph.D. Thesis, University of Washington
   year: 2016
+  link: https://digital.lib.washington.edu/researchworks/handle/1773/38114
 
 - id: takahashi-thesis
   class: thesis

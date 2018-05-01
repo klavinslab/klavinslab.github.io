@@ -6,11 +6,6 @@ pi:
 
 postdocs:
 
-     - name: Laura Adam
-       in: Electrical Engineering
-       project: Biological Design Automation 
-       image: adam.jpg
-
      - name: Alberto Carignano
        in: Electrical Engineering
        project: Multicellular Synthetic Biology
@@ -33,6 +28,7 @@ grads:
        in: Bioengineering 
        project: Evolution in Synthetic Biology
        image: brettner.jpg
+       note: with William DePaulo
 
      - name: Arjun Khakhar
        in: Bioengineering
@@ -40,10 +36,16 @@ grads:
        image: khakhar.png
        note: with Georg Seelig
 
+     - name: Shuowei Li
+       in: Electrical Engineering 
+       project: Laboratory State
+       image: unknown.png
+
      - name: Josh Swore
        in: Biology
        project: Hydra Synthetic Biology
        image: swore.jpg
+       note: with Martha Bosma
 
      - name: Justin Vrana
        in: Bioengineering
@@ -98,14 +100,6 @@ ugs:
         position: Software Engineer
         image: unknown.png
 
-      - name: Garrett Newman
-        position: Software Engineer
-        image: newman.jpg
-
-      - name: Parker Ruth
-        position: Research Assistant
-        image: ruth.jpg
-
       - name: Ayesha Saleem
         position: Software Engineer
         image: saleem.jpg
@@ -116,15 +110,26 @@ ugs:
 
 alumni:
 
+    - name: Garrett Newman
+      position: Undergrad
+      image: newman.jpg
+      now: Ginkgo Bioworks
+
+    - name: Laura Adam
+      in: Electrical Engineering
+      position: Postdoc
+      image: adam.jpg
+      now: ebio-ome
+
     - name: Michelle Parks
       position: Lab Manager
       now: in Medical School
       image: parks.jpg
 
     - name: Miles Gander
-      position: Graduate Student 9
+      position: Graduate Student 10
       project: CRISPR/dCas9 NOR Gates
-      now: at Muse Bio
+      now: at Inscripta
       image: gander.png
 
     - name: Tileli Amimeur

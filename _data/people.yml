@@ -113,13 +113,13 @@ alumni:
     - name: Garrett Newman
       position: Undergrad
       image: newman.jpg
-      now: Ginkgo Bioworks
+      now: at Ginkgo Bioworks
 
     - name: Laura Adam
       in: Electrical Engineering
       position: Postdoc
       image: adam.jpg
-      now: ebio-ome
+      now: at ebio-ome
 
     - name: Michelle Parks
       position: Lab Manager
@@ -153,7 +153,7 @@ alumni:
     - name: Chris Takahashi
       position: Graduate Student 8
       date: Ph.D. 2015
-      now: Postdoc at UW
+      now: a Postdoc at UW
       image: takahashi.png
 
     - name: Stephen Rettie
@@ -189,7 +189,7 @@ alumni:
     - name: Robert Egbert
       position: Graduate Student 5
       date: Ph.D. 2012
-      now: a postdoc at UC Berkeley
+      now: a researcher at PNNL
       image: egbert.jpg
 
     - name: Kyle Havens

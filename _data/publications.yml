@@ -6,6 +6,14 @@
   link: https://elifesciences.org/articles/34702
   note: "Ian Haydon wrote a <a href='https://synbiobeta.com/are-programmable-plants-the-future-of-farming/'>nice article</a> about this paper for synbiobeta."
   
+- id: ppi17
+  authors: "D. A. Younger, S. Berger, D. Baker and E. Klavins"
+  title: "High-Throughput Characterization of Protein-Protein Interactions by Reprogramming Yeast Mating"
+  journal: Proceedings of the National Academy of Science
+  year: 2017
+  link: "http://www.pnas.org/content/early/2017/10/30/1705867114.full"
+  note: "Ian Haydon wrote a nice article about this paper for <a href='https://theconversation.com/synthetic-sex-in-yeast-promises-safer-medicines-for-people-84179?utm_source=twitter&utm_medium=twitterbutton'>The Conversation</a>."
+
 - id: biorxiv17
   authors: C. Takahashi, L. Zaman, and E. Klavins
   title: "Accelerating Evolutionary Hill Climbs in Parallel Turbidostats"
@@ -31,14 +39,6 @@
   caption: "Justin's impression of our dCas9 based NOR gate."
   link: "https://www.nature.com/articles/ncomms15459"
   note: "The UW News wrote a <a href='http://www.washington.edu/news/2017/05/25/uw-scientists-borrow-from-electronics-to-build-largest-circuits-to-date-in-living-eukaryotic-cells/'>nice article</a> about this paper."  
-
-- id: ppi17
-  authors: "D. A. Younger, S. Berger, D. Baker and E. Klavins"
-  title: "High-Throughput Characterization of Protein-Protein Interactions by Reprogramming Yeast Mating"
-  journal: Proceedings of the National Academy of Science
-  year: 2017
-  link: "http://www.pnas.org/content/early/2017/10/30/1705867114.full"
-  note: "Ian Haydon wrote a nice article about this paper for <a href='https://theconversation.com/synthetic-sex-in-yeast-promises-safer-medicines-for-people-84179?utm_source=twitter&utm_medium=twitterbutton'>The Conversation</a>."
 
 - id: sdac16
   authors: "R. Egbert, L. Brettner, D. Zong, and E. Klavins"

@@ -1,0 +1,15 @@
+---
+layout: aquarium_post
+title:  "Synergystic Discovery and Design"
+date:   2017-11-11 21:41:33
+categories: jekyll update
+---
+
+The UW BIOFAB has been awarded a new contract by DARPA to be on of three cloud labs running synthetic biology experiments for the
+<a href="https://www.darpa.mil/program/synergistic-discovery-and-design">Synergystic Discovery and Design</a> program. This program
+supports dozens of researchers in synthetic biology, machine learning, and high performance computing. The goal is to create a 
+complete software/hardware pipeline going from experimental design, to experimental execution, to data storage, to data analysis
+for synthetic biology. The other cloud labs are Ginkgo Bioworks and Transcriptic, and our computing partners include the
+Texas Advanced Computing Center. The Aquarium software will play a central role in our work, allowing us to manage experiments, but
+also connect to upstream design software and downstream analysis software developed by other research groups. 
+

@@ -5,85 +5,85 @@ title: Klavins Lab | Publications
 
 <div class='contain'>
 
-<div class='heading'>
- <h1>
-   <span id='papers-heading' class='clickable-heading'>Papers</span>
-   <span id='reports-heading' class='clickable-heading' style='color: #ddd'>Reports</span>
-   <span id='theses-heading' class='clickable-heading' style='color: #ddd'>Theses</span>  
- </h1>
-</div>
+  <div class='heading'>
+    <h1>
+      <span id='papers-heading' class='clickable-heading'>Papers</span>
+      <span id='reports-heading' class='clickable-heading' style='color: #ddd'>Reports</span>
+      <span id='theses-heading' class='clickable-heading' style='color: #ddd'>Theses</span>
+    </h1>
+  </div>
 
-<div id='papers'>
+  <div id='papers'>
 
-  {% assign y = 3000 %}
+    {% assign y = 3000 %}
 
-  <ul class='pubs'>
-    {% for p in site.data.publications %}
+    <ul class='pubs'>
+      {% for p in site.data.publications %}
       {% if y != p.year %}
-        {% assign y = p.year %}
-        <h3> {{ y }} </h3>
+      {% assign y = p.year %}
+      <h3> {{ y }} </h3>
       {% endif %}
       {% include paper.html param=p %}
-    {% endfor %}
-  </ul>
+      {% endfor %}
+    </ul>
 
-</div>
+  </div>
 
-<div id='reports'>
+  <div id='reports'>
 
-  {% assign y = 3000 %}
+    {% assign y = 3000 %}
 
-  <ul class='pubs'>
-    {% for p in site.data.reports %}
+    <ul class='pubs'>
+      {% for p in site.data.reports %}
       {% if y != p.year %}
-        {% assign y = p.year %}
-        <h3> {{ y }} </h3>
+      {% assign y = p.year %}
+      <h3> {{ y }} </h3>
       {% endif %}
       {% include paper.html param=p %}
-    {% endfor %}
-  </ul>
+      {% endfor %}
+    </ul>
 
-</div>
+  </div>
 
-<div id='theses'>
+  <div id='theses'>
 
-  {% assign y = 3000 %}
+    {% assign y = 3000 %}
 
-  <ul class='pubs'>
-    {% for p in site.data.theses %}
+    <ul class='pubs'>
+      {% for p in site.data.theses %}
       {% if y != p.year %}
-        {% assign y = p.year %}
-        <h3> {{ y }} </h3>
+      {% assign y = p.year %}
+      <h3> {{ y }} </h3>
       {% endif %}
       {% include paper.html param=p %}
-    {% endfor %}
-  </ul>
+      {% endfor %}
+    </ul>
 
-</div>
+  </div>
 
-<br />
-<div class='clear: both'></div>
+  <br />
+  <div class='clear: both'></div>
 
-<script>
+  <script>
 
 
-  document.getElementById('nav-publications').className += "highlight";
+    document.getElementById('nav-publications').className += "highlight";
 
-  var p = document.getElementById("papers-heading");
-  var r = document.getElementById("reports-heading"); 
-  var t = document.getElementById("theses-heading");
+    var p = document.getElementById("papers-heading");
+    var r = document.getElementById("reports-heading");
+    var t = document.getElementById("theses-heading");
 
-  p.addEventListener('click',function() {show(this)});
-  r.addEventListener('click',function() {show(this)});
-  t.addEventListener('click',function() {show(this)});
+    p.addEventListener('click', function () { show(this) });
+    r.addEventListener('click', function () { show(this) });
+    t.addEventListener('click', function () { show(this) });
 
-   function show(ob,n) {
+    function show(ob, n) {
 
       var name = n;
 
-      if ( arguments.length != 2 ) {
+      if (arguments.length != 2) {
         var name = ob.id.split('-')[0];
-      } 
+      }
 
       console.log("name = " + name);
 
@@ -92,25 +92,24 @@ title: Klavins Lab | Publications
       t.style.color = '#ddd';
 
       document.getElementById("papers").style.display = 'none';
-      document.getElementById("reports").style.display = 'none'; 
+      document.getElementById("reports").style.display = 'none';
       document.getElementById("theses").style.display = 'none';
 
-      document.getElementById(name+"-heading").style.color = 'black';      
+      document.getElementById(name + "-heading").style.color = 'black';
       document.getElementById(name).style.display = 'block';
 
       setCookie("paper-type", name, 30);
 
-   }
+    }
 
-    var choice=getCookie("paper-type");
+    var choice = getCookie("paper-type");
 
     if (choice != "") {
-      show(null,choice);
+      show(null, choice);
     } else {
       setCookie("paper-type", 'papers', 30);
     }
 
-</script>
+  </script>
 
 </div>
-

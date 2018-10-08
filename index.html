@@ -101,12 +101,14 @@ title: Klavins Lab
         and design of new systems to fabrication and testing of new living
         systems.
       </p>
+
+      <p><a href="https://www.youtube.com/watch?v=mi12pXq_yIA">TEDx: Programming Biology</a></p>
     </div>
 
     <div class='col-xs-4 about'>
       <h2>News</h2>
       {% for n in site.data.news limit:9 %}
-      {% include news.html n=n %}
+        {% include news.html n=n %}
       {% endfor %}
     </div>
     

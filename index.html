@@ -111,44 +111,65 @@ title: Klavins Lab
       {% include news.html n=n %}
       {% endfor %}
     </div>
+    
+    <p>
+    The Klavins lab develops synthetic living systems, re-engineered
+    organisms, and engineered parts for existing organisms. Our
+    particular emphasis is on designing gene circuits and cell-cell
+    communication systems that enable novel multicellular behaviors in
+    bacteria or yeast. We take an engineering approach to this
+    challenge, and are interested in the whole pathway from modeling
+    and design of new systems to fabrication and testing of new living
+    systems.
+    </p>
 
-    <div class='col-xs-4 about'>
+    <p><a href="https://www.youtube.com/watch?v=mi12pXq_yIA">TEDx: Programming Biology</a>
+  </div>
 
-      <h2>Open Positions</h2>
+  <div class='col-xs-4 about'>
+    <h2>News</h2>
+   {% for n in site.data.news limit:9 %}
+     {% include news.html n=n %}
+   {% endfor %}
+ </div>
+  
+  <div class='col-xs-4 about'>
 
-      <p>We have positions available for postdoctoral scholars, graduate
-        students, a programmer, a system administrator, and undergraduate
-        assistants. See <a href="positions.html">here</a> for more information.</p>
+    <h2>Open Positions</h2>
 
-      <h2>Contact Info</h2>
+    <p>We have positions available for postdoctoral scholars, graduate
+    students, a programmer, a system administrator, and undergraduate
+    assistants. See <a href="positions.html">here</a> for more information.</p>
+    
+    <h2>Contact Info</h2>
+    
+    <h4 style='text-decoration: underline'>Address</h4>
+    <ul class='address'>      
+      <li><b>Klavins Lab</b></li>
+      <li>University of Washington </li>
+      <li>Campus Box 352500 </li>
+      <li>Seattle, WA 98195 </li>
+      <li>(206) 616-1743 </li>
+      <li><img src='images/liame.png'></img></li>
+    </ul>
 
-      <h4 style='text-decoration: underline'>Address</h4>
-      <ul class='address'>
-        <li><b>Klavins Lab</b></li>
-        <li>University of Washington </li>
-        <li>Campus Box 352500 </li>
-        <li>Seattle, WA 98195 </li>
-        <li>(206) 616-1743 </li>
-        <li><img src='images/liame.png'></img></li>
-      </ul>
+    <h4 style='text-decoration: underline'>Links</h4>
+    <ul class='address'>
+      <li><a href='http://uwbiofab.org'>UW BIOFAB</a></li>    
+      <li><a href='http://klavinslab.org/aquarium'>Aquarium</a></li>
+      <li><a href='http://www.ece.uw.edu'>Electrical and Computer Engineering</a></li>
+      <li><a href='http://cs.washington.edu'>Computer Science and Engineering</a></li>
+      <li><a href='depts.washington.edu/bioe/‎depts.washington.edu/bioe/'>Bioengineering</a></li>
+      <li><a href='http://depts.washington.edu/uwcsb/'>Center for Synthetic Biology</a></li>      
+    </ul>
 
-      <h4 style='text-decoration: underline'>Links</h4>
-      <ul class='address'>
-        <li><a href='http://uwbiofab.org'>UW BIOFAB</a></li>
-        <li><a href='http://klavinslab.org/aquarium'>Aquarium</a></li>
-        <li><a href='http://www.ece.uw.edu'>Electrical and Computer Engineering</a></li>
-        <li><a href='http://cs.washington.edu'>Computer Science and Engineering</a></li>
-        <li><a href='depts.washington.edu/bioe/‎depts.washington.edu/bioe/'>Bioengineering</a></li>
-        <li><a href='http://depts.washington.edu/uwcsb/'>Center for Synthetic Biology</a></li>
-      </ul>
+    <br />
 
-      <br />
+    <a href="https://twitter.com/hashtag/klavinslab?src=hash" class="twitter-follow-button" data-show-count="false">#klavinslab</a>
+    
+  </div>
 
-      <a href="https://twitter.com/hashtag/klavinslab?src=hash" class="twitter-follow-button" data-show-count="false">#klavinslab</a>
-
-    </div>
-
-  </div> <!-- end about -->
+</div> <!-- end about -->
 
 
 

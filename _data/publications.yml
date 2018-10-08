@@ -405,7 +405,7 @@
   volume: 51
   number:  5
   pages:  949-962
-  link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?isnumber=34438&arnumber=1643367&count=25&index=4
+  link: http://faculty.washington.edu/klavins/papers/tac-sa.pdf
 
 - authors: D. Del Vecchio, R. Murray and E. Klavins
   title: Discrete State Estimators for Systems on a Lattice
@@ -437,6 +437,7 @@
 - authors: E. Klavins
   title: Directed Self-Assembly Using Graph Grammars
   journal: "Foundations of Nanoscience: Self Assembled Architectures and Devices"
+  link: http://faculty.washington.edu/klavins/papers/fnano.ps
   year: 2004
 
 - authors: E. Klavins, R. Ghrist, and D. Lipsky

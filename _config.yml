@@ -1,2 +1,4 @@
 name: Klavins Lab
 highlighter: rouge
+plugins:
+  - jekyll-redirect-from

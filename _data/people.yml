@@ -24,28 +24,10 @@ postdocs:
 
 grads:
 
-     - name: Leandra Brettner
-       in: Bioengineering 
-       project: Evolution in Synthetic Biology
-       image: brettner.jpg
-       note: with William DePaulo
-
-     - name: Arjun Khakhar
-       in: Bioengineering
-       project: Plant Syn Bio
-       image: khakhar.png
-       note: with Georg Seelig
-
      - name: Shuowei Li
        in: Electrical Engineering 
-       project: Laboratory State
-       image: unknown.png
-
-     - name: Josh Swore
-       in: Biology
-       project: Hydra Synthetic Biology
-       image: swore.jpg
-       note: with Martha Bosma
+       project: Laboratory Diagnosis
+       image: li.jpg
 
      - name: Justin Vrana
        in: Bioengineering
@@ -58,10 +40,6 @@ staff:
         position: BIOFAB Lab Manager
         image: cordray.jpg
 
-      - name: Sarah Goldberg
-        position: Visiting Scientist
-        image: unknown.png
-
       - name: Samer Halabiya
         position: BIOFAB Lab Manager
         image: halabiya.jpg
@@ -72,17 +50,13 @@ staff:
 
       - name: Eriberto Lopez
         position: Research Scientist
-        image: unknown.png
+        image: lopez.jpg
  
       - name: Devin Strickland
         position: Research Scientist
         image: strickland.jpg     
 
 ugs:
-
-      - name: Gabe Beuchat
-        position: Research Assistant
-        image: beuchat.jpg
 
       - name: Hieu Do
         position: Research Assistant
@@ -92,26 +66,25 @@ ugs:
         position: Research Assistant
         image: ellington.jpg
 
-      - name: Miranda Howe
-        position: Research Assistant
-        image: howe.jpg
-
-      - name: Abe Miller
-        position: Software Engineer
-        image: unknown.png
-
-      - name: Ayesha Saleem
-        position: Software Engineer
-        image: saleem.jpg
-
       - name: Riley Stockard
         position: Research Assistant
         image: stockard.jpg
 
 alumni:
 
+    - name: Abe Miller
+      position: Software Engineer
+      image: miller.jpeg
+      now: starting a company
+
+    - name: Arjun Khakhar
+      position: Graduate Student 11
+      project: Plant Syn Bio
+      image: khakhar.png
+      now: a postdoc at UMN
+
     - name: Garrett Newman
-      position: Undergrad
+      position: Software Engineer
       image: newman.jpg
       now: at Ginkgo Bioworks
 
@@ -128,7 +101,7 @@ alumni:
 
     - name: Miles Gander
       position: Graduate Student 10
-      project: CRISPR/dCas9 NOR Gates
+      project: Gene Circuits
       now: at Inscripta
       image: gander.png
 

@@ -80,47 +80,49 @@
     <div class="main">
   
       <style>
-.multi-heading {
+  .multi-heading {
 
-  width: 400px;
-  height: 70px;
-  border: 0pt solid #eee;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-}
-.mh-item {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  font-size: 36px;
-  color: #eee;
-  position: absolute;
-}
-.selected {
-  color: #000;
-}
+    width: 400px;
+    height: 70px;
+    border: 0pt solid #eee;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mh-item {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 36px;
+    color: #eee;
+    position: absolute;
+  }
+
+  .selected {
+    color: #000;
+  }
 </style>
 
 <div class='multi-heading'>
   <div class='mh-item selected' data-x=200 data-y=18>Papers</div>
-  <div class='mh-item'          data-x=100   data-y=50>Reports</div>
-  <div class='mh-item'          data-x=300 data-y=50>Theses</div>
+  <div class='mh-item' data-x=100 data-y=50>Reports</div>
+  <div class='mh-item' data-x=300 data-y=50>Theses</div>
 </div>
 
 <script>
 
-function set_positions() {
-  $('.mh-item').each(function(x) {
-    var el = $(this);
-    var x = el.data('x'), y = el.data('y');
-    el.css('right',x-el.width()/2);
-    el.css('top',y-el.height()/2);
+  function set_positions() {
+    $('.mh-item').each(function (x) {
+      var el = $(this);
+      var x = el.data('x'), y = el.data('y');
+      el.css('right', x - el.width() / 2);
+      el.css('top', y - el.height() / 2);
 
+    });
+  }
+
+  $(function () {
+    set_positions()
   });
-}
-
-$(function() {
-  set_positions()
-});
 
 </script>
 

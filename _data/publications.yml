@@ -1,5 +1,12 @@
+- id: acs19
+  authors: Y. Yang, J. L. Nemhauser, and E. Klavins
+  title: Synthetic Bistability and Differentiation in Yeast
+  journal: ACS Synthetic Biology
+  year: 2019
+  link: https://pubs.acs.org/doi/10.1021/acssynbio.8b00524
+
 - id: elife18
-  authors: A. Khakhar, A. R Leydon, A. C. Lemmex, E. Klavins, J. L. Nemhauser
+  authors: A. Khakhar, A. R Leydon, A. C. Lemmex, E. Klavins, and J. L. Nemhauser
   title: Synthetic hormone-responsive transcription factors can monitor and re-program plant development
   journal: eLIFE
   year: 2018

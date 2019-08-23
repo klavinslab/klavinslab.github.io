@@ -17,15 +17,10 @@ postdocs:
        project: Plant Synthetic Biology
        image: odl.jpg
 
-     - name: David Younger
-       in: Bioengineering
-       project: Protein Protein Interactions
-       image: younger.jpg
-
 grads:
 
      - name: Shuowei Li
-       in: Electrical Engineering 
+       in: Electrical Engineering
        project: Laboratory Diagnosis
        image: li.jpg
 
@@ -48,13 +43,9 @@ staff:
         position: Software Engineer
         image: keller.jpg
 
-      - name: Eriberto Lopez
-        position: Research Scientist
-        image: lopez.jpg
- 
       - name: Devin Strickland
         position: Research Scientist
-        image: strickland.jpg     
+        image: strickland.jpg
 
 ugs:
 
@@ -62,24 +53,30 @@ ugs:
         position: Research Assistant
         image: do.jpg
 
-      - name: Caleb Ellington
-        position: Research Assistant
-        image: ellington.jpg
-
-      - name: Riley Stockard
-        position: Research Assistant
-        image: stockard.jpg
-
 alumni:
+
+    - name: Eriberto Lopez
+      position: Research Scientist
+      image: lopez.jpg
+      now: at Strateos
+
+    - name: Riley Stockard
+      position: Research Assistant
+      image: stockard.jpg
+      now: at Ginkgo Bioworks
+
+    - name: David Younger
+      position: Graduate Student 12
+      image: younger.jpg
+      now: CEO of A-Alpha Bio
 
     - name: Abe Miller
       position: Software Engineer
       image: miller.jpeg
-      now: starting a company
+      now: at Ginkgo Bioworks
 
     - name: Arjun Khakhar
       position: Graduate Student 11
-      project: Plant Syn Bio
       image: khakhar.png
       now: a postdoc at UMN
 
@@ -92,7 +89,7 @@ alumni:
       in: Electrical Engineering
       position: Postdoc
       image: adam.jpg
-      now: at ebio-ome
+      now: CEO of ebio-ome
 
     - name: Michelle Parks
       position: Lab Manager
@@ -109,7 +106,7 @@ alumni:
       in: Electrical Engineering
       project: Design Automation
       now: at Just Biotherapeutics
-      image: amimeur.png  
+      image: amimeur.png
 
     - name: Yaoyu Yang
       position: Graduate Student 9
@@ -144,7 +141,7 @@ alumni:
     - name: S. Shelly Jang
       position: Graduate Student 7
       date: Ph.D. 2014
-      now: at Athos
+      now: at Stitch Fix
       image: jang.jpg
 
     - name: David Zong
@@ -186,7 +183,7 @@ alumni:
     - name: Josh Bishop
       position: Graduate Student 4
       date: Ph.D. 2012
-      now: a project manager at UW
+      now: at Intellectual Ventures
       image: bishop.jpg
 
     - name: Tammy Gu
@@ -216,7 +213,7 @@ alumni:
     - name: David Thorsley
       position: Postdoc
       date: 2006-2010
-      now: "at <a href='http://www.teradata.com/?LangType=1033'>Teradata</a>"
+      now: at Mythic AI
       image: thorsley.jpg
 
     - name: Alex Leone
@@ -228,7 +225,7 @@ alumni:
     - name: Alec Nielsen
       position: Undergraduate Researcher
       date: B.S. 2010
-      now: a graduate student at MIT
+      now: CEO of Asimov
       image: nielsen.jpg
 
     - name: Brandi House
@@ -251,7 +248,7 @@ alumni:
 
     - name: Sam Burden
       position: Undergraduate Researcher, EE
-      date: B.S. 2008 
+      date: B.S. 2008
       now: a professor at <a href='http://www.ee.washington.edu'>UW</a>
       image: burden.png
 

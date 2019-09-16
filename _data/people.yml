@@ -59,7 +59,7 @@ ugs:
 
     - name: Yokesh Jayakumar
       position: Aquarium Programmer
-      image: jayakumar.jpg             
+      image: jayakumar.jpg
 
 alumni:
 
@@ -126,12 +126,6 @@ alumni:
       date: Ph.D. 2016
       now: at Ginkgo Bioworks
       image: yang.jpg
-
-    - name: Nathan Hwang
-      position: Aquarium Technician
-      date: 2013-2016
-      now: graduated
-      image: hwang.jpg
 
     - name: Chris Takahashi
       position: Graduate Student 8

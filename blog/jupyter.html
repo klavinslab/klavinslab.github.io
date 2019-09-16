@@ -1,0 +1,31 @@
+---
+layout: default
+title: Klavins Lab
+---
+
+<iframe id="main"
+        src=""
+        style="width:100%;
+               height: calc(100vh - 80px);
+               border: none;
+               top: 80px;
+               position: fixed">
+</iframe>
+
+<script>
+  function getUrlVars() {
+      var vars = [], hash;
+      var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+      for(var i = 0; i < hashes.length; i++)
+      {
+          hash = hashes[i].split('=');
+          vars.push(hash[0]);
+          vars[hash[0]] = hash[1];
+      }
+      return vars;
+  }
+  var url = getUrlVars()["name"];
+  console.log(url)
+
+  $("#main").attr('src', getUrlVars()["name"])
+</script>

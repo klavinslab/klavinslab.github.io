@@ -17,7 +17,7 @@ body {
 }
 
 .contain {
-  width: 940px; 
+  width: 940px;
   margin: auto;
   padding: 0;
 }
@@ -63,10 +63,10 @@ h2 {
 
 #synth-bio {
  position: absolute;
- top: 45px;
- left: 90px;
+ top: 47px;
+ left: 130px;
  z-index: 1;
- font-size: 20pt;
+ font-size: 12pt;
  color: #391;
  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
  letter-spacing: 1px;
@@ -81,10 +81,11 @@ h2 {
 
 .navbar-custom {
   margin: 0 20px 0 0;
-  background-color:rgba(255,255,255,0.75);
-  /*background-image: url('/images/banner.png'); /*no-repeat fixed top;*/ 
-  border: none;
-  height: 60px;
+  background-color:#fff;
+  /*background-image: url('/images/banner.png'); /*no-repeat fixed top;*/
+  border: 0 0 1pt 0;
+  border-color: #ccc;
+  height: 65px;
 }
 
 .nav > li {
@@ -97,7 +98,7 @@ h2 {
 .nav > li > a {
   color: #000 !important;
   padding-top: 23px;
-  height: 60px;
+  height: 65px;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
@@ -119,7 +120,7 @@ h2 {
 }
 
 .footer {
-  position: fixed; 
+  position: fixed;
   bottom: 0;
   margin-top: 15px;
   margin-left: 0px;
@@ -186,7 +187,7 @@ h2 {
 
 .pubs .num {
   color: #aaa;
-} 
+}
 
 .clickable-heading {
   cursor: pointer;
@@ -206,11 +207,10 @@ h2 {
 .person {
   margin: 10px;
   padding: 0 0 0 0;
-
+  height: 186px;
   width: 120px;
   float: left;
   display:inline-block;
-#  outline: 1pt dashed green;
 }
 
 .arrow {
@@ -228,7 +228,7 @@ h2 {
   text-align: right;
   color: black;
   width: 120px;
-  background: transparent; 
+  background: transparent;
   height: 186px;
   float: left;
   display: inline-block;
@@ -251,6 +251,7 @@ h2 {
 
 .img-person {
   width: 120px;
+  height: 120px;
 }
 
 .person-name {
@@ -267,7 +268,7 @@ h2 {
   font-size: 8pt;
   padding: 4px 5px 4px 2px;
   height: 44px;
-  background: transparent; 
+  background: transparent;
 }
 
 .almuni-details a {
@@ -442,7 +443,7 @@ h2 {
 .software-tag {
   font-size: 12px;
   font-style: italic;
-  margin-bottom: 10px;  
+  margin-bottom: 10px;
   text-align:center;
 }
 
@@ -521,7 +522,7 @@ h2 {
 
 .newsitem {
   font-size: 12px;
-  margin: 0 0 5px 0; 
+  margin: 0 0 5px 0;
   text-align:justify;
 }
 
@@ -548,7 +549,7 @@ h2 {
 }
 
 /****************************************/
-/* Personal Pages            
+/* Personal Pages
 /****************************************/
 
 .personal {

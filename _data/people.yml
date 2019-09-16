@@ -49,11 +49,24 @@ staff:
 
 ugs:
 
-      - name: Hieu Do
-        position: Research Assistant
-        image: do.jpg
+    - name: Justin La
+      position: Aquarium Programmer
+      image: unknown.png
+
+    - name: Phuong Le
+      position: Aquarium Programmer
+      image: unknown.png
+
+    - name: Yokesh Jayakumar
+      position: Aquarium Programmer
+      image: jayakumar.jpg             
 
 alumni:
+
+    - name: Hieu Do
+      position: Research Assistant
+      image: do.jpg
+      now: at the Hutch
 
     - name: Eriberto Lopez
       position: Research Scientist

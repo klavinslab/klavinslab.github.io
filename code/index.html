@@ -9,7 +9,7 @@ title: Klavins Lab
       <h1 style='margin-bottom: 15px'>Code Explorations</h1>
     </div>
 
-    {% for entry in site.data.blog_entries %}
+    {% for entry in site.data.codes %}
       <div style="margin-bottom: 20px">
         <b><a href="jupyter.html?name={{entry.item}}">{{ entry.title }}</a></b><br>
         <div style="margin-bottom: 5px">{{entry.author}}</div>
@@ -18,3 +18,7 @@ title: Klavins Lab
     {% endfor %}
 
 </div>
+
+<script>
+  document.getElementById('nav-code').className += " highlight";
+</script>

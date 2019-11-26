@@ -68,7 +68,8 @@
             <li id='nav-index'><a class="extra" href="/index.html">Home</a></li>
             <li id='nav-people'><a class="extra" href="/people.html">People</a></li>
             <li id='nav-publications'><a class="extra" href="/publications.html">Publications</a></li>
-	    <li id='nav-software'><a class="extra" href="/software.html">Software</a></li>
+            <li id='nav-software'><a class="extra" href="/software.html">Software</a></li>
+            <!-- <li id='nav-code'><a class="extra" href="/code">Code</a></li> -->
             <li id='nav-hardware'><a class="extra" href="/hardware.html">Hardware</a></li>
             <li id='nav-positions'><a class="extra" href="/positions.html">Positions</a></li>
 	    <!-- <li id='nav-courses'><a class="extra" href="/courses.html">Courses</a></li> -->
@@ -79,14 +80,34 @@
 
     <div class="main">
 
-      <iframe id="main"
+      <div>
+
+<div style="margin: auto;
+            position: absolute;
+            right: 32px;
+            top: 86px;
+            z-index: 10000;
+            background: #eee;
+            text-align: right;
+            padding: 10px;">
+  <a id="link" 
+    href="" 
+    target="download">
+    Download Notebook
+  </a>
+
+</div>
+
+<iframe id="main"
         src=""
         style="width:100%;
-               height: calc(100vh - 80px);
+               height: calc(100vh - 64px);
                border: none;
-               top: 80px;
+               top: 64px;
                position: fixed">
 </iframe>
+
+</div>
 
 <script>
   function getUrlVars() {
@@ -104,8 +125,13 @@
   console.log(url)
 
   $("#main").attr('src', getUrlVars()["name"])
+  $("#link").attr('href', "/notebooks/" + getUrlVars()["name"] + ".ipynb")
+
 </script>
 
+<script>
+  document.getElementById('nav-code').className += " highlight";
+</script>
 
     </div>
 

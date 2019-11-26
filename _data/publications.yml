@@ -1,3 +1,10 @@
+- id: ebiomed19
+  authors: N. Panpradist, I. A. Beck,, J. Vrana, N. Higa, D. McIntyre, P. S. Ruth, I. So, E.C. Kline, R. Kanthula, Annie Wong-On-Wing, J. Lim, D. Ko, R. Milne, T. Rossou, U. D. Feuch, M. Chung, G. Jourdain, N. Ngo-Giang-Huong, L. Laomanit, J. Sori, J. Lai, E. Klavins, L. M. Frenkel, B. R. Lutz
+  title: "OLA-Simple: A software-guided HIV-1 drug resistance test for low-resource laboratories"
+  journal: EBioMedicine
+  year: 2019
+  link: https://www.ebiomedicine.com/article/S2352-3964(19)30743-1/pdf
+
 - id: acs19
   authors: Y. Yang, J. L. Nemhauser, and E. Klavins
   title: Synthetic Bistability and Differentiation in Yeast

@@ -3,14 +3,34 @@ layout: default
 title: Klavins Lab
 ---
 
+<div>
+
+<div style="margin: auto;
+            position: absolute;
+            right: 32px;
+            top: 86px;
+            z-index: 10000;
+            background: #eee;
+            text-align: right;
+            padding: 10px;">
+  <a id="link" 
+    href="" 
+    target="download">
+    Download Notebook
+  </a>
+
+</div>
+
 <iframe id="main"
         src=""
         style="width:100%;
-               height: calc(100vh - 80px);
+               height: calc(100vh - 64px);
                border: none;
-               top: 80px;
+               top: 64px;
                position: fixed">
 </iframe>
+
+</div>
 
 <script>
   function getUrlVars() {
@@ -28,4 +48,10 @@ title: Klavins Lab
   console.log(url)
 
   $("#main").attr('src', getUrlVars()["name"])
+  $("#link").attr('href', "/notebooks/" + getUrlVars()["name"] + ".ipynb")
+
+</script>
+
+<script>
+  document.getElementById('nav-code').className += " highlight";
 </script>

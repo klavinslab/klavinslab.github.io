@@ -1,0 +1,23 @@
+- item: mating
+  title: AlphaSeq Mating Dynamics
+  author: Eric Klavins
+  description: Alpha-Seq is a technology developed by David Younger, former graduate
+               student in the Klavins Lab and now CEO of A-Alpha Bio. 
+               With Alpha-Seq, you re-program yeast mating by replacing the natural
+               agglutinins with custom proteins. Using massive libraries of proteins,
+               mating and sporulation, you can get some pretty interesting dynamics.
+               This notebook shows how to model the A-Alpha system and illustrates
+               the model with a few different examples.
+
+- item: reinforce
+  title: Introduction to Reinforcement Learning
+  author: Eric Klavins
+  description: This very simple notebook uses a grid world to illustrate how
+               reinforcement learning works. 
+
+- item: reactions
+  title: Chemical Reaction Networks
+  author: Eric Klavins
+  description: This notebook shows how to take a syntactic description of a chemical
+               reaction network (eg. A + B -> C) and derive the mass action kinetics,
+               the moment dynamics, and Gillespie's stochastic simulation algorithm.

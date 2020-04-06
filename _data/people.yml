@@ -31,8 +31,16 @@ grads:
 
 staff:
 
+      - name: Aza Allen
+        position: Lab Manager
+        image: allen.jpg
+
+      - name: Amy Cash
+        position: Software Engineer
+        image: cash.jpg
+
       - name: Cami Cordray
-        position: BIOFAB Lab Manager
+        position: Lab Manager
         image: cordray.jpg
 
       - name: Samer Halabiya
@@ -42,6 +50,10 @@ staff:
       - name: Benjamin Keller
         position: Software Engineer
         image: keller.jpg
+
+      - name: Cannon Mallory
+        position: Research Scientist
+        image: unknown.png
 
       - name: Devin Strickland
         position: Research Scientist

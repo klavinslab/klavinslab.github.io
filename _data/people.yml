@@ -47,7 +47,7 @@ staff:
         position: BIOFAB Lab Manager
         image: halabiya.jpg
 
-      - name: Benjamin Keller
+      - name: Ben Keller
         position: Software Engineer
         image: keller.jpg
 
@@ -61,21 +61,37 @@ staff:
 
 ugs:
 
-    - name: Justin La
-      position: Aquarium Programmer
-      image: la.png
+  - name: Melody Chou
+    position: Software Engineer
+    image: chou.jpg
 
-    - name: Phuong Le
-      position: Aquarium Programmer
-      image: phuong_le.jpg
+  - name: Joyce Elauria
+    position: Software Engineer
+    image: elauria.jpg
 
-    - name: Xavaar Quaranto
-      position: Research Assistant
-      image: quaranto.png
+  - name: Yokesh Jayakumar
+    position: Software Engineer
+    image: jayakumar.jpg
 
-    - name: Yokesh Jayakumar
-      position: Aquarium Programmer
-      image: jayakumar.jpg
+  - name: Rishi Kavikondala
+    position: Software Engineer
+    image: kavikondala.png
+
+  - name: Justin La
+    position: Software Engineer
+    image: la.png
+
+  - name: Phuong Le
+    position: Software Engineer
+    image: phuong_le.jpg
+
+  - name: Thomas Penner
+    position: Software Engineer
+    image: penner.jpg
+
+  - name: Xavaar Quaranto
+    position: Research Assistant
+    image: quaranto.png
 
 alumni:
 

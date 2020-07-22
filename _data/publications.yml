@@ -1,3 +1,10 @@
+- id: natbio20
+  authors: A. Hossain, E. Lopez, S. M. Halper, D. P. Cetnar, A. C. Reis, D. Strickland, E. Klavins, and H. M. Salis 
+  title: Automated design of thousands of nonrepetitive parts for engineering stable genetic systems
+  journal: Nature Biotechnology
+  year: 2020
+  link: https://www.nature.com/articles/s41587-020-0584-2
+  
 - id: prot20
   authors: J. Maguire, H. Haddox, D. Strickland, S. Halabiya, B. Coventry, M. Cummins, D. Thieker, E. Klavins, F. DiMaio, D. Baker, and B. Kuhlman
   title: Perturbing the energy landscape for improved packing during computational protein design

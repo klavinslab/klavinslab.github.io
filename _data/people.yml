@@ -1,66 +1,70 @@
 pi:
-    - name: Eric Klavins
-      position: Associate Professor
-      dept: EE, CSE, BIOEN
-      image: klavins.jpg
+  - name: Eric Klavins
+    position: Associate Professor
+    dept: EE, CSE, BIOEN
+    image: klavins.jpg
 
 postdocs:
+  - name: Alberto Carignano
+    in: Electrical Engineering
+    project: Multicellular Synthetic Biology
+    image: carignano.png
+    note: with G. Seelig
 
-     - name: Alberto Carignano
-       in: Electrical Engineering
-       project: Multicellular Synthetic Biology
-       image: carignano.png
-       note: with G. Seelig
-
-     - name: Orlando de Lange
-       in: Electrical Engineering / Biology
-       project: Plant Synthetic Biology
-       image: odl.jpg
+  - name: Orlando de Lange
+    in: Electrical Engineering / Biology
+    project: Plant Synthetic Biology
+    image: odl.jpg
 
 grads:
+  - name: Shuowei Li
+    in: Electrical Engineering
+    project: Laboratory Diagnosis
+    image: li.jpg
 
-     - name: Shuowei Li
-       in: Electrical Engineering
-       project: Laboratory Diagnosis
-       image: li.jpg
-
-     - name: Justin Vrana
-       in: Bioengineering
-       project: Digital Logic
-       image: vrana.jpg
+  - name: Justin Vrana
+    in: Bioengineering
+    project: Digital Logic
+    image: vrana.jpg
 
 staff:
+  - name: Aza Allen
+    position: Lab Manager
+    image: allen.jpg
 
-      - name: Aza Allen
-        position: Lab Manager
-        image: allen.jpg
+  - name: Mariko Anderson
+    position: Software Engineer
+    image: unknown.png
 
-      - name: Amy Cash
-        position: Software Engineer
-        image: cash.jpg
+  - name: Amy Cash
+    position: Software Engineer
+    image: cash.jpg
 
-      - name: Cami Cordray
-        position: Lab Manager
-        image: cordray.jpg
+  - name: Sean Coon
+    position: UX Designer
+    image: coon.jpg
 
-      - name: Samer Halabiya
-        position: BIOFAB Lab Manager
-        image: halabiya.jpg
+  - name: Cami Cordray
+    position: Lab Manager
+    image: cordray.jpg
 
-      - name: Ben Keller
-        position: Software Engineer
-        image: keller.jpg
+  - name: Samer Halabiya
+    position: BIOFAB Lab Manager
+    image: halabiya.jpg
 
-      - name: Cannon Mallory
-        position: Research Scientist
-        image: unknown.png
+  - name: Ben Keller
+    position: Software Engineer
+    image: keller.jpg
 
-      - name: Devin Strickland
-        position: Research Scientist
-        image: strickland.jpg
+  - name: Cannon Mallory
+    position: Research Scientist
+    image: unknown.png
+
+  - name: Devin Strickland
+    position: Research Scientist
+    image: strickland.jpg
 
 ugs:
-
   - name: Melody Chou
     position: Software Engineer
     image: chou.jpg
@@ -69,17 +73,9 @@ ugs:
     position: Software Engineer
     image: elauria.jpg
 
-  - name: Yokesh Jayakumar
-    position: Software Engineer
-    image: unknown.png
-
   - name: Rishi Kavikondala
     position: Software Engineer
     image: kavikondala.png
-
-  - name: Justin La
-    position: Software Engineer
-    image: la.png
 
   - name: Phuong Le
     position: Software Engineer
@@ -94,205 +90,212 @@ ugs:
     image: quaranto.jpg
 
 alumni:
+  - name: Yokesh Jayakumar
+    position: Software Engineer
+    image: unknown.png
 
-    - name: Hieu Do
-      position: Research Assistant
-      image: do.jpg
-      now: at the Hutch
+  - name: Justin La
+    position: Software Engineer
+    image: la.png
 
-    - name: Eriberto Lopez
-      position: Research Scientist
-      image: lopez.jpg
-      now: at Strateos
+  - name: Hieu Do
+    position: Research Assistant
+    image: do.jpg
+    now: at the Hutch
 
-    - name: Riley Stockard
-      position: Research Assistant
-      image: stockard.jpg
-      now: at Ginkgo Bioworks
+  - name: Eriberto Lopez
+    position: Research Scientist
+    image: lopez.jpg
+    now: at Strateos
 
-    - name: David Younger
-      position: Graduate Student 12
-      image: younger.jpg
-      now: CEO of A-Alpha Bio
+  - name: Riley Stockard
+    position: Research Assistant
+    image: stockard.jpg
+    now: at Ginkgo Bioworks
 
-    - name: Abe Miller
-      position: Software Engineer
-      image: miller.jpeg
-      now: with the Lutz Lab
+  - name: David Younger
+    position: Graduate Student 12
+    image: younger.jpg
+    now: CEO of A-Alpha Bio
 
-    - name: Arjun Khakhar
-      position: Graduate Student 11
-      image: khakhar.png
-      now: a postdoc at UMN
+  - name: Abe Miller
+    position: Software Engineer
+    image: miller.jpeg
+    now: with the Lutz Lab
 
-    - name: Garrett Newman
-      position: Software Engineer
-      image: newman.jpg
-      now: at Ginkgo Bioworks
+  - name: Arjun Khakhar
+    position: Graduate Student 11
+    image: khakhar.png
+    now: a postdoc at UMN
 
-    - name: Laura Adam
-      in: Electrical Engineering
-      position: Postdoc
-      image: adam.jpg
-      now: CEO of ebio-ome
+  - name: Garrett Newman
+    position: Software Engineer
+    image: newman.jpg
+    now: at Ginkgo Bioworks
 
-    - name: Michelle Parks
-      position: Lab Manager
-      now: in Medical School
-      image: parks.jpg
+  - name: Laura Adam
+    in: Electrical Engineering
+    position: Postdoc
+    image: adam.jpg
+    now: CEO of ebio-ome
 
-    - name: Miles Gander
-      position: Graduate Student 10
-      project: Gene Circuits
-      now: at Inscripta
-      image: gander.png
+  - name: Michelle Parks
+    position: Lab Manager
+    now: in Medical School
+    image: parks.jpg
 
-    - name: Tileli Amimeur
-      in: Electrical Engineering
-      project: Design Automation
-      now: at Just Biotherapeutics
-      image: amimeur.png
+  - name: Miles Gander
+    position: Graduate Student 10
+    project: Gene Circuits
+    now: at Inscripta
+    image: gander.png
 
-    - name: Yaoyu Yang
-      position: Graduate Student 9
-      date: Ph.D. 2016
-      now: at Ginkgo Bioworks
-      image: yang.jpg
+  - name: Tileli Amimeur
+    in: Electrical Engineering
+    project: Design Automation
+    now: at Just Biotherapeutics
+    image: amimeur.png
 
-    - name: Chris Takahashi
-      position: Graduate Student 8
-      date: Ph.D. 2015
-      now: a Postdoc at UW
-      image: takahashi.png
+  - name: Yaoyu Yang
+    position: Graduate Student 9
+    date: Ph.D. 2016
+    now: at Ginkgo Bioworks
+    image: yang.jpg
 
-    - name: Stephen Rettie
-      position: Undergraduate Researcher
-      now: in the Baker Lab
-      date: 2014-2015
-      image: rettie.jpg
+  - name: Chris Takahashi
+    position: Graduate Student 8
+    date: Ph.D. 2015
+    now: a Postdoc at UW
+    image: takahashi.png
 
-    - name: Eric Pong
-      position: Aquarium Technician
-      now: doing a medical internship
-      date: 2014-2015
-      image: pong.png
+  - name: Stephen Rettie
+    position: Undergraduate Researcher
+    now: in the Baker Lab
+    date: 2014-2015
+    image: rettie.jpg
 
-    - name: S. Shelly Jang
-      position: Graduate Student 7
-      date: Ph.D. 2014
-      now: at Stitch Fix
-      image: jang.jpg
+  - name: Eric Pong
+    position: Aquarium Technician
+    now: doing a medical internship
+    date: 2014-2015
+    image: pong.png
 
-    - name: David Zong
-      position: Undergrad Researcher, BIOEN
-      date: B.S. 2014
-      now: a grad student at Rice
-      image: zong.jpg
+  - name: S. Shelly Jang
+    position: Graduate Student 7
+    date: Ph.D. 2014
+    now: at Stitch Fix
+    image: jang.jpg
 
-    - name: Kevin Oishi
-      position: Graduate Student 6
-      date: Ph.D. 2014
-      now: at Google
-      image: oishi.png
+  - name: David Zong
+    position: Undergrad Researcher, BIOEN
+    date: B.S. 2014
+    now: a grad student at Rice
+    image: zong.jpg
 
-    - name: Robert Egbert
-      position: Graduate Student 5
-      date: Ph.D. 2012
-      now: a researcher at PNNL
-      image: egbert.jpg
+  - name: Kevin Oishi
+    position: Graduate Student 6
+    date: Ph.D. 2014
+    now: at Google
+    image: oishi.png
 
-    - name: Kyle Havens
-      position: Postdoc
-      date: 2010-2013
-      now: at <a href='http://www.bluebirdbio.com/'>bluebirdbio</a>
-      image: havens.jpg
+  - name: Robert Egbert
+    position: Graduate Student 5
+    date: Ph.D. 2012
+    now: a researcher at PNNL
+    image: egbert.jpg
 
-    - name: Rahul Brito
-      position: Undergrad researcher, BIOEN
-      date: B.S. 2013
-      image: brito.jpg
-      now: at National Instruments
+  - name: Kyle Havens
+    position: Postdoc
+    date: 2010-2013
+    now: at <a href='http://www.bluebirdbio.com/'>bluebirdbio</a>
+    image: havens.jpg
 
-    - name: Felix Ekness
-      position: Undergrad researcher, BIOEN
-      date: B.S. 2013
-      now: a graduate student at Rice
-      image: ekness.jpg
+  - name: Rahul Brito
+    position: Undergrad researcher, BIOEN
+    date: B.S. 2013
+    image: brito.jpg
+    now: at National Instruments
 
-    - name: Josh Bishop
-      position: Graduate Student 4
-      date: Ph.D. 2012
-      now: at Intellectual Ventures
-      image: bishop.jpg
+  - name: Felix Ekness
+    position: Undergrad researcher, BIOEN
+    date: B.S. 2013
+    now: a graduate student at Rice
+    image: ekness.jpg
 
-    - name: Tammy Gu
-      position: Lab assistant
-      date: 2010-2012
-      now: at Nanostring
-      image: gu.jpg
+  - name: Josh Bishop
+    position: Graduate Student 4
+    date: Ph.D. 2012
+    now: at Intellectual Ventures
+    image: bishop.jpg
 
-    - name: Fay Shaw
-      position: Graduate Student 3
-      date: Ph.D. 2011
-      now: a postdoc at Tufts
-      image: shaw.jpg
+  - name: Tammy Gu
+    position: Lab assistant
+    date: 2010-2012
+    now: at Nanostring
+    image: gu.jpg
 
-    - name: Nils Napp
-      position: Graduate Student 2
-      date: Ph.D. 2011
-      now: a professor at <a href="http://www.cse.buffalo.edu/people/?u=nnapp">SUNY Buffalo</a>
-      image: napp.jpg
+  - name: Fay Shaw
+    position: Graduate Student 3
+    date: Ph.D. 2011
+    now: a postdoc at Tufts
+    image: shaw.jpg
 
-    - name: Angelina Smith
-      position: Lab Assistant
-      date: 2008-2010
-      now: at Inbios International
-      image: smith.jpg
+  - name: Nils Napp
+    position: Graduate Student 2
+    date: Ph.D. 2011
+    now: a professor at <a href="http://www.cse.buffalo.edu/people/?u=nnapp">SUNY Buffalo</a>
+    image: napp.jpg
 
-    - name: David Thorsley
-      position: Postdoc
-      date: 2006-2010
-      now: at Mythic AI
-      image: thorsley.jpg
+  - name: Angelina Smith
+    position: Lab Assistant
+    date: 2008-2010
+    now: at Inbios International
+    image: smith.jpg
 
-    - name: Alex Leone
-      position: Undergrad Researcher, Physics
-      date: c. 2007
-      now: at ExtraHop
-      image: leone.jpg
+  - name: David Thorsley
+    position: Postdoc
+    date: 2006-2010
+    now: at Mythic AI
+    image: thorsley.jpg
 
-    - name: Alec Nielsen
-      position: Undergraduate Researcher
-      date: B.S. 2010
-      now: CEO of Asimov
-      image: nielsen.jpg
+  - name: Alex Leone
+    position: Undergrad Researcher, Physics
+    date: c. 2007
+    now: at ExtraHop
+    image: leone.jpg
 
-    - name: Brandi House
-      position: Masters Student
-      date: M.S. 2009
-      now: "at <a href='https://www.oculus.com/'>Oculus Rift</a>"
-      image: house.jpg
+  - name: Alec Nielsen
+    position: Undergraduate Researcher
+    date: B.S. 2010
+    now: CEO of Asimov
+    image: nielsen.jpg
 
-    - name: Daniel Georgiev
-      position: Postdoc
-      date: 2007-2009
-      now: a Professor at University of West Bohemia
-      image: georgiev.jpg
+  - name: Brandi House
+    position: Masters Student
+    date: M.S. 2009
+    now: "at <a href='https://www.oculus.com/'>Oculus Rift</a>"
+    image: house.jpg
 
-    - name: J.M. McNew
-      position: Graduate Student 1
-      date: Ph.D. 2008
-      now: at Toyota Research
-      image: mcnew.jpg
+  - name: Daniel Georgiev
+    position: Postdoc
+    date: 2007-2009
+    now: a Professor at University of West Bohemia
+    image: georgiev.jpg
 
-    - name: Sam Burden
-      position: Undergraduate Researcher, EE
-      date: B.S. 2008
-      now: a professor at <a href='http://www.ee.washington.edu'>UW</a>
-      image: burden.png
+  - name: J.M. McNew
+    position: Graduate Student 1
+    date: Ph.D. 2008
+    now: at Toyota Research
+    image: mcnew.jpg
 
-    - name: Brian Wolfe
-      position: Undergraduate researcher
-      date: B.S. 2008
-      now: at Airbnb
-      image: wolfe.png
+  - name: Sam Burden
+    position: Undergraduate Researcher, EE
+    date: B.S. 2008
+    now: a professor at <a href='http://www.ee.washington.edu'>UW</a>
+    image: burden.png
+
+  - name: Brian Wolfe
+    position: Undergraduate researcher
+    date: B.S. 2008
+    now: at Airbnb
+    image: wolfe.png

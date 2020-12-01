@@ -58,7 +58,7 @@ staff:
 
   - name: Cannon Mallory
     position: Research Scientist
-    image: unknown.png
+    image: mallory.jpg
 
   - name: Devin Strickland
     position: Research Scientist
@@ -69,14 +69,11 @@ ugs:
     position: Software Engineer
     image: chou.jpg
 
-  - name: Joyce Elauria
-    position: Software Engineer
-    image: elauria.jpg
+  - name: Xavaar Quaranto
+    position: Research Assistant
+    image: quaranto.jpg
 
-  - name: Rishi Kavikondala
-    position: Software Engineer
-    image: kavikondala.png
-
+alumni:
   - name: Phuong Le
     position: Software Engineer
     image: phuong_le.jpg
@@ -85,11 +82,10 @@ ugs:
     position: Software Engineer
     image: penner.jpg
 
-  - name: Xavaar Quaranto
-    position: Research Assistant
-    image: quaranto.jpg
+  - name: Joyce Elauria
+    position: Software Engineer
+    image: elauria.jpg
 
-alumni:
   - name: Yokesh Jayakumar
     position: Software Engineer
     image: unknown.png
@@ -97,6 +93,10 @@ alumni:
   - name: Justin La
     position: Software Engineer
     image: la.png
+
+  - name: Rishi Kavikondala
+    position: Software Engineer
+    image: kavikondala.png
 
   - name: Hieu Do
     position: Research Assistant

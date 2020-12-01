@@ -93,6 +93,7 @@ alumni:
   - name: Yokesh Jayakumar
     position: Software Engineer
     image: unknown.png
+    now: at Google
 
   - name: Justin La
     position: Software Engineer
@@ -106,6 +107,10 @@ alumni:
     position: Research Assistant
     image: do.jpg
     now: at the Hutch
+
+  - name: Jon Luntzel
+    position: Software Engineer
+    image: unknown.png
 
   - name: Eriberto Lopez
     position: Research Scientist

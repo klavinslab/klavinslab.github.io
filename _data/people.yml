@@ -48,6 +48,10 @@ staff:
     position: Lab Manager
     image: cordray.jpg
 
+  - name: Gene Nomicos
+    position: Software Engineer
+    image: unknown.png
+
   - name: Samer Halabiya
     position: BIOFAB Lab Manager
     image: halabiya.jpg

@@ -1,3 +1,10 @@
+- id: stable21
+  authors: J.M Singer, S. Novotney, D. Strickland, H. K. Haddox, N. Leiby, G. J. Rocklin, C. M. Chow, A. Roy, A. K. Bera, F. C. Motta, L. Cao, E-M. Strauch, T. M. Chidyausiku, A. Ford, E. Ho, C. O. Mackenzie, H. Eramian, F. DiMaio, G. Grigoryan, M. Vaughn, L. J. Stewart, D. Baker and E. Klavins
+  title: Large-scale design and refinement of stable proteins using sequence-only models
+  link: https://www.biorxiv.org/content/10.1101/2021.03.12.435185v1
+  year: 2021
+  note: Submitted. 
+  
 - id: aquarium21
   authors: J. Vrana, O. de Lange, Y. Yang, G. Newman, A. Saleem, Ayesha, A. Miller, C. Cordray, Cameron, S. Halabiya, M. Parks, E. Lopez, S. Goldberg, B. Keller, D. Strickland, Devin and E. Klavins
   title: "Aquarium: open-source laboratory software for design, execution and data management"

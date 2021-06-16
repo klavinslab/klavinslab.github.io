@@ -1,3 +1,17 @@
+- id: stable21
+  authors: J.M Singer, S. Novotney, D. Strickland, H. K. Haddox, N. Leiby, G. J. Rocklin, C. M. Chow, A. Roy, A. K. Bera, F. C. Motta, L. Cao, E-M. Strauch, T. M. Chidyausiku, A. Ford, E. Ho, C. O. Mackenzie, H. Eramian, F. DiMaio, G. Grigoryan, M. Vaughn, L. J. Stewart, D. Baker and E. Klavins
+  title: Large-scale design and refinement of stable proteins using sequence-only models
+  link: https://www.biorxiv.org/content/10.1101/2021.03.12.435185v1
+  year: 2021
+  note: Submitted. 
+  
+- id: aquarium21
+  authors: J. Vrana, O. de Lange, Y. Yang, G. Newman, A. Saleem, Ayesha, A. Miller, C. Cordray, Cameron, S. Halabiya, M. Parks, E. Lopez, S. Goldberg, B. Keller, D. Strickland, Devin and E. Klavins
+  title: "Aquarium: open-source laboratory software for design, execution and data management"
+  journal: Oxford Synthetic Biology
+  year: 2021
+  link: https://academic.oup.com/synbio/advance-article/doi/10.1093/synbio/ysab006/6124325
+  
 - id: natbio20
   authors: A. Hossain, E. Lopez, S. M. Halper, D. P. Cetnar, A. C. Reis, D. Strickland, E. Klavins, and H. M. Salis 
   title: Automated design of thousands of nonrepetitive parts for engineering stable genetic systems
@@ -8,9 +22,9 @@
 - id: prot20
   authors: J. Maguire, H. Haddox, D. Strickland, S. Halabiya, B. Coventry, M. Cummins, D. Thieker, E. Klavins, F. DiMaio, D. Baker, and B. Kuhlman
   title: Perturbing the energy landscape for improved packing during computational protein design
-  journal: Authorea
+  journal: Proteins
   year: 2020
-  link: https://doi.org/10.22541/au.158986804.41133682
+  link: https://doi.org/10.1002/prot.26030
 
 - id: ebiomed19
   authors: N. Panpradist, I. A. Beck,, J. Vrana, N. Higa, D. McIntyre, P. S. Ruth, I. So, E.C. Kline, R. Kanthula, Annie Wong-On-Wing, J. Lim, D. Ko, R. Milne, T. Rossou, U. D. Feuch, M. Chung, G. Jourdain, N. Ngo-Giang-Huong, L. Laomanit, J. Sori, J. Lai, E. Klavins, L. M. Frenkel and B. R. Lutz
@@ -18,6 +32,8 @@
   journal: EBioMedicine
   year: 2019
   link: https://www.ebiomedicine.com/article/S2352-3964(19)30743-1/pdf
+  image: images/ola-aquarium.png
+  caption: A snapshot of the Aquarium Software guiding clinicians through an HIV test
 
 - id: acs19
   authors: Y. Yang, J. L. Nemhauser, and E. Klavins

@@ -22,11 +22,6 @@ grads:
     project: Laboratory Diagnosis
     image: li.jpg
 
-  - name: Justin Vrana
-    in: Bioengineering
-    project: Digital Logic
-    image: vrana.jpg
-
 staff:
   - name: Aza Allen
     position: Lab Manager
@@ -43,10 +38,18 @@ staff:
   - name: Sean Coon
     position: UX Designer
     image: coon.jpg
+    
+alumni:
 
+  - name: Justin Vrana
+    position: Graduation Student 13
+    now: at Just Bio
+    image: vrana.jpg
+    
   - name: Cami Cordray
     position: Lab Manager
     image: cordray.jpg
+    now: at A-Alpha Bio
 
   - name: Gene Nomicos
     position: Software Engineer
@@ -55,32 +58,30 @@ staff:
   - name: Samer Halabiya
     position: BIOFAB Lab Manager
     image: halabiya.jpg
+    now: at A-Alpha Bio
 
   - name: Ben Keller
     position: Software Engineer
     image: keller.jpg
+    now: at Natl. Alzeimers Coord. Center
 
   - name: Cannon Mallory
     position: Research Scientist
     image: mallory.jpg
+    now: at UCSB
 
   - name: Devin Strickland
     position: Research Scientist
-    image: strickland.jpg
-
-ugs:
-  - name: Melody Chou
-    position: Software Engineer
-    image: chou.jpg
-
-  - name: Xavaar Quaranto
-    position: Research Assistant
-    image: quaranto.jpg
-
-alumni:
+    image: strickland.jpg   
+    now: at SingleStone
+    
   - name: Phuong Le
     position: Software Engineer
     image: phuong_le.jpg
+    
+  - name: Xavaar Quaranto
+    position: Research Assistant
+    image: quaranto.jpg    
 
   - name: Thomas Penner
     position: Software Engineer

@@ -1,3 +1,9 @@
+- id: cellcell21
+  authors: A. Carignano, D.H. Chen, C. Mallory,  C. Wright,  G. Seelig,  and E. Klavins
+  title: Modular, robust and extendible multicellular circuit design in yeast
+  link: https://www.biorxiv.org/content/10.1101/2021.10.13.464175v1
+  year: 2021
+
 - id: stable21
   authors: J.M Singer, S. Novotney, D. Strickland, H. K. Haddox, N. Leiby, G. J. Rocklin, C. M. Chow, A. Roy, A. K. Bera, F. C. Motta, L. Cao, E-M. Strauch, T. M. Chidyausiku, A. Ford, E. Ho, C. O. Mackenzie, H. Eramian, F. DiMaio, G. Grigoryan, M. Vaughn, L. J. Stewart, D. Baker and E. Klavins
   title: Large-scale design and refinement of stable proteins using sequence-only models

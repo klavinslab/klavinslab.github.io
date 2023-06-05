@@ -27,7 +27,7 @@ title: Klavins Lab | People
   <div style='margin-top: 50px'>
     <b>MORE ALUMNI</b>
     {% for p in site.data.people.other %}
-      - {{ include p }}<br>
+      - {{ p.name }}, {{p.position}}<br>
     {% endfor %}      
   </div>
 

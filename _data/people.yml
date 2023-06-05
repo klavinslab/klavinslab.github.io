@@ -14,12 +14,14 @@ grads:
 alumni:
 
   - name: Alberto Carignano
-    in: Electrical Engineering
+    position: Postdoc
+    date: 2018-2022
     now: at GSK
     image: carignano.png
 
   - name: Orlando de Lange
-    in: Electrical Engineering / Biology
+    position: Postdoc
+    date: 2017-2021
     now: at Shoreline Community College
     image: odl.jpg
 

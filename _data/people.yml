@@ -138,25 +138,25 @@ alumni:
 other:
 
   - name: Tileli Amimeur
-    in: Electrical Engineering
+    position: Graduate Student Research Assistant
     project: Design Automation
-    now: at Just Biotherapeutics
+    now: at Novo Nordisk
     image: amimeur.png
 
   - name: Rahul Brito
-    position: Undergrad researcher, BIOEN
+    position: Undergrad researcher
     date: B.S. 2013
     image: brito.jpg
     now: at National Instruments
 
   - name: Felix Ekness
-    position: Undergrad researcher, BIOEN
+    position: Undergrad researcher
     date: B.S. 2013
     now: a graduate student at Rice
     image: ekness.jpg
 
   - name: Alex Leone
-    position: Undergrad Researcher, Physics
+    position: Undergrad Researcher
     date: c. 2007
     now: at ExtraHop
     image: leone.jpg
@@ -168,7 +168,7 @@ other:
     image: nielsen.jpg
 
   - name: David Zong
-    position: Undergrad Researcher, BIOEN
+    position: Undergrad Researcher
     date: B.S. 2014
     now: a grad student at Rice
     image: zong.jpg
@@ -306,7 +306,7 @@ other:
     now: at Ginkgo Bioworks
     
   - name: Sam Burden
-    position: Undergraduate Researcher, EE
+    position: Undergraduate Researcher
     date: B.S. 2008
     now: a professor at <a href='http://www.ee.washington.edu'>UW</a>
     image: burden.png

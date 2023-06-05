@@ -28,10 +28,7 @@ title: Klavins Lab | People
     <b>MORE ALUMNI</b>
     <br/>
     {% for p in site.data.people.other %}
-      - {{ p.name }}, {{p.position}}
-      {% if p.now %}
-        , {{p.now}}
-      {% endif %}
+      - <b>{{ p.name }}</b>, {{p.position}}{% if p.now %}, {{p.now}}{% endif %}
       <br>
     {% endfor %}      
   </div>

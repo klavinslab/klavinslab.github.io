@@ -21,6 +21,13 @@ title: Klavins Lab | People
     {% include group.html group=site.data.people.alumni name='ALUMNI' %}
 
     <div style='clear: both;'></div>
+    
+    <div>
+      
+    {% for p in site.data.people.other %}
+      {{ include p.name }}<br>
+    {% endfor %}      
+    </div>
 
   </div>
 

@@ -1,3 +1,12 @@
+- id: duckweed23
+  authors: M. Scott, O. de Lange, X. Quaranto, R. Cardiff, and Eric Klavins
+  title: Open-source workflow design and management software to interrogate duckweed growth conditions and stress responses
+  link: https://plantmethods.biomedcentral.com/articles/10.1186/s13007-023-01065-3
+  journal: Plant Methods
+  year: 2023
+  number: 95
+  volume: 19
+
 - id: roots23
   authors: O. Roth, S. Yechezkel, O. Serero, A. Eliyahu, I. Vints, P. Tzeela,  A. Carignano, D.P. Janacek, V. Peters,  A. Kessel, V. Dwivedi, M. Carmeli-Weissberg, F. Shaya, A. Faigenboim-Doron, J. Riov,  E. Klavins, C. Dawid, U.Z. Hammes, N. Ben-Tal, R. Napier, E. Sadot and R. Weinstain
   title: Alleviating the barrier of adventitious roots formation in recalcitrant mature tissue by slow release of a synthetic auxin

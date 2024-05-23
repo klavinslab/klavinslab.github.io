@@ -1,3 +1,11 @@
+- id: roots24
+  authors: O. Roth, S. Yechezkel, O. Serero, A. Eliyahu, I. Vints, P. Tzeela,  A. Carignano, D.P. Janacek, V. Peters,  A. Kessel, V. Dwivedi, M. Carmeli-Weissberg, F. Shaya, A. Faigenboim-Doron, J. Riov,  E. Klavins, C. Dawid, U.Z. Hammes, N. Ben-Tal, R. Napier, E. Sadot and R. Weinstain
+  title: Slow release of a synthetic auxin induces formation of adventitious roots in recalcitrant woody plants
+  link: https://www.nature.com/articles/s41587-023-02065-3
+  journal: Nature Biotechnology
+  year: 2024
+  note: "See the News and Views article by Catherine Bellini <a href='https://www.nature.com/articles/s41587-024-02132-3'>here</a>"
+
 - id: duckweed23
   authors: M. Scott, O. de Lange, X. Quaranto, R. Cardiff, and Eric Klavins
   title: Open-source workflow design and management software to interrogate duckweed growth conditions and stress responses
@@ -7,14 +15,6 @@
   number: 95
   volume: 19
 
-- id: roots24
-  authors: O. Roth, S. Yechezkel, O. Serero, A. Eliyahu, I. Vints, P. Tzeela,  A. Carignano, D.P. Janacek, V. Peters,  A. Kessel, V. Dwivedi, M. Carmeli-Weissberg, F. Shaya, A. Faigenboim-Doron, J. Riov,  E. Klavins, C. Dawid, U.Z. Hammes, N. Ben-Tal, R. Napier, E. Sadot and R. Weinstain
-  title: Slow release of a synthetic auxin induces formation of adventitious roots in recalcitrant woody plants
-  link: https://www.nature.com/articles/s41587-023-02065-3
-  journal: Nature Biotechnology
-  year: 2024
-  note: "See the News and Views article by Catherine Bellini <a href='https://www.nature.com/articles/s41587-024-02132-3'>here</a>"
-  
 - id: kenya21
   authors: J.D. Vrana, N. Panpradist, N. Higa, D. Ko, P. Ruth, R. Kanthula, J.J. Lai, Y. Yang, S.R. Sakr, B. Chohan, M.H. Chung, L.M. Frenkel, B.R. Lutz, E. Klavins, I.A. Beck
   title: Implementation of an interactive mobile application to pilot a rapid assay to detect HIV drug resistance mutations in Kenya

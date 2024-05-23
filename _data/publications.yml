@@ -7,12 +7,13 @@
   number: 95
   volume: 19
 
-- id: roots23
+- id: roots24
   authors: O. Roth, S. Yechezkel, O. Serero, A. Eliyahu, I. Vints, P. Tzeela,  A. Carignano, D.P. Janacek, V. Peters,  A. Kessel, V. Dwivedi, M. Carmeli-Weissberg, F. Shaya, A. Faigenboim-Doron, J. Riov,  E. Klavins, C. Dawid, U.Z. Hammes, N. Ben-Tal, R. Napier, E. Sadot and R. Weinstain
-  title: Alleviating the barrier of adventitious roots formation in recalcitrant mature tissue by slow release of a synthetic auxin
-  link: https://www.biorxiv.org/content/10.1101/2023.03.13.532257v1
-  journal: Biorxiv
-  year: 2023
+  title: Slow release of a synthetic auxin induces formation of adventitious roots in recalcitrant woody plants
+  link: https://www.nature.com/articles/s41587-023-02065-3
+  journal: Nature Biotechnology
+  year: 2024
+  note: "See the News and Views article by Catherine Bellini <a href='https://www.nature.com/articles/s41587-024-02132-3'>here</a>"
   
 - id: kenya21
   authors: J.D. Vrana, N. Panpradist, N. Higa, D. Ko, P. Ruth, R. Kanthula, J.J. Lai, Y. Yang, S.R. Sakr, B. Chohan, M.H. Chung, L.M. Frenkel, B.R. Lutz, E. Klavins, I.A. Beck

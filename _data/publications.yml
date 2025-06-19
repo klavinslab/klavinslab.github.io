@@ -1,3 +1,10 @@
+- id: oops25
+  authors: M. Shang, E. Klavins, and G. Bernstein
+  title: "Oops: A Language for Formalizing Fallible Biological Protocols"
+  link: doi: https://doi.org/10.1101/2025.06.17.660245
+  year: 2025
+  journal: bioRxiv
+
 - id: roots24
   authors: O. Roth, S. Yechezkel, O. Serero, A. Eliyahu, I. Vints, P. Tzeela,  A. Carignano, D.P. Janacek, V. Peters,  A. Kessel, V. Dwivedi, M. Carmeli-Weissberg, F. Shaya, A. Faigenboim-Doron, J. Riov,  E. Klavins, C. Dawid, U.Z. Hammes, N. Ben-Tal, R. Napier, E. Sadot and R. Weinstain
   title: Slow release of a synthetic auxin induces formation of adventitious roots in recalcitrant woody plants
